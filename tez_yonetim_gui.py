@@ -21,6 +21,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageTk
 
 import yazim_denetimi
 import sablon_koruma
+import kaynakca_havuzu
 
 
 ROOT = Path(__file__).resolve().parent
@@ -195,6 +196,7 @@ TOOLTIPS = {
         "ai_declaration": "Üretken Yapay Zekâ Beyanı metnini hazırlar veya düzenler.",
         "writing_check": "Tez metni için yerel yazım ön denetimi yapar ve işaretli PDF önizlemesi üretir.",
         "guideline_check": "PDF çıktısını tez yazım kılavuzunun ölçülebilir kurallarına göre denetler.",
+        "reference_pool": "kaynaklar.bib dosyasını denetler ve istenirse anabilim dalı kaynakça havuzuna yeni kayıtları ekler.",
         "theorem_envs": "defs.tex içindeki teorem, ispat/kanıt ve benzeri matematik ortamlarını düzenler.",
         "update_app": "GitHub üzerinden güvenli güncelleme kontrolü yapar; yerel değişiklik varsa dosyaları ezmeden raporlar.",
         "spine_cover": "PDF ve teslim paketi oluşturulurken sırt kapağı da hazırlansın.",
@@ -219,6 +221,7 @@ TOOLTIPS = {
         "ai_declaration": "Prepares or edits the generative AI declaration text.",
         "writing_check": "Creates a local writing pre-check and an annotated PDF preview for the thesis text.",
         "guideline_check": "Checks the PDF output against measurable thesis-guide rules.",
+        "reference_pool": "Checks kaynaklar.bib and can add new records to the department bibliography pool.",
         "theorem_envs": "Edits theorem, proof and related mathematical environments in defs.tex.",
         "update_app": "Checks GitHub for a safe update and reports without overwriting local changes.",
         "spine_cover": "Also prepares the spine cover during PDF and delivery steps.",
@@ -4020,6 +4023,7 @@ class ThesisManager(tk.Tk):
             ("Akıllı TeX Tanılama", self.run_latex_diagnostics, "smart_tex", "Soft.TButton", "diagnostics"),
             ("Akıllı Yazım Denetimi", self.run_writing_check, "smart_spell", "Soft.TButton", "writing_check"),
             ("Kılavuz Uygunluk Denetimi", self.run_guideline_pdf_check, "preview", "Soft.TButton", "guideline_check"),
+            ("Kaynakça Havuzu", self.run_reference_pool_check, "read", "Soft.TButton", "reference_pool"),
             ("Temizle", self.run_clean, "clean", "Soft.TButton", "clean"),
         ]:
             icon_tone = "primary" if style_name.startswith("Primary") else "normal"
@@ -4433,8 +4437,8 @@ class ThesisManager(tk.Tk):
 
         report_files = [
             self.template_dir / "eksik-bilgiler.md",
-            self.template_dir / "kontrol-raporu.md",
-            self.template_dir / "yazim-denetimi-raporu.md",
+            self.template_dir / "raporlar" / "kontrol-raporu.md",
+            self.template_dir / "raporlar" / "yazim-denetimi-raporu.md",
         ]
         ready_reports = [path for path in report_files if path.exists()]
         set_card(
@@ -4477,7 +4481,7 @@ class ThesisManager(tk.Tk):
             warning = int(control_data.get("Warning", 0) or 0)
             manual = int(control_data.get("Manual", 0) or 0)
         control_clean = bool(control_data) and not fail and not warning and not manual
-        writing_ready = (self.template_dir / "yazim-denetimi-raporu.md").exists()
+        writing_ready = (self.template_dir / "raporlar" / "yazim-denetimi-raporu.md").exists()
         delivery_ready = (self.template_dir / "teslim").exists()
 
         if missing_count:
@@ -4598,7 +4602,7 @@ class ThesisManager(tk.Tk):
                 "tone": "warn",
             }
 
-        writing_report = self.template_dir / "yazim-denetimi-raporu.md"
+        writing_report = self.template_dir / "raporlar" / "yazim-denetimi-raporu.md"
         if not writing_report.exists():
             return {
                 "key": "writing",
@@ -4719,9 +4723,9 @@ class ThesisManager(tk.Tk):
         self.output.tag_configure("reports_muted", foreground=colors["muted"])
         reports = [
             ("Eksik Bilgi Raporu", self.template_dir / "eksik-bilgiler.md", self.run_missing_report),
-            ("Kontrol Raporu", self.template_dir / "kontrol-raporu.md", self.run_check),
-            ("Yazım Denetimi Raporu", self.template_dir / "yazim-denetimi-raporu.md", self.run_writing_check),
-            ("Kılavuz Uygunluk Raporu", self.template_dir / "tez_kilavuz_uygunluk_rapor.md", self.run_guideline_pdf_check),
+            ("Kontrol Raporu", self.template_dir / "raporlar" / "kontrol-raporu.md", self.run_check),
+            ("Yazım Denetimi Raporu", self.template_dir / "raporlar" / "yazim-denetimi-raporu.md", self.run_writing_check),
+            ("Kılavuz Uygunluk Raporu", self.template_dir / "raporlar" / "tez_kilavuz_uygunluk_rapor.md", self.run_guideline_pdf_check),
         ]
         self.output.insert("end", "Raporlar\n", "reports_title")
         self.output.insert("end", "Hazır raporlar tıklanarak açılabilir; eksik olanlar ilgili işlemle üretilebilir.\n\n", "reports_muted")
@@ -5201,8 +5205,58 @@ class ThesisManager(tk.Tk):
     def run_writing_check(self):
         self.open_writing_review_window()
 
+    def run_reference_pool_check(self):
+        bib_path = self.template_dir / "kaynaklar.bib"
+        self.notebook.select(self.run_tab)
+        self.output.delete("1.0", "end")
+        self.output.insert("end", "== Kaynakça Havuzu ==\n")
+        if not bib_path.exists():
+            self.output.insert("end", f"kaynaklar.bib bulunamadı: {bib_path}\n")
+            self.output.see("end")
+            return
+        try:
+            entries = kaynakca_havuzu.parse_entries(bib_path)
+            issues, standard = kaynakca_havuzu.lint_entries(entries)
+        except Exception as exc:
+            self.output.insert("end", f"[HATA] Kaynakça okunamadı: {exc}\n")
+            self.output.see("end")
+            return
+
+        self.output.insert("end", f"Kaynak sayısı: {len(entries)}\n")
+        if issues:
+            self.output.insert("end", "\nDüzeltilmesi önerilen kayıtlar:\n")
+            for key, message in issues[:80]:
+                self.output.insert("end", f"- {key}: {message}\n")
+            if len(issues) > 80:
+                self.output.insert("end", f"... {len(issues) - 80} öneri daha var.\n")
+        else:
+            self.output.insert("end", "Temel BibTeX alan ve anahtar denetiminde belirgin sorun bulunmadı.\n")
+
+        department = self._field_value("anabilimdali_tr") if hasattr(self, "vars") else ""
+        department = department or "genel"
+        safe_department = re.sub(r"[^A-Za-z0-9ÇĞİÖŞÜçğıöşü_-]+", "_", department).strip("_") or "genel"
+        pool_dir = LOCAL_OUTPUT_ROOT / "kaynakca-havuzlari"
+        pool_path = pool_dir / f"{safe_department}.bib"
+        self.output.insert("end", f"\nYerel havuz: {pool_path}\n")
+        self.output.insert(
+            "end",
+            "Bu havuz repo dışındadır; öğrenci tez klasörünü ve temiz dağıtım klasörünü kirletmez.\n",
+        )
+        if entries and messagebox.askyesno(
+            "Kaynakça havuzu",
+            f"{department} için yerel kaynakça havuzuna yeni kayıtlar eklensin mi?\n\n"
+            "Aynı yazar-yıl-başlık kaydı varsa tekrar eklenmez. Anahtarlar ilk yazar soyadı ve yıl biçimine yaklaştırılır.",
+        ):
+            try:
+                added = kaynakca_havuzu.merge_pool(bib_path, pool_path)
+                self.output.insert("end", f"\nHavuza eklenen yeni kaynak: {added}\n")
+            except Exception as exc:
+                self.output.insert("end", f"\n[HATA] Havuza aktarılamadı: {exc}\n")
+        self.output.see("end")
+
     def run_guideline_pdf_check(self):
         workdir = Path(self.template_dir)
+        report_dir = workdir / "raporlar"
         pdf_path = workdir / "tez.pdf"
         checker_path = ROOT.parent / "Tez PDF Kılavuz Ön Denetim Raporu" / "pdf_tez_uygunluk_deneticisi_v3.py"
 
@@ -5220,7 +5274,7 @@ class ThesisManager(tk.Tk):
             return
 
         self.output.insert("end", "PDF kılavuz ölçütlerine göre inceleniyor...\n")
-        self.output.insert("end", "Başlık, şekil/tablo, satır aralığı, yaklaşık boş satır/Enter ve marjin bilgileri raporlanacak.\n")
+        self.output.insert("end", "Kapak/ön sayfa boşlukları, başlıklar, şekil/tablo kuralları ve marjin bilgileri raporlanacak.\n")
         self.output.see("end")
 
         def finish(result):
@@ -5319,9 +5373,10 @@ class ThesisManager(tk.Tk):
                     "out=module.analyze_pdf(pdf, out_dir=outdir, auto_open=False)\n"
                     "print(json.dumps([str(item) for item in out], ensure_ascii=True))\n"
                 )
-                cmd = [python_exe, "-c", runner, str(checker_path), str(pdf_path), str(workdir)]
+                report_dir.mkdir(parents=True, exist_ok=True)
+                cmd = [python_exe, "-c", runner, str(checker_path), str(pdf_path), str(report_dir)]
                 if Path(python_exe).name.lower() == "py":
-                    cmd = [python_exe, "-3", "-c", runner, str(checker_path), str(pdf_path), str(workdir)]
+                    cmd = [python_exe, "-3", "-c", runner, str(checker_path), str(pdf_path), str(report_dir)]
                 completed = subprocess.run(
                     cmd,
                     cwd=str(ROOT.parent),
@@ -6833,7 +6888,7 @@ class ThesisManager(tk.Tk):
         ttk.Button(button_bar, text="Geri Al", image=self._button_icon("undo"), compound="left", style="Soft.TButton", command=undo_source_edit).pack(side="left", padx=(6, 0))
         ttk.Button(button_bar, text="Yinele", image=self._button_icon("redo"), compound="left", style="Soft.TButton", command=redo_source_edit).pack(side="left", padx=(6, 0))
         ttk.Button(button_bar, text="Sözlük", image=self._button_icon("spell"), compound="left", style="Soft.TButton", command=lambda: self.edit_writing_review_settings(window)).pack(side="left", padx=(6, 0))
-        ttk.Button(button_bar, text="Rapor", image=self._button_icon("preview"), compound="left", style="Soft.TButton", command=lambda: os.startfile(workdir / "yazim-denetimi-raporu.md")).pack(side="left")
+        ttk.Button(button_bar, text="Rapor", image=self._button_icon("preview"), compound="left", style="Soft.TButton", command=lambda: os.startfile(workdir / "raporlar" / "yazim-denetimi-raporu.md")).pack(side="left")
         ttk.Button(button_bar, text="Kapat", style="Soft.TButton", command=window.destroy).pack(side="right")
 
         current_findings = []
@@ -6939,7 +6994,7 @@ class ThesisManager(tk.Tk):
         filter_combo.bind("<<ComboboxSelected>>", lambda _event: (refresh_findings_list(select_first=True, keep_selected=False), select_finding()))
 
         def cached_report_findings():
-            report_path = workdir / "yazim-denetimi-raporu.md"
+            report_path = workdir / "raporlar" / "yazim-denetimi-raporu.md"
             if not report_path.exists():
                 return []
             findings = []
@@ -6959,7 +7014,7 @@ class ThesisManager(tk.Tk):
             return [tuple(item) for item in findings]
 
         def report_is_fresh():
-            report_path = workdir / "yazim-denetimi-raporu.md"
+            report_path = workdir / "raporlar" / "yazim-denetimi-raporu.md"
             if not report_path.exists():
                 return False
             report_mtime = report_path.stat().st_mtime_ns
@@ -6973,7 +7028,7 @@ class ThesisManager(tk.Tk):
             return True
 
         def cached_annotation_from_report():
-            report_path = workdir / "yazim-denetimi-raporu.md"
+            report_path = workdir / "raporlar" / "yazim-denetimi-raporu.md"
             if not report_path.exists():
                 return {}
             data = {}
@@ -8905,7 +8960,7 @@ class ThesisManager(tk.Tk):
         self.notebook.select(self.run_tab)
 
     def load_control_report_data(self):
-        report_json = self.template_dir / "kontrol-raporu.json"
+        report_json = self.template_dir / "raporlar" / "kontrol-raporu.json"
         if not report_json.exists():
             return None
         try:
@@ -8914,7 +8969,7 @@ class ThesisManager(tk.Tk):
             return None
 
     def open_control_report(self):
-        report = self.template_dir / "kontrol-raporu.md"
+        report = self.template_dir / "raporlar" / "kontrol-raporu.md"
         if report.exists():
             os.startfile(report)
             return
@@ -9408,8 +9463,8 @@ class ThesisManager(tk.Tk):
     def show_control_report_summary(self, exit_code=None):
         data = self.load_control_report_data()
         colors = THEMES[self.theme_var.get()]
-        report_md = self.template_dir / "kontrol-raporu.md"
-        report_json = self.template_dir / "kontrol-raporu.json"
+        report_md = self.template_dir / "raporlar" / "kontrol-raporu.md"
+        report_json = self.template_dir / "raporlar" / "kontrol-raporu.json"
         self.output.delete("1.0", "end")
         self.output.tag_configure("control_title", font=("Segoe UI", 11, "bold"), foreground=colors["fg"])
         self.output.tag_configure("control_section", font=("Segoe UI", 10, "bold"), foreground=colors["accent_dark"])
@@ -9472,8 +9527,8 @@ class ThesisManager(tk.Tk):
 
     def format_control_report(self, cwd, exit_code, raw_output=None):
         cwd = Path(cwd)
-        report_json = cwd / "kontrol-raporu.json"
-        report_md = cwd / "kontrol-raporu.md"
+        report_json = cwd / "raporlar" / "kontrol-raporu.json"
+        report_md = cwd / "raporlar" / "kontrol-raporu.md"
         if not report_json.exists():
             raw = "".join(raw_output or [])
             return (

@@ -1509,7 +1509,9 @@ def analyze_tex_structure(workdir, only_files=None):
 
 
 def write_tex_structure_report(workdir, findings):
-    report = workdir / "tex-on-kontrol-raporu.md"
+    report_dir = Path(workdir) / "raporlar"
+    report_dir.mkdir(parents=True, exist_ok=True)
+    report = report_dir / "tex-on-kontrol-raporu.md"
     lines = [
         "# TeX Ön Kontrol Raporu",
         "",
@@ -1853,9 +1855,11 @@ def create_annotated_pdf(source_workdir, findings, reuse=False, fast=False):
 
 def write_reports(workdir, findings, text_export, annotation=None, language="tr"):
     workdir = Path(workdir)
-    report = workdir / "yazim-denetimi-raporu.md"
-    ai_prompt = workdir / "ai-yazim-denetimi-istegi.md"
-    summary_json = workdir / REVIEW_SUMMARY_FILE
+    report_dir = workdir / "raporlar"
+    report_dir.mkdir(parents=True, exist_ok=True)
+    report = report_dir / "yazim-denetimi-raporu.md"
+    ai_prompt = report_dir / "ai-yazim-denetimi-istegi.md"
+    summary_json = report_dir / REVIEW_SUMMARY_FILE
     dictionary = load_dictionary("en" if str(language).lower().startswith("en") else "tr", workdir=workdir)
     settings = load_review_settings(workdir)
     word_count = sum(len(settings.get("user_words", {}).get(lang, [])) for lang in ("tr", "en"))

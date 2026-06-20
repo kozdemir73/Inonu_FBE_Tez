@@ -1,6 +1,6 @@
 {
   "input_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\tez.pdf",
-  "output_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\tez_kilavuz_uygunluk_isaretli.pdf",
+  "output_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\raporlar\\tez_kilavuz_uygunluk_isaretli.pdf",
   "reference": "Inonu Universitesi Lisansustu Tez Yazim Kilavuzu; onayli Word/LaTeX sablon bulunmadigi icin kilavuzdaki olculebilir kurallar esas alinmistir.",
   "config": {
     "expected_page_width_cm": 21.0,
@@ -128,12 +128,12 @@
             "visible_gap_cm": 1.4,
             "approx_blank_enter": 2.4,
             "before": "GEREKLİYSE 3. SATIR",
-            "after": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI"
+            "after": "ÖĞRENCİ SOYADI"
           },
           {
             "visible_gap_cm": 1.9,
             "approx_blank_enter": 3.2,
-            "before": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI",
+            "before": "ÖĞRENCİ SOYADI",
             "after": "MATEMATİK ANABİLİM DALI"
           }
         ]
@@ -141,7 +141,7 @@
       "heading_checks": [
         {
           "kind": "main_heading",
-          "text": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI",
+          "text": "ÖĞRENCİ SOYADI",
           "status": "check",
           "notes": [
             "14 pt yerine 20.9 pt",
@@ -230,7 +230,7 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "GEREKLİYSE 3. SATIR -> ÖĞRENCİ ADI ÖĞRENCİ SOYADI: 1.4cm/40px/~2.4 satır",
+          "message": "GEREKLİYSE 3. SATIR -> ÖĞRENCİ SOYADI: 1.4cm/40px/~2.4 satır",
           "location": {
             "x0": 162.2760009765625,
             "x1": 433.10003662109375,
@@ -246,10 +246,10 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI -> MATEMATİK ANABİLİM DALI: 1.9cm/53px/~3.2 satır",
+          "message": "ÖĞRENCİ SOYADI -> MATEMATİK ANABİLİM DALI: 1.9cm/53px/~3.2 satır",
           "location": {
-            "x0": 162.9759979248047,
-            "x1": 432.34033203125,
+            "x0": 210.13400268554688,
+            "x1": 385.18804931640625,
             "y0": 453.50238037109375,
             "y1": 506.02001953125
           },
@@ -293,7 +293,7 @@
     },
     {
       "page": 2,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "cover",
       "page_size_cm": {
@@ -357,14 +357,14 @@
         }
       },
       "font_summary": {
-        "Calibri-Bold / 11 pt": 15,
+        "Calibri-Bold / 11 pt": 14,
         "Calibri / 11 pt": 2
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 6,
-        "expected_font_line_count": 6,
-        "expected_size_line_count": 6,
+        "body_candidate_line_count": 4,
+        "expected_font_line_count": 4,
+        "expected_size_line_count": 4,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -374,9 +374,9 @@
       },
       "spacing_check": {
         "line_height_pt": 11.0,
-        "line_step_pt": 30.6,
-        "line_spacing_ratio": 1.9,
-        "approx_blank_enter_avg": 2.0,
+        "line_step_pt": 39.1,
+        "line_spacing_ratio": 2.4,
+        "approx_blank_enter_avg": 2.2,
         "approx_blank_enter_max": 4.6,
         "large_gap_count": 8,
         "sample_gaps": [
@@ -390,12 +390,12 @@
             "visible_gap_cm": 2.2,
             "approx_blank_enter": 3.8,
             "before": "GEREKLİYSE 3. SATIR",
-            "after": "Öğrenci Adı ÖĞRENCİ SOYADI"
+            "after": "ÖĞRENCİ SOYADI"
           },
           {
             "visible_gap_cm": 2.6,
             "approx_blank_enter": 4.5,
-            "before": "Öğrenci Adı ÖĞRENCİ SOYADI",
+            "before": "ÖĞRENCİ SOYADI",
             "after": "Matematik Anabilim Dalı"
           }
         ]
@@ -425,14 +425,30 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "GEREKLİYSE 3. SATIR -> DOKTORA TEZİ: 6.9cm/194px/~11.8 satır",
+          "message": "GEREKLİYSE 3. SATIR -> ÖĞRENCİ SOYADI: 2.2cm/62px/~3.8 satır",
           "location": {
             "x0": 251.10699462890625,
             "x1": 344.202880859375,
             "y0": 229.18272399902344,
+            "y1": 291.35479736328125
+          },
+          "actual": "2.2cm/62px/~3.8 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "ÖĞRENCİ SOYADI -> DOKTORA TEZİ: 4.3cm/121px/~7.3 satır",
+          "location": {
+            "x0": 258.739013671875,
+            "x1": 336.5472106933594,
+            "y0": 302.3136901855469,
             "y1": 423.4438171386719
           },
-          "actual": "6.9cm/194px/~11.8 satır",
+          "actual": "4.3cm/121px/~7.3 satır",
           "expected": "Şekil 10/11 görsel düzeni"
         }
       ],
@@ -457,15 +473,15 @@
       },
       "margins_all_cm": {
         "left": 2.5,
-        "right": 2.5,
-        "top": 2.6,
-        "bottom": 2.8
+        "right": 2.1,
+        "top": 1.3,
+        "bottom": 7.8
       },
       "margins_body_cm": {
         "left": 2.5,
         "right": 2.5,
-        "top": 2.6,
-        "bottom": 2.8
+        "top": 1.9,
+        "bottom": 7.8
       },
       "margins_all_check": {
         "left": {
@@ -473,16 +489,16 @@
           "diff_cm": 0.0
         },
         "right": {
-          "status": "ok",
-          "diff_cm": 0.0
+          "status": "check",
+          "diff_cm": -0.4
         },
         "top": {
-          "status": "ok",
-          "diff_cm": 0.1
+          "status": "check",
+          "diff_cm": -1.2
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 0.3
+          "diff_cm": 5.3
         }
       },
       "margins_body_check": {
@@ -495,27 +511,29 @@
           "diff_cm": 0.0
         },
         "top": {
-          "status": "ok",
-          "diff_cm": 0.1
+          "status": "check",
+          "diff_cm": -0.6
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 0.3
+          "diff_cm": 5.3
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 17,
-        "Calibri-Bold / 11 pt": 16,
-        "Calibri-Bold, Calibri / 11 pt": 5,
+        "Calibri-Bold / 11 pt": 12,
+        "Calibri / 11 pt": 10,
+        "Calibri / 10 pt": 6,
+        "Calibri-Bold / 12 pt": 2,
         "Calibri-Bold / 14 pt": 2,
-        "Calibri-Bold / 13 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 2,
+        "Calibri-Bold / 8 pt": 1,
         "Calibri, Calibri-Bold / 11 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 12,
-        "expected_font_line_count": 12,
-        "expected_size_line_count": 12,
+        "body_candidate_line_count": 7,
+        "expected_font_line_count": 7,
+        "expected_size_line_count": 7,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -525,29 +543,29 @@
       },
       "spacing_check": {
         "line_height_pt": 11.0,
-        "line_step_pt": 24.9,
-        "line_spacing_ratio": 1.5,
-        "approx_blank_enter_avg": 0.8,
-        "approx_blank_enter_max": 3.5,
-        "large_gap_count": 15,
+        "line_step_pt": 20.0,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 1.0,
+        "approx_blank_enter_max": 5.7,
+        "large_gap_count": 10,
         "sample_gaps": [
           {
-            "visible_gap_cm": 0.8,
-            "approx_blank_enter": 1.3,
-            "before": "İNÜ‐KYS‐FRM‐142",
-            "after": "Yayın Tarihi19.08.2019"
-          },
-          {
             "visible_gap_cm": 1.1,
-            "approx_blank_enter": 1.8,
-            "before": "Tarihi",
+            "approx_blank_enter": 1.9,
+            "before": "Revizyon Tarihi",
             "after": "İNÖNÜ ÜNİVERSİTESİ"
           },
           {
-            "visible_gap_cm": 0.9,
-            "approx_blank_enter": 1.5,
+            "visible_gap_cm": 1.4,
+            "approx_blank_enter": 2.4,
             "before": "FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ",
             "after": "TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.0,
+            "before": "TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR",
+            "after": "DOKTORA TEZİ"
           }
         ]
       },
@@ -571,15 +589,6 @@
         {
           "kind": "numbered_heading",
           "level": 1,
-          "text": "1. Jüri 1 Adı SOYADI",
-          "status": "ok",
-          "notes": [
-            "alt baslik kurallari saglaniyor"
-          ]
-        },
-        {
-          "kind": "numbered_heading",
-          "level": 1,
           "text": "2. Jüri 2 Adı Soyadı",
           "status": "ok",
           "notes": [
@@ -594,24 +603,6 @@
           "notes": [
             "alt baslik kurallari saglaniyor"
           ]
-        },
-        {
-          "kind": "numbered_heading",
-          "level": 1,
-          "text": "4. Jüri 4 Adı SOYADI",
-          "status": "ok",
-          "notes": [
-            "alt baslik kurallari saglaniyor"
-          ]
-        },
-        {
-          "kind": "numbered_heading",
-          "level": 1,
-          "text": "5. Jüri 5 Adı SOYADI",
-          "status": "ok",
-          "notes": [
-            "alt baslik kurallari saglaniyor"
-          ]
         }
       ],
       "caption_checks": [],
@@ -620,7 +611,7 @@
     },
     {
       "page": 4,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "back",
       "page_size_cm": {
@@ -637,15 +628,15 @@
       },
       "margins_all_cm": {
         "left": 2.5,
-        "right": 1.5,
-        "top": 2.7,
-        "bottom": 3.1
+        "right": 2.5,
+        "top": 2.6,
+        "bottom": 2.6
       },
       "margins_body_cm": {
         "left": 2.5,
-        "right": 1.5,
-        "top": 2.7,
-        "bottom": 3.1
+        "right": 2.5,
+        "top": 2.6,
+        "bottom": 2.6
       },
       "margins_all_check": {
         "left": {
@@ -653,16 +644,16 @@
           "diff_cm": 0.0
         },
         "right": {
-          "status": "check",
-          "diff_cm": -1.0
+          "status": "ok",
+          "diff_cm": 0.0
         },
         "top": {
           "status": "ok",
-          "diff_cm": 0.2
+          "diff_cm": 0.1
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 0.6
+          "diff_cm": 0.1
         }
       },
       "margins_body_check": {
@@ -671,29 +662,29 @@
           "diff_cm": 0.0
         },
         "right": {
-          "status": "check",
-          "diff_cm": -1.0
+          "status": "ok",
+          "diff_cm": 0.0
         },
         "top": {
           "status": "ok",
-          "diff_cm": 0.2
+          "diff_cm": 0.1
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 0.6
+          "diff_cm": 0.1
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 21,
+        "Calibri / 11 pt": 23,
         "Calibri-Bold / 11 pt": 4,
         "Calibri, Calibri-Bold / 11 pt": 1,
         "Calibri-Bold, Calibri / 11 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 17,
-        "expected_font_line_count": 17,
-        "expected_size_line_count": 17,
+        "body_candidate_line_count": 18,
+        "expected_font_line_count": 18,
+        "expected_size_line_count": 18,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -703,10 +694,10 @@
       },
       "spacing_check": {
         "line_height_pt": 11.0,
-        "line_step_pt": 24.8,
+        "line_step_pt": 24.1,
         "line_spacing_ratio": 1.5,
-        "approx_blank_enter_avg": 0.9,
-        "approx_blank_enter_max": 1.8,
+        "approx_blank_enter_avg": 0.8,
+        "approx_blank_enter_max": 1.6,
         "large_gap_count": 16,
         "sample_gaps": [
           {
@@ -716,29 +707,20 @@
             "after": "ETİK VE YAPAY ZEKÂ KULLANIM BEYANI"
           },
           {
-            "visible_gap_cm": 1.1,
-            "approx_blank_enter": 1.8,
+            "visible_gap_cm": 0.9,
+            "approx_blank_enter": 1.6,
             "before": "ETİK VE YAPAY ZEKÂ KULLANIM BEYANI",
-            "after": ". . . . . / . . . . . /20 . . . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kura"
+            "after": ". . . ./. . . ./20. . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kurallarına uy"
           },
           {
             "visible_gap_cm": 0.6,
             "approx_blank_enter": 1.1,
-            "before": ". . . . . / . . . . . /20 . . . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kura",
-            "after": "SOYADI” danışmanlığında hazırlayıp sunduğum “TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. "
+            "before": ". . . ./. . . ./20. . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kurallarına uy",
+            "after": "hazırlayıp sunduğum “TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATI"
           }
         ]
       },
       "heading_checks": [
-        {
-          "kind": "numbered_heading",
-          "level": 1,
-          "text": "3. SATIR” başlıklı doktora tezinde; 1. ETİK VE BİLİMSEL SORUMLULUKLARIM:",
-          "status": "ok",
-          "notes": [
-            "alt baslik kurallari saglaniyor"
-          ]
-        },
         {
           "kind": "numbered_heading",
           "level": 1,
@@ -750,40 +732,7 @@
         }
       ],
       "caption_checks": [],
-      "rule_findings": [
-        {
-          "page": 4,
-          "rule_id": "subheading_before_gap",
-          "title": "Alt başlık öncesi boşluk",
-          "status": "ok",
-          "owner": "template",
-          "message": "3. SATIR” başlıklı doktora tezinde; 1. E öncesi 0.3cm/9px/~0.6 satır; beklenen 12 nk",
-          "location": {
-            "x0": 70.86600494384766,
-            "x1": 524.2686157226562,
-            "y0": 233.2687225341797,
-            "y1": 242.63381958007812
-          },
-          "actual": "0.3cm/9px/~0.6 satır",
-          "expected": "12 nk"
-        },
-        {
-          "page": 4,
-          "rule_id": "subheading_after_gap",
-          "title": "Alt başlık sonrası boşluk",
-          "status": "check",
-          "owner": "template",
-          "message": "3. SATIR” başlıklı doktora tezinde; 1. E sonrası 0.8cm/24px/~1.5 satır; beklenen 6 nk",
-          "location": {
-            "x0": 70.86600494384766,
-            "x1": 524.4588623046875,
-            "y0": 253.5927276611328,
-            "y1": 277.59381103515625
-          },
-          "actual": "0.8cm/24px/~1.5 satır",
-          "expected": "6 nk"
-        }
-      ],
+      "rule_findings": [],
       "gaps": []
     },
     {
@@ -1012,13 +961,13 @@
         "left": 2.5,
         "right": 2.5,
         "top": 2.5,
-        "bottom": 23.2
+        "bottom": 22.4
       },
       "margins_body_cm": {
         "left": 2.5,
         "right": 2.5,
         "top": 2.5,
-        "bottom": 23.2
+        "bottom": 22.4
       },
       "margins_all_check": {
         "left": {
@@ -1035,7 +984,7 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 20.7
+          "diff_cm": 19.9
         }
       },
       "margins_body_check": {
@@ -1053,13 +1002,13 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 20.7
+          "diff_cm": 19.9
         }
       },
       "font_summary": {
         "Calibri / 11 pt": 10,
-        "Calibri-Bold, Calibri / 11 pt": 1,
-        "Calibri-Bold / 11 pt": 1
+        "Calibri-Bold, Calibri / 11 pt": 2,
+        "Calibri-Bold / 11 pt": 2
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
@@ -1079,12 +1028,18 @@
         "line_spacing_ratio": 1.3,
         "approx_blank_enter_avg": 0.6,
         "approx_blank_enter_max": 0.7,
-        "large_gap_count": 1,
+        "large_gap_count": 2,
         "sample_gaps": [
           {
             "visible_gap_cm": 0.4,
             "approx_blank_enter": 0.7,
             "before": "6.2 Öneriler ...................................................................",
+            "after": "KAYNAKLAR ......................................................................"
+          },
+          {
+            "visible_gap_cm": 0.4,
+            "approx_blank_enter": 0.7,
+            "before": "KAYNAKLAR ......................................................................",
             "after": "EKLER .........................................................................."
           }
         ]
@@ -1134,13 +1089,13 @@
         "left": 2.5,
         "right": 2.5,
         "top": 3.1,
-        "bottom": 19.8
+        "bottom": 20.1
       },
       "margins_body_cm": {
         "left": 2.5,
         "right": 2.5,
         "top": 3.1,
-        "bottom": 19.8
+        "bottom": 20.1
       },
       "margins_all_check": {
         "left": {
@@ -1157,7 +1112,7 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 17.3
+          "diff_cm": 17.6
         }
       },
       "margins_body_check": {
@@ -1175,18 +1130,18 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 17.3
+          "diff_cm": 17.6
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 10,
+        "Calibri / 11 pt": 9,
         "Calibri-Bold / 14 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 6,
-        "expected_font_line_count": 6,
-        "expected_size_line_count": 6,
+        "body_candidate_line_count": 5,
+        "expected_font_line_count": 5,
+        "expected_size_line_count": 5,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -1212,7 +1167,7 @@
             "visible_gap_cm": 1.2,
             "approx_blank_enter": 2.1,
             "before": "verilmelidir.",
-            "after": "Öğrenci Adı ÖĞRENCİ SOYADI"
+            "after": "ÖĞRENCİ SOYADI"
           }
         ]
       },
@@ -1313,16 +1268,16 @@
         }
       },
       "font_summary": {
-        "Calibri-Bold, Calibri / 11 pt": 5,
         "Calibri / 11 pt": 5,
-        "Calibri-Bold / 11 pt": 3,
+        "Calibri-Bold / 11 pt": 4,
+        "Calibri-Bold, Calibri / 11 pt": 4,
         "Calibri-Bold / 14 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 9,
-        "expected_font_line_count": 9,
-        "expected_size_line_count": 9,
+        "body_candidate_line_count": 8,
+        "expected_font_line_count": 8,
+        "expected_size_line_count": 8,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -1450,15 +1405,15 @@
       },
       "font_summary": {
         "Calibri / 11 pt": 9,
-        "Calibri-Bold / 11 pt": 5,
-        "Calibri-Bold, Calibri / 11 pt": 3,
+        "Calibri-Bold / 11 pt": 3,
+        "Calibri-Bold, Calibri / 11 pt": 2,
         "Calibri-Bold / 14 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 13,
-        "expected_font_line_count": 13,
-        "expected_size_line_count": 13,
+        "body_candidate_line_count": 9,
+        "expected_font_line_count": 9,
+        "expected_size_line_count": 9,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -1470,20 +1425,14 @@
         "line_height_pt": 11.0,
         "line_step_pt": 13.5,
         "line_spacing_ratio": 0.8,
-        "approx_blank_enter_avg": 0.4,
-        "approx_blank_enter_max": 1.3,
-        "large_gap_count": 2,
+        "approx_blank_enter_avg": 0.7,
+        "approx_blank_enter_max": 5.0,
+        "large_gap_count": 1,
         "sample_gaps": [
           {
-            "visible_gap_cm": 0.7,
-            "approx_blank_enter": 1.3,
+            "visible_gap_cm": 2.9,
+            "approx_blank_enter": 5.0,
             "before": "ABSTRACT",
-            "after": "Thesis Title Line 1"
-          },
-          {
-            "visible_gap_cm": 0.6,
-            "approx_blank_enter": 1.0,
-            "before": "3rd line if necessary",
             "after": "Aim: This file provides a short sample abstract compatible with the 2025 thesis "
           }
         ]
@@ -1504,16 +1453,16 @@
           "page": 9,
           "rule_id": "main_heading_after_gap",
           "title": "Ana başlık sonrası boşluk",
-          "status": "ok",
+          "status": "check",
           "owner": "template",
-          "message": "ABSTRACT sonrası 0.7cm/21px/~1.3 satır; beklenen yaklaşık 1 satır",
+          "message": "ABSTRACT sonrası 2.9cm/82px/~5.0 satır; beklenen yaklaşık 1 satır",
           "location": {
-            "x0": 257.59100341796875,
-            "x1": 337.7005920410156,
+            "x0": 70.86599731445312,
+            "x1": 524.3424072265625,
             "y0": 98.44792175292969,
-            "y1": 119.61882019042969
+            "y1": 180.1408233642578
           },
-          "actual": "0.7cm/21px/~1.3 satır",
+          "actual": "2.9cm/82px/~5.0 satır",
           "expected": "1 satır"
         }
       ],
@@ -1652,7 +1601,7 @@
     },
     {
       "page": 11,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "front",
       "page_size_cm": {
@@ -1957,7 +1906,7 @@
     },
     {
       "page": 12,
-      "overall_status": "tolerance",
+      "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "front",
       "page_size_cm": {
@@ -2214,7 +2163,7 @@
     },
     {
       "page": 13,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "main",
       "page_size_cm": {
@@ -2343,55 +2292,7 @@
     },
     {
       "page": 14,
-      "overall_status": "unknown",
-      "page_kind": "blank",
-      "page_part": "other",
-      "page_size_cm": {
-        "width": 21.0,
-        "height": 29.7
-      },
-      "page_size_check": {
-        "expected_width_cm": 21.0,
-        "expected_height_cm": 29.7,
-        "width_status": "ok",
-        "height_status": "ok",
-        "width_diff_cm": 0.0,
-        "height_diff_cm": 0.0
-      },
-      "margins_all_cm": null,
-      "margins_body_cm": null,
-      "margins_all_check": {},
-      "margins_body_check": {},
-      "font_summary": {},
-      "body_font_size_estimate": 11,
-      "body_font_check": {
-        "body_candidate_line_count": 0,
-        "expected_font_line_count": 0,
-        "expected_size_line_count": 0,
-        "expected_font_ratio": null,
-        "expected_size_ratio": null,
-        "font_status": "unknown",
-        "size_status": "unknown",
-        "samples_non_expected_font": [],
-        "samples_non_expected_size": []
-      },
-      "spacing_check": {
-        "line_height_pt": null,
-        "line_step_pt": null,
-        "line_spacing_ratio": null,
-        "approx_blank_enter_avg": null,
-        "approx_blank_enter_max": null,
-        "large_gap_count": 0,
-        "sample_gaps": []
-      },
-      "heading_checks": [],
-      "caption_checks": [],
-      "rule_findings": [],
-      "gaps": []
-    },
-    {
-      "page": 15,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "front",
       "page_size_cm": {
@@ -2455,10 +2356,9 @@
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 14,
+        "Calibri / 11 pt": 16,
         "Calibri-Bold / 11 pt": 3,
         "Calibri / 9 pt": 2,
-        "Calibri, Calibri-Bold / 11 pt": 2,
         "Calibri-Bold / 14 pt": 1,
         "Calibri-Bold, Calibri / 11 pt": 1,
         "Calibri / 8 pt": 1
@@ -2492,7 +2392,7 @@
           {
             "visible_gap_cm": 0.8,
             "approx_blank_enter": 1.3,
-            "before": "doğduğu ortaya konur [ ? ].",
+            "before": "doğduğu ortaya konur [1].",
             "after": "2.2 Kuramsal Yaklaşımlar"
           },
           {
@@ -2561,7 +2461,7 @@
       ],
       "rule_findings": [
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -2577,7 +2477,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "check",
@@ -2593,7 +2493,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -2609,7 +2509,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -2617,7 +2517,7 @@
           "message": "2.2 Kuramsal Yaklaşımlar öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
           "location": {
             "x0": 70.86599731445312,
-            "x1": 222.26611328125,
+            "x1": 222.26609802246094,
             "y0": 256.15673828125,
             "y1": 277.4768371582031
           },
@@ -2625,14 +2525,14 @@
           "expected": "12 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
           "owner": "template",
           "message": "2.2 Kuramsal Yaklaşımlar sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
           "location": {
-            "x0": 106.29901123046875,
+            "x0": 106.29899597167969,
             "x1": 473.3564453125,
             "y0": 288.43572998046875,
             "y1": 297.80084228515625
@@ -2641,7 +2541,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -2657,7 +2557,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -2673,7 +2573,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 15,
+          "page": 14,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -2692,8 +2592,8 @@
       "gaps": []
     },
     {
-      "page": 16,
-      "overall_status": "check",
+      "page": 15,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "other",
       "page_size_cm": {
@@ -2823,7 +2723,7 @@
       ],
       "rule_findings": [
         {
-          "page": 16,
+          "page": 15,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -2839,7 +2739,7 @@
           "expected": "12 pt"
         },
         {
-          "page": 16,
+          "page": 15,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -2858,8 +2758,8 @@
       "gaps": []
     },
     {
-      "page": 17,
-      "overall_status": "check",
+      "page": 16,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "back",
       "page_size_cm": {
@@ -3036,7 +2936,7 @@
       ],
       "rule_findings": [
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -3052,7 +2952,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "check",
@@ -3068,7 +2968,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -3084,7 +2984,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3100,7 +3000,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -3116,7 +3016,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3132,7 +3032,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -3148,7 +3048,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3164,7 +3064,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -3180,7 +3080,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -3196,7 +3096,7 @@
           "expected": "12 pt"
         },
         {
-          "page": 17,
+          "page": 16,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -3215,8 +3115,8 @@
       "gaps": []
     },
     {
-      "page": 18,
-      "overall_status": "check",
+      "page": 17,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "back",
       "page_size_cm": {
@@ -3366,7 +3266,7 @@
       ],
       "rule_findings": [
         {
-          "page": 18,
+          "page": 17,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3382,7 +3282,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 18,
+          "page": 17,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -3398,7 +3298,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 18,
+          "page": 17,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3414,7 +3314,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 18,
+          "page": 17,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -3430,7 +3330,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 18,
+          "page": 17,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -3449,7 +3349,7 @@
       "gaps": []
     },
     {
-      "page": 19,
+      "page": 18,
       "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "other",
@@ -3560,7 +3460,7 @@
       "gaps": []
     },
     {
-      "page": 20,
+      "page": 19,
       "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "other",
@@ -3663,8 +3563,8 @@
       "gaps": []
     },
     {
-      "page": 21,
-      "overall_status": "check",
+      "page": 20,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "main",
       "page_size_cm": {
@@ -3839,7 +3739,7 @@
       ],
       "rule_findings": [
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -3855,7 +3755,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3871,7 +3771,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -3887,7 +3787,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3903,7 +3803,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -3919,7 +3819,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -3935,7 +3835,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -3951,7 +3851,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -3967,7 +3867,7 @@
           "expected": "12 pt"
         },
         {
-          "page": 21,
+          "page": 20,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "ok",
@@ -3986,8 +3886,8 @@
       "gaps": []
     },
     {
-      "page": 22,
-      "overall_status": "tolerance",
+      "page": 21,
+      "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "other",
       "page_size_cm": {
@@ -4095,7 +3995,7 @@
       ],
       "rule_findings": [
         {
-          "page": 22,
+          "page": 21,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -4114,8 +4014,8 @@
       "gaps": []
     },
     {
-      "page": 23,
-      "overall_status": "check",
+      "page": 22,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "front",
       "page_size_cm": {
@@ -4179,10 +4079,9 @@
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 14,
+        "Calibri / 11 pt": 15,
         "Calibri-Bold / 11 pt": 5,
         "Calibri-Bold / 14 pt": 1,
-        "Calibri, Calibri-Bold / 11 pt": 1,
         "Calibri-Bold, Calibri / 11 pt": 1
       },
       "body_font_size_estimate": 11,
@@ -4291,7 +4190,7 @@
       ],
       "rule_findings": [
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -4307,7 +4206,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4323,7 +4222,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -4339,7 +4238,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4355,7 +4254,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -4371,7 +4270,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4379,7 +4278,7 @@
           "message": "5.2.1 Yöntemin Sınırlılıkları öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
           "location": {
             "x0": 70.86599731445312,
-            "x1": 342.1840515136719,
+            "x1": 342.6247863769531,
             "y0": 288.4356994628906,
             "y1": 305.77081298828125
           },
@@ -4387,14 +4286,14 @@
           "expected": "12 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
           "owner": "template",
           "message": "5.2.1 Yöntemin Sınırlılıkları sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
           "location": {
-            "x0": 106.29901123046875,
+            "x0": 106.29899597167969,
             "x1": 524.3699951171875,
             "y0": 316.7297058105469,
             "y1": 330.0798034667969
@@ -4403,7 +4302,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -4419,7 +4318,7 @@
           "expected": "12 pt"
         },
         {
-          "page": 23,
+          "page": 22,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "ok",
@@ -4438,8 +4337,8 @@
       "gaps": []
     },
     {
-      "page": 24,
-      "overall_status": "tolerance",
+      "page": 23,
+      "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "other",
       "page_size_cm": {
@@ -4547,7 +4446,7 @@
       ],
       "rule_findings": [
         {
-          "page": 24,
+          "page": 23,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -4566,8 +4465,8 @@
       "gaps": []
     },
     {
-      "page": 25,
-      "overall_status": "check",
+      "page": 24,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "front",
       "page_size_cm": {
@@ -4733,7 +4632,7 @@
       ],
       "rule_findings": [
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -4749,7 +4648,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4765,7 +4664,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -4781,7 +4680,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4797,7 +4696,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "tolerance",
@@ -4813,7 +4712,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -4829,7 +4728,7 @@
           "expected": "12 pt"
         },
         {
-          "page": 25,
+          "page": 24,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "tolerance",
@@ -4848,8 +4747,8 @@
       "gaps": []
     },
     {
-      "page": 26,
-      "overall_status": "check",
+      "page": 25,
+      "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "front",
       "page_size_cm": {
@@ -4967,7 +4866,7 @@
       ],
       "rule_findings": [
         {
-          "page": 26,
+          "page": 25,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -4983,7 +4882,7 @@
           "expected": "12 nk"
         },
         {
-          "page": 26,
+          "page": 25,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "ok",
@@ -4999,7 +4898,7 @@
           "expected": "6 nk"
         },
         {
-          "page": 26,
+          "page": 25,
           "rule_id": "caption_adjacent_gap",
           "title": "Şekil/tablo başlığı boşluğu",
           "status": "check",
@@ -5018,8 +4917,145 @@
       "gaps": []
     },
     {
+      "page": 26,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 22.9
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 20.4
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 2,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri, Calibri-Bold, Calibri-Italic / 11 pt": 1,
+        "Calibri, Calibri-Bold / 11 pt": 1,
+        "Calibri, Calibri-Italic / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 3,
+        "expected_font_line_count": 3,
+        "expected_size_line_count": 3,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 24.8,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 0.9,
+        "approx_blank_enter_max": 1.2,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "KAYNAKLAR",
+            "after": "[1] Moore, C. (1991). Encyclopedia of chemical technology, Mass spectrometry , W"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "sürüm.",
+            "after": "[2] Zuckerman, M. ve Kieffer, S.C. (1994). Race Differences in Face‐ism: Does Fa"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "KAYNAKLAR",
+          "status": "ok",
+          "notes": [
+            "ana baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 26,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "KAYNAKLAR sonrası 0.7cm/21px/~1.2 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 70.7040023803711,
+            "x1": 524.4345092773438,
+            "y0": 90.72692108154297,
+            "y1": 111.29981994628906
+          },
+          "actual": "0.7cm/21px/~1.2 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
       "page": 27,
-      "overall_status": "check",
+      "overall_status": "ok",
       "page_kind": "no_body_text",
       "page_part": "back",
       "page_size_cm": {
@@ -5141,54 +5177,6 @@
     },
     {
       "page": 28,
-      "overall_status": "unknown",
-      "page_kind": "blank",
-      "page_part": "other",
-      "page_size_cm": {
-        "width": 21.0,
-        "height": 29.7
-      },
-      "page_size_check": {
-        "expected_width_cm": 21.0,
-        "expected_height_cm": 29.7,
-        "width_status": "ok",
-        "height_status": "ok",
-        "width_diff_cm": 0.0,
-        "height_diff_cm": 0.0
-      },
-      "margins_all_cm": null,
-      "margins_body_cm": null,
-      "margins_all_check": {},
-      "margins_body_check": {},
-      "font_summary": {},
-      "body_font_size_estimate": 11,
-      "body_font_check": {
-        "body_candidate_line_count": 0,
-        "expected_font_line_count": 0,
-        "expected_size_line_count": 0,
-        "expected_font_ratio": null,
-        "expected_size_ratio": null,
-        "font_status": "unknown",
-        "size_status": "unknown",
-        "samples_non_expected_font": [],
-        "samples_non_expected_size": []
-      },
-      "spacing_check": {
-        "line_height_pt": null,
-        "line_step_pt": null,
-        "line_spacing_ratio": null,
-        "approx_blank_enter_avg": null,
-        "approx_blank_enter_max": null,
-        "large_gap_count": 0,
-        "sample_gaps": []
-      },
-      "heading_checks": [],
-      "caption_checks": [],
-      "rule_findings": [],
-      "gaps": []
-    },
-    {
-      "page": 29,
       "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "other",
@@ -5282,7 +5270,7 @@
             "visible_gap_cm": 1.1,
             "approx_blank_enter": 1.9,
             "before": "EK‐1 Özgeçmiş",
-            "after": "Adı Soyadı: Adı SOYADI"
+            "after": "Adı Soyadı: ÖĞRENCİ SOYADI"
           },
           {
             "visible_gap_cm": 0.7,
@@ -5304,55 +5292,7 @@
       "gaps": []
     },
     {
-      "page": 30,
-      "overall_status": "unknown",
-      "page_kind": "blank",
-      "page_part": "other",
-      "page_size_cm": {
-        "width": 21.0,
-        "height": 29.7
-      },
-      "page_size_check": {
-        "expected_width_cm": 21.0,
-        "expected_height_cm": 29.7,
-        "width_status": "ok",
-        "height_status": "ok",
-        "width_diff_cm": 0.0,
-        "height_diff_cm": 0.0
-      },
-      "margins_all_cm": null,
-      "margins_body_cm": null,
-      "margins_all_check": {},
-      "margins_body_check": {},
-      "font_summary": {},
-      "body_font_size_estimate": 11,
-      "body_font_check": {
-        "body_candidate_line_count": 0,
-        "expected_font_line_count": 0,
-        "expected_size_line_count": 0,
-        "expected_font_ratio": null,
-        "expected_size_ratio": null,
-        "font_status": "unknown",
-        "size_status": "unknown",
-        "samples_non_expected_font": [],
-        "samples_non_expected_size": []
-      },
-      "spacing_check": {
-        "line_height_pt": null,
-        "line_step_pt": null,
-        "line_spacing_ratio": null,
-        "approx_blank_enter_avg": null,
-        "approx_blank_enter_max": null,
-        "large_gap_count": 0,
-        "sample_gaps": []
-      },
-      "heading_checks": [],
-      "caption_checks": [],
-      "rule_findings": [],
-      "gaps": []
-    },
-    {
-      "page": 31,
+      "page": 29,
       "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "back",
@@ -5461,55 +5401,7 @@
       "gaps": []
     },
     {
-      "page": 32,
-      "overall_status": "unknown",
-      "page_kind": "blank",
-      "page_part": "other",
-      "page_size_cm": {
-        "width": 21.0,
-        "height": 29.7
-      },
-      "page_size_check": {
-        "expected_width_cm": 21.0,
-        "expected_height_cm": 29.7,
-        "width_status": "ok",
-        "height_status": "ok",
-        "width_diff_cm": 0.0,
-        "height_diff_cm": 0.0
-      },
-      "margins_all_cm": null,
-      "margins_body_cm": null,
-      "margins_all_check": {},
-      "margins_body_check": {},
-      "font_summary": {},
-      "body_font_size_estimate": 11,
-      "body_font_check": {
-        "body_candidate_line_count": 0,
-        "expected_font_line_count": 0,
-        "expected_size_line_count": 0,
-        "expected_font_ratio": null,
-        "expected_size_ratio": null,
-        "font_status": "unknown",
-        "size_status": "unknown",
-        "samples_non_expected_font": [],
-        "samples_non_expected_size": []
-      },
-      "spacing_check": {
-        "line_height_pt": null,
-        "line_step_pt": null,
-        "line_spacing_ratio": null,
-        "approx_blank_enter_avg": null,
-        "approx_blank_enter_max": null,
-        "large_gap_count": 0,
-        "sample_gaps": []
-      },
-      "heading_checks": [],
-      "caption_checks": [],
-      "rule_findings": [],
-      "gaps": []
-    },
-    {
-      "page": 33,
+      "page": 30,
       "overall_status": "ok",
       "page_kind": "regular",
       "page_part": "back",
@@ -5620,29 +5512,26 @@
     }
   ],
   "summary": {
-    "page_count": 33,
+    "page_count": 30,
     "status_counts": {
-      "tolerance": 4,
-      "check": 13,
-      "ok": 12,
-      "unknown": 4
+      "tolerance": 1,
+      "ok": 29
     },
     "page_kind_counts": {
       "no_body_text": 10,
-      "regular": 18,
-      "official_form": 1,
-      "blank": 4
+      "regular": 19,
+      "official_form": 1
     },
     "page_part_counts": {
       "cover": 2,
       "official": 1,
-      "back": 7,
+      "back": 8,
       "front": 11,
       "main": 2,
-      "other": 10
+      "other": 6
     },
-    "blank_page_count": 4,
+    "blank_page_count": 0,
     "page_number_only_count": 0,
-    "overall_status": "check"
+    "overall_status": "tolerance"
   }
 }

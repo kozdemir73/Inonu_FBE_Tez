@@ -7,7 +7,6 @@ tez.tex:63: Matematik Anabilim Dalı
 tez.tex:98: TEZ BAŞLIĞI 1. SATIR
 tez.tex:98: GEREKLİYSE 2. SATIR
 tez.tex:98: GEREKLİYSE 3. SATIR
-tez.tex:155: Örnek: Optimizasyon, Modelleme, LaTeX
 ozet.tex:1: Amaç: Bu dosya, 2025 tez yazım kılavuzuna uygun Türkçe özet yazımı için kısa bir örnektir. Özet metni; tez konusu, amaç, kullanılan yöntem ve ulaşılan temel sonuçları gereksiz ayrıntıya girmeden sunmalıdır.
 ozet.tex:3: Materyal ve metot: Bu bölümde araştırma tasarımı, veri kaynağı, deneysel veya kuramsal yöntem ve analiz süreci öz biçimde açıklanır. Özet içinde kaynak, şekil veya tablo verilmez.
 ozet.tex:5: Bulgular: Tezin en önemli bulguları doğrudan ve sade bir dille belirtilir. Kısaltmalar gerekiyorsa yalnızca Simgeler ve Kısaltmalar Dizini nde tanımlanan biçimleriyle kullanılmalıdır.
@@ -25,22 +24,22 @@ onsoz.tex:7: belirtilebilir. Teşekkür edilen kişilerin soyadları büyük
 onsoz.tex:8: harflerle yazılmalıdır.
 onsoz.tex:10: Önsöz metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve
 onsoz.tex:11: yazar adı birlikte verilmelidir.
-bolum1.tex:34: GIRIŞ
-bolum1.tex:39: Giriş bölümü, tez çalışmasının temel çer
-bolum1.tex:41: problem durumu, tezin amacı ve önemi, sınırlılıklar,
-bolum1.tex:42: varsayımlar ve temel tanımlar akademik bir bütünlük iç
-bolum1.tex:43: inde açıklanmalıdır.
-bolum1.tex:45: Kılavuz gereği GIRIŞ ana başlığı altında
-bolum1.tex:46: ayrıca numaralı alt başlık oluşturulmamalıdır. Bu
-bolum1.tex:47: nedenle bu şablonda Giriş bölümü, alt başlık
-bolum1.tex:48: kullanmadan tek bir akış halinde verilmiştir. Gerekli bilgiler,
-bolum1.tex:49: paragraflar arasında mantıklı geçişler kurularak sunulmalı
-bolum1.tex:50: ; yöntem, literatür ve bulgulara ilişkin ayrıntılar
-bolum1.tex:51: ilgili ana bölümlere bırakılmalıdır.
-bolum1.tex:53: Bu bölümde okuyucuya çalışmanın hangi bilimsel boş
-bolum1.tex:54: luğa odaklandığı, hangi sorulara yanıt aradığı ve
-bolum1.tex:55: tezin genel organizasyonunun nasıl ilerlediği kısa ve açık
-bolum1.tex:56: biçimde aktarılabilir.
+bolum1.tex:1: GIRIŞ
+bolum1.tex:6: Giriş bölümü, tez çalışmasının temel çer
+bolum1.tex:8: problem durumu, tezin amacı ve önemi, sınırlılıklar,
+bolum1.tex:9: varsayımlar ve temel tanımlar akademik bir bütünlük iç
+bolum1.tex:10: inde açıklanmalıdır.
+bolum1.tex:12: Kılavuz gereği GIRIŞ ana başlığı altında
+bolum1.tex:13: ayrıca numaralı alt başlık oluşturulmamalıdır. Bu
+bolum1.tex:14: nedenle bu şablonda Giriş bölümü, alt başlık
+bolum1.tex:15: kullanmadan tek bir akış halinde verilmiştir. Gerekli bilgiler,
+bolum1.tex:16: paragraflar arasında mantıklı geçişler kurularak sunulmalı
+bolum1.tex:17: ; yöntem, literatür ve bulgulara ilişkin ayrıntılar
+bolum1.tex:18: ilgili ana bölümlere bırakılmalıdır.
+bolum1.tex:20: Bu bölümde okuyucuya çalışmanın hangi bilimsel boş
+bolum1.tex:21: luğa odaklandığı, hangi sorulara yanıt aradığı ve
+bolum1.tex:22: tezin genel organizasyonunun nasıl ilerlediği kısa ve açık
+bolum1.tex:23: biçimde aktarılabilir.
 bolum2.tex:30: GENEL BILGILER / KURAMSAL ÇERÇEVE
 bolum2.tex:33: Araştırma Alanının Tanıtımı
 bolum2.tex:35: Bu bölümde tez konusunun dayandığı temel kavramlar, kuramsal yaklaşımlar ve konu ile ilgili önceki çalışmalar özetlenir. Okuyucunun araştırma problemini anlayabilmesi için gerekli arka plan bilgisi açık ve sistemli biçimde verilir. Dipnotlar kısa tutulmalı; ana metin dışındaki açıklamalar için kullanılmalıdır.

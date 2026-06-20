@@ -61,8 +61,8 @@ zorunlu kaynak dosyalari, kapak logosu, yer tutucu alanlari, sirt kapak
 tutarliligi, ozet/abstract kelime sayisi, anahtar kelime sayisi ve alfabetikligi,
 ozetlerde kaynak/sekil/tablo komutu ve atif-bib anahtari eslesmesini kontrol
 eder. `-Report` kullanildiginda `kontrol-raporu.json` ve `kontrol-raporu.md`
-uretilir. `MANUEL` satirlari danisman/enstitu onayi ve son PDF gorsel kontrolu
-gerektirir.
+`raporlar` klasoru altinda uretilir. `MANUEL` satirlari danisman/enstitu onayi
+ve son PDF gorsel kontrolu gerektirir.
 
 Derleme ara dosyalarini temizlemek icin:
 
@@ -86,6 +86,11 @@ Notlar:
 
 - Ana resmi kaynak stili APA 7 olarak ayarlanmistir.
 - Kaynak dosyasi `kaynaklar.bib` dosyasidir.
+- Tez Asistani icindeki `Kaynakca Havuzu` denetimi `kaynaklar.bib` dosyasini
+  okur, kaynak anahtarlarini ilk yazar soyadi ve yil bicimine gore onerir
+  (`Zuckerman1994`, ayni yil tekrarinda `Zuckerman1994a` gibi) ve istenirse
+  anabilim dalina ait yerel havuza ekler. Yerel havuzlar sablon klasorunun
+  disinda, calisma alaninin `kaynakca-havuzlari` klasorunde tutulur.
 - APA surumunde parantezli atif icin `\parencite{anahtar}`, anlatimli atif
   icin `\textcite{anahtar}` kullanilmalidir.
 - Etik ve uretken yapay zeka beyan metni `etik-beyan.tex` dosyasindan gelir.
@@ -108,11 +113,11 @@ Notlar:
   kalacak sekilde `align` ortaminda onceki satirlara `\notag` verilmelidir.
 - Kaynakca `KAYNAKLAR` basligi altinda 11 punto, 1,5 satir aralikli ve 1,25 cm
   asili girintili olarak uretilir.
-- Teslim oncesi kontrol icin `KONTROL_LISTESI.md` dosyasi kullanilabilir.
+- Teslim oncesi kontrol icin `kilavuz-notlari\KONTROL_LISTESI.md` dosyasi kullanilabilir.
   Kilavuzdaki kontrol formu tezin basimina dahil edilmez; imzalanarak tez ile
   birlikte ayrica teslim edilir.
 - Sablonun otomatik karsiladigi noktalar ve gercek tez uzerinden elle kontrol
-  edilmesi gerekenler `UYGUNLUK_NOTLARI.md` dosyasinda ozetlenmistir.
+  edilmesi gerekenler `kilavuz-notlari\UYGUNLUK_NOTLARI.md` dosyasinda ozetlenmistir.
 - Kabul ve onay sayfasindaki oy durumu `\oy{...}` ile, Enstitu Yonetim Kurulu
   tarihi ve karar numarasi `\yonetimkurulukarar{...}{...}` ile doldurulur.
 - Kapakta Turkce buyuk harflerin dogru cikmasi icin ornek `\yazar` ve

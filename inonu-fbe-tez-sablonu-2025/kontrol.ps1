@@ -109,8 +109,8 @@ try {
   $requiredFiles = @(
     "tez.tex", "inonutez.cls", "build.ps1", "sirt-kapak.tex",
     "sirt-kapak-guncelle.ps1", "ozet.tex", "abstract.tex",
-    "onsoz.tex", "etik-beyan.tex", "ozgecmis.tex", "KONTROL_LISTESI.md",
-    "UYGUNLUK_NOTLARI.md", "temizle.ps1", "teslim-hazirla.ps1",
+    "onsoz.tex", "etik-beyan.tex", "ozgecmis.tex", "kilavuz-notlari\KONTROL_LISTESI.md",
+    "kilavuz-notlari\UYGUNLUK_NOTLARI.md", "temizle.ps1", "teslim-hazirla.ps1",
     "tez-bilgileri.example.json", "tez-bilgileri-uygula.ps1", "eksik-bilgiler.ps1"
   )
   $missingFiles = @($requiredFiles | Where-Object { -not (Test-Path -LiteralPath $_) })
@@ -423,6 +423,12 @@ try {
   Add-Result "MANUEL" "Etik ve uretken yapay zeka beyaninin gercek kullanim durumunu yansittigi teyit edilmeli."
 
   if ($Report) {
+    $reportDir = Join-Path $Root "raporlar"
+    if (-not (Test-Path -LiteralPath $reportDir)) {
+      New-Item -ItemType Directory -Force -Path $reportDir | Out-Null
+    }
+    $reportJson = Join-Path $reportDir "kontrol-raporu.json"
+    $reportMd = Join-Path $reportDir "kontrol-raporu.md"
     $summary = [pscustomobject]@{
       Folder = $Root
       Engine = $Engine
@@ -433,13 +439,13 @@ try {
       Manual = $Script:ManualCount
       Results = $Script:Results
     }
-    $summary | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath "kontrol-raporu.json" -Encoding UTF8
+    $summary | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $reportJson -Encoding UTF8
     $md = @("# Inonu FBE otomatik kontrol raporu", "", "Klasor: $Root", "Motor: $Engine", "", "Ozet: $Script:FailCount FAIL, $Script:WarnCount UYARI, $Script:ManualCount MANUEL", "")
     foreach ($item in $Script:Results) {
       $md += "- [$($item.Status)] $($item.Message)"
     }
-    Set-Content -LiteralPath "kontrol-raporu.md" -Value $md -Encoding UTF8
-    Add-Result "OK" "Rapor dosyalari yazildi: kontrol-raporu.json, kontrol-raporu.md"
+    Set-Content -LiteralPath $reportMd -Value $md -Encoding UTF8
+    Add-Result "OK" "Rapor dosyalari yazildi: raporlar/kontrol-raporu.json, raporlar/kontrol-raporu.md"
   }
 
   Write-Host ""

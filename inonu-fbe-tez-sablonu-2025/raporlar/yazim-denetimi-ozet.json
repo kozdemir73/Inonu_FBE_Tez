@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-06-21T00:11:15+03:00",
+  "total": 1,
+  "resolved_since_previous": 0,
+  "new_or_continuing": 0,
+  "category_counts": {
+    "Kılavuz yazım kuralı": 1
+  },
+  "file_counts": {
+    "ozet.tex": 1
+  },
+  "finding_keys": [
+    "ozet.tex|7|kılavuz yazım kuralı: ondalık sayı virgül ile yazılmış olabilir: `...`. referans: tez yazım kılavuzu metin biçimi, noktalama, sayı ve birim kullanımı kuralları. öneri: seçili ondalık ayırıcı nokta olduğu için `...` biçimini kullanın; denklem/kod bağlamıysa kontrol edin.|1,15"
+  ],
+  "personal_words": 0,
+  "ignored_findings": 1,
+  "previous_total": 1
+}

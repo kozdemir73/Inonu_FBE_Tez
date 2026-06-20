@@ -4,7 +4,7 @@
     "Build":  false,
     "WithSpine":  false,
     "Fail":  0,
-    "Warning":  8,
+    "Warning":  6,
     "Manual":  4,
     "Results":  [
                     {
@@ -77,7 +77,7 @@
                     },
                     {
                         "Status":  "OK",
-                        "Message":  "Ana PDF sayfa bilgisi okunabildi: Pages:           33"
+                        "Message":  "Ana PDF sayfa bilgisi okunabildi: Pages:           30"
                     },
                     {
                         "Status":  "OK",
@@ -88,8 +88,8 @@
                         "Message":  "pdffonts ciktisinda gomulu olmayan font isareti gorulmedi."
                     },
                     {
-                        "Status":  "UYARI",
-                        "Message":  "Ornek/yer tutucu bilgiler kalmis olabilir: tez.tex:53"
+                        "Status":  "OK",
+                        "Message":  "Yaygin yer tutucu degerleri bulunmadi."
                     },
                     {
                         "Status":  "UYARI",
@@ -128,8 +128,8 @@
                         "Message":  "Metinde atif verilmeyen bib kayitlari olabilir: abrahart98, acar97, Burke74, harper2007, unesco, mccaffrey88, nelson88, sisaky, simpsondvd, startrek, TS-40561, url-1, url-2, HYP:HYP57, Box:1990:TSA:574978, 17590413, vanden2001, Wegener2000629, Wolchik2000843"
                     },
                     {
-                        "Status":  "UYARI",
-                        "Message":  "Teslim oncesi: tez.bbl bulunamadi; kaynakca derlemesi tamamlanmamis olabilir."
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: Kaynakca cikti dosyasi tez.bbl olusmus gorunuyor."
                     },
                     {
                         "Status":  "OK",

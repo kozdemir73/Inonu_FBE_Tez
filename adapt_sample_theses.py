@@ -386,12 +386,16 @@ def write_conversion_defs(dest, graphicspath, preamble):
 def extract_document_body(text):
     begin = re.search(r"\\begin\{document\}", text)
     end = re.search(r"\\end\{document\}", text)
-    if begin and end and end.start() > begin.end():
-        text = text[begin.end():end.start()]
+    if begin:
+        text = text[begin.end():end.start()] if end and end.start() > begin.end() else text[begin.end():]
+    elif end:
+        text = text[:end.start()]
     cleaned = []
     for line in text.splitlines():
         stripped = line.strip()
-        if stripped in {r"\raggedleft", r"\\", r"\\"}:
+        if stripped.startswith(("\\documentclass", "\\usepackage", "\\RequirePackage")):
+            continue
+        if stripped in {r"\begin{document}", r"\end{document}", r"\raggedleft", r"\\", r"\\"}:
             continue
         cleaned.append(line)
     return "\n".join(cleaned).strip() + "\n"

@@ -3,7 +3,7 @@
 Klasor: D:\Developments\Yeni_Tez_LaTeX\Inonu_FBE_Tez\inonu-fbe-tez-sablonu-2025
 Motor: xelatex
 
-Ozet: 0 FAIL, 8 UYARI, 4 MANUEL
+Ozet: 0 FAIL, 6 UYARI, 4 MANUEL
 
 - [OK] Zorunlu sablon kaynak dosyalari bulundu.
 - [OK] Kapak icin FBE amblem/logo varligi bulundu.
@@ -22,10 +22,10 @@ Ozet: 0 FAIL, 8 UYARI, 4 MANUEL
 - [OK] Teslim oncesi: Simgeler/kisaltmalar dizini PDF metninde gorunuyor.
 - [OK] Teslim oncesi: PDF metninde yaygin karakter bozulmasi isareti gorunmedi.
 - [OK] PDF metninde dorduncu derece numarali baslik kalibi gorunmedi.
-- [OK] Ana PDF sayfa bilgisi okunabildi: Pages:           33
+- [OK] Ana PDF sayfa bilgisi okunabildi: Pages:           30
 - [OK] PDF font listesinde Calibri/Carlito bulundu.
 - [OK] pdffonts ciktisinda gomulu olmayan font isareti gorulmedi.
-- [UYARI] Ornek/yer tutucu bilgiler kalmis olabilir: tez.tex:53
+- [OK] Yaygin yer tutucu degerleri bulunmadi.
 - [UYARI] Sirt kapakta ana tezle farkli alanlar var: yazar, baslik. sirt-kapak-guncelle.ps1 calistirilabilir.
 - [OK] ozet.tex kelime sayisi yaklasik 101; 250 siniri icinde.
 - [OK] ozet.tex icinde kaynak/sekil/tablo komutu bulunmadi.
@@ -35,7 +35,7 @@ Ozet: 0 FAIL, 8 UYARI, 4 MANUEL
 - [OK] abstract.tex anahtar kelimeleri tez.tex icindeki \ keywords makrosundan aliniyor.
 - [OK] Metin ici atif anahtarlari .bib dosyalarinda bulundu.
 - [UYARI] Metinde atif verilmeyen bib kayitlari olabilir: abrahart98, acar97, Burke74, harper2007, unesco, mccaffrey88, nelson88, sisaky, simpsondvd, startrek, TS-40561, url-1, url-2, HYP:HYP57, Box:1990:TSA:574978, 17590413, vanden2001, Wegener2000629, Wolchik2000843
-- [UYARI] Teslim oncesi: tez.bbl bulunamadi; kaynakca derlemesi tamamlanmamis olabilir.
+- [OK] Teslim oncesi: Kaynakca cikti dosyasi tez.bbl olusmus gorunuyor.
 - [OK] Kaynakca kontrolu: Bib kayitlarinda yazar/editor alani genel olarak dolu.
 - [OK] Kaynakca kontrolu: Bib kayitlarinda baslik alani genel olarak dolu.
 - [OK] Kaynakca kontrolu: Bib kayitlarinda yil/tarih alani genel olarak dolu.
