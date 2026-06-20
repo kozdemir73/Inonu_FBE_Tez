@@ -24,6 +24,7 @@ import sablon_koruma
 
 
 ROOT = Path(__file__).resolve().parent
+LOCAL_OUTPUT_ROOT = ROOT.parent
 
 
 def resolve_git_executable():
@@ -1983,7 +1984,7 @@ class ThesisManager(tk.Tk):
         box.columnconfigure(0, weight=1)
         ttk.Label(
             box,
-            text="Eski tez klasörünü seçin. Orijinal klasör değiştirilmez; dönüştürülen kopya donusturulen_tezler klasörüne yazılır.",
+            text="Eski tez klasörünü seçin. Orijinal klasör değiştirilmez; dönüştürülen kopya repo dışındaki donusturulen_tezler klasörüne yazılır.",
             wraplength=780,
         ).grid(row=0, column=0, sticky="w", pady=(0, 10))
         btn = ttk.Button(box, text="Eski Tezi Dönüştür", image=self._button_icon("convert"), compound="left", command=self.convert_legacy_thesis)
@@ -7756,7 +7757,7 @@ class ThesisManager(tk.Tk):
             return
         report_stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
         safe_name = re.sub(r"[^0-9A-Za-zÇĞİÖŞÜçğıöşü_.-]+", "-", source.name).strip("-_.") or "tez"
-        output_root = ROOT / "donusturulen_tezler" / f"{safe_name}-{report_stamp}"
+        output_root = LOCAL_OUTPUT_ROOT / "donusturulen_tezler" / f"{safe_name}-{report_stamp}"
         self.last_legacy_source = source
         report_json = output_root / "donusum-raporu.json"
         report_md = output_root / "donusum-raporu.md"
