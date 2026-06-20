@@ -1,0 +1,5648 @@
+{
+  "input_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\tez.pdf",
+  "output_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\tez_kilavuz_uygunluk_isaretli.pdf",
+  "reference": "Inonu Universitesi Lisansustu Tez Yazim Kilavuzu; onayli Word/LaTeX sablon bulunmadigi icin kilavuzdaki olculebilir kurallar esas alinmistir.",
+  "config": {
+    "expected_page_width_cm": 21.0,
+    "expected_page_height_cm": 29.7,
+    "expected_margin_cm": 2.5,
+    "expected_body_font_name": "Calibri",
+    "expected_body_font_size": 11,
+    "expected_line_spacing": 1.5,
+    "expected_heading_after_pt": 16.5,
+    "expected_subheading_before_pt": 12.0,
+    "expected_subheading_after_pt": 6.0,
+    "expected_caption_outer_pt": 12.0,
+    "expected_caption_inner_pt": 6.0,
+    "tol_spacing_pt": 5.0,
+    "tol_page_cm": 0.1,
+    "tol_margin_strict_cm": 0.1,
+    "tol_margin_cm": 0.2,
+    "tol_font_pt": 0.5,
+    "body_band_top_cm": 2.0,
+    "body_band_bottom_cm": 2.0,
+    "margin_check_mode": "minimum",
+    "detailed_pdf": false
+  },
+  "method_note": "PDF metin ve gorsel nesne koordinatlari esas alinir. Marjinler sayfa kenari ile gorunen ilk/son nesne siniri arasidir. Font/punto PDF metin katmanindan alinir. Bosluk/satir analizi gorunen dikey mesafeye dayali yaklasik yorumdur; kaynak dosyada kac Enter kullanildigini kesin gostermez.",
+  "pages": [
+    {
+      "page": 1,
+      "overall_status": "tolerance",
+      "page_kind": "no_body_text",
+      "page_part": "cover",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 5.7,
+        "right": 5.7,
+        "top": 2.7,
+        "bottom": 2.3
+      },
+      "margins_body_cm": {
+        "left": 5.7,
+        "right": 5.7,
+        "top": 2.7,
+        "bottom": 2.3
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 3.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 3.2
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "tolerance",
+          "diff_cm": -0.2
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 3.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 3.2
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "tolerance",
+          "diff_cm": -0.2
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold / 11 pt": 3,
+        "Calibri-Bold / 32 pt": 3,
+        "Calibri-Bold / 15 pt": 3,
+        "Calibri-Bold / 21 pt": 1,
+        "Calibri-Bold / 26 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 14.9,
+        "line_step_pt": 54.2,
+        "line_spacing_ratio": 3.3,
+        "approx_blank_enter_avg": 2.4,
+        "approx_blank_enter_max": 8.3,
+        "large_gap_count": 5,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 2.8,
+            "approx_blank_enter": 4.7,
+            "before": "FEN BİLİMLERİ ENSTİTÜSÜ",
+            "after": "TEZ BAŞLIĞI 1. SATIR"
+          },
+          {
+            "visible_gap_cm": 1.4,
+            "approx_blank_enter": 2.4,
+            "before": "GEREKLİYSE 3. SATIR",
+            "after": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI"
+          },
+          {
+            "visible_gap_cm": 1.9,
+            "approx_blank_enter": 3.2,
+            "before": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI",
+            "after": "MATEMATİK ANABİLİM DALI"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI",
+          "status": "check",
+          "notes": [
+            "14 pt yerine 20.9 pt",
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "main_heading",
+          "text": "MATEMATİK ANABİLİM DALI",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "main_heading",
+          "text": "DOKTORA TEZİ",
+          "status": "check",
+          "notes": [
+            "14 pt yerine 25.9 pt",
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "main_heading",
+          "text": "DOCTORAL DISSERTATION",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 1,
+          "rule_id": "cover_degree",
+          "title": "Tez türü punto",
+          "status": "ok",
+          "owner": "template",
+          "message": "DOKTORA TEZİ: 25.9 pt; beklenen 26 pt",
+          "location": {
+            "x0": 218.4300079345703,
+            "x1": 376.8521423339844,
+            "y0": 578.7128295898438,
+            "y1": 604.61572265625
+          },
+          "actual": 25.9,
+          "expected": 26
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_degree_en",
+          "title": "İngilizce tez türü punto",
+          "status": "ok",
+          "owner": "template",
+          "message": "DOCTORAL DISSERTATION: 14.9 pt; beklenen 15 pt",
+          "location": {
+            "x0": 217.4820098876953,
+            "x1": 377.8012390136719,
+            "y0": 610.5339965820312,
+            "y1": 625.47802734375
+          },
+          "actual": 14.9,
+          "expected": 15
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_city_year",
+          "title": "Şehir/yıl punto",
+          "status": "ok",
+          "owner": "template",
+          "message": "MALATYA, 2025: 14.9 pt; beklenen 15 pt",
+          "location": {
+            "x0": 249.14999389648438,
+            "x1": 346.13653564453125,
+            "y0": 762.1380004882812,
+            "y1": 777.08203125
+          },
+          "actual": 14.9,
+          "expected": 15
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 3. SATIR -> ÖĞRENCİ ADI ÖĞRENCİ SOYADI: 1.4cm/40px/~2.4 satır",
+          "location": {
+            "x0": 162.2760009765625,
+            "x1": 433.10003662109375,
+            "y0": 392.6470947265625,
+            "y1": 432.58087158203125
+          },
+          "actual": "1.4cm/40px/~2.4 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "ÖĞRENCİ ADI ÖĞRENCİ SOYADI -> MATEMATİK ANABİLİM DALI: 1.9cm/53px/~3.2 satır",
+          "location": {
+            "x0": 162.9759979248047,
+            "x1": 432.34033203125,
+            "y0": 453.50238037109375,
+            "y1": 506.02001953125
+          },
+          "actual": "1.9cm/53px/~3.2 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "MATEMATİK ANABİLİM DALI -> DOKTORA TEZİ: 2.0cm/58px/~3.5 satır",
+          "location": {
+            "x0": 210.13400268554688,
+            "x1": 385.18804931640625,
+            "y0": 520.9640502929688,
+            "y1": 578.7128295898438
+          },
+          "actual": "2.0cm/58px/~3.5 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "DOCTORAL DISSERTATION -> MALATYA, 2025: 4.8cm/137px/~8.3 satır",
+          "location": {
+            "x0": 217.4820098876953,
+            "x1": 377.8012390136719,
+            "y0": 625.47802734375,
+            "y1": 762.1380004882812
+          },
+          "actual": "4.8cm/137px/~8.3 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 2,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "cover",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 4.5,
+        "right": 4.5,
+        "top": 2.5,
+        "bottom": 3.0
+      },
+      "margins_body_cm": {
+        "left": 4.5,
+        "right": 4.5,
+        "top": 2.5,
+        "bottom": 3.0
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 2.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 2.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.5
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 2.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 2.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.5
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold / 11 pt": 15,
+        "Calibri / 11 pt": 2
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 6,
+        "expected_font_line_count": 6,
+        "expected_size_line_count": 6,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 30.6,
+        "line_spacing_ratio": 1.9,
+        "approx_blank_enter_avg": 2.0,
+        "approx_blank_enter_max": 4.6,
+        "large_gap_count": 8,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 2.5,
+            "approx_blank_enter": 4.3,
+            "before": "FEN BİLİMLERİ ENSTİTÜSÜ",
+            "after": "TEZ BAŞLIĞI 1. SATIR"
+          },
+          {
+            "visible_gap_cm": 2.2,
+            "approx_blank_enter": 3.8,
+            "before": "GEREKLİYSE 3. SATIR",
+            "after": "Öğrenci Adı ÖĞRENCİ SOYADI"
+          },
+          {
+            "visible_gap_cm": 2.6,
+            "approx_blank_enter": 4.5,
+            "before": "Öğrenci Adı ÖĞRENCİ SOYADI",
+            "after": "Matematik Anabilim Dalı"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 2,
+          "rule_id": "cover_degree",
+          "title": "Tez türü punto",
+          "status": "check",
+          "owner": "template",
+          "message": "DOKTORA TEZİ: 11.0 pt; beklenen 26 pt",
+          "location": {
+            "x0": 264.12701416015625,
+            "x1": 331.1516418457031,
+            "y0": 423.4438171386719,
+            "y1": 434.4027099609375
+          },
+          "actual": 11.0,
+          "expected": 26
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 3. SATIR -> DOKTORA TEZİ: 6.9cm/194px/~11.8 satır",
+          "location": {
+            "x0": 251.10699462890625,
+            "x1": 344.202880859375,
+            "y0": 229.18272399902344,
+            "y1": 423.4438171386719
+          },
+          "actual": "6.9cm/194px/~11.8 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 3,
+      "overall_status": "ok",
+      "page_kind": "official_form",
+      "page_part": "official",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.6,
+        "bottom": 2.8
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.6,
+        "bottom": 2.8
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.3
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.3
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 17,
+        "Calibri-Bold / 11 pt": 16,
+        "Calibri-Bold, Calibri / 11 pt": 5,
+        "Calibri-Bold / 14 pt": 2,
+        "Calibri-Bold / 13 pt": 1,
+        "Calibri, Calibri-Bold / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 12,
+        "expected_font_line_count": 12,
+        "expected_size_line_count": 12,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 24.9,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 0.8,
+        "approx_blank_enter_max": 3.5,
+        "large_gap_count": 15,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "İNÜ‐KYS‐FRM‐142",
+            "after": "Yayın Tarihi19.08.2019"
+          },
+          {
+            "visible_gap_cm": 1.1,
+            "approx_blank_enter": 1.8,
+            "before": "Tarihi",
+            "after": "İNÖNÜ ÜNİVERSİTESİ"
+          },
+          {
+            "visible_gap_cm": 0.9,
+            "approx_blank_enter": 1.5,
+            "before": "FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ",
+            "after": "TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "İNÖNÜ ÜNİVERSİTESİ",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "main_heading",
+          "text": "FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "1. Jüri 1 Adı SOYADI",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "2. Jüri 2 Adı Soyadı",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "3. Jüri 3 Adı Soyadı",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "4. Jüri 4 Adı SOYADI",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "5. Jüri 5 Adı SOYADI",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 4,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 1.5,
+        "top": 2.7,
+        "bottom": 3.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 1.5,
+        "top": 2.7,
+        "bottom": 3.1
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "check",
+          "diff_cm": -1.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.6
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "check",
+          "diff_cm": -1.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.6
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 21,
+        "Calibri-Bold / 11 pt": 4,
+        "Calibri, Calibri-Bold / 11 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 17,
+        "expected_font_line_count": 17,
+        "expected_size_line_count": 17,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 24.8,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 0.9,
+        "approx_blank_enter_max": 1.8,
+        "large_gap_count": 16,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.4,
+            "before": "FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜNE",
+            "after": "ETİK VE YAPAY ZEKÂ KULLANIM BEYANI"
+          },
+          {
+            "visible_gap_cm": 1.1,
+            "approx_blank_enter": 1.8,
+            "before": "ETİK VE YAPAY ZEKÂ KULLANIM BEYANI",
+            "after": ". . . . . / . . . . . /20 . . . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kura"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": ". . . . . / . . . . . /20 . . . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kura",
+            "after": "SOYADI” danışmanlığında hazırlayıp sunduğum “TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. "
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "3. SATIR” başlıklı doktora tezinde; 1. ETİK VE BİLİMSEL SORUMLULUKLARIM:",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "2. YAPAY ZEKÂ KULLANIMINA İLİŞKİN BEYANIM: (X) Tez yazım sürecinde yapay zekâ tabanlı araç",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 4,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "3. SATIR” başlıklı doktora tezinde; 1. E öncesi 0.3cm/9px/~0.6 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86600494384766,
+            "x1": 524.2686157226562,
+            "y0": 233.2687225341797,
+            "y1": 242.63381958007812
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 4,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "3. SATIR” başlıklı doktora tezinde; 1. E sonrası 0.8cm/24px/~1.5 satır; beklenen 6 nk",
+          "location": {
+            "x0": 70.86600494384766,
+            "x1": 524.4588623046875,
+            "y0": 253.5927276611328,
+            "y1": 277.59381103515625
+          },
+          "actual": "0.8cm/24px/~1.5 satır",
+          "expected": "6 nk"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 5,
+      "overall_status": "ok",
+      "page_kind": "no_body_text",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 3.2
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 3.2
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.7
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.7
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 32,
+        "Calibri-Bold / 11 pt": 11,
+        "Calibri-Bold, Calibri / 11 pt": 11,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.7,
+        "line_spacing_ratio": 1.3,
+        "approx_blank_enter_avg": 0.7,
+        "approx_blank_enter_max": 1.1,
+        "large_gap_count": 10,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.1,
+            "before": "İÇİNDEKİLER",
+            "after": "Sayfa"
+          },
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.1,
+            "before": "Sayfa",
+            "after": "ÖZET ..........................................................................."
+          },
+          {
+            "visible_gap_cm": 0.4,
+            "approx_blank_enter": 0.7,
+            "before": "ÖZET ...........................................................................",
+            "after": "ABSTRACT ......................................................................."
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "İÇİNDEKİLER",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "1. GİRİŞ .................................................................................",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE .....................................................",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.1 Araştırma Alanının Tanıtımı ..........................................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.2 Kuramsal Yaklaşımlar..................................................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.3 İlgili Çalışmalar ....................................................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "3. MATERYAL VE METOT .....................................................................",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "3.1 Araştırma Materyali ..................................................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 5,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "İÇİNDEKİLER sonrası 0.7cm/19px/~1.1 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 261.8869934082031,
+            "x1": 524.4236450195312,
+            "y0": 144.12692260742188,
+            "y1": 162.90682983398438
+          },
+          "actual": "0.7cm/19px/~1.1 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 6,
+      "overall_status": "ok",
+      "page_kind": "no_body_text",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 23.2
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 23.2
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 20.7
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 20.7
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 10,
+        "Calibri-Bold, Calibri / 11 pt": 1,
+        "Calibri-Bold / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.7,
+        "line_spacing_ratio": 1.3,
+        "approx_blank_enter_avg": 0.6,
+        "approx_blank_enter_max": 0.7,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.4,
+            "approx_blank_enter": 0.7,
+            "before": "6.2 Öneriler ...................................................................",
+            "after": "EKLER .........................................................................."
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "6.1.1 Araştırma Bulgularına Dayalı Sonuçlar ..............................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "6.2 Öneriler .............................................................................",
+          "status": "tolerance",
+          "notes": [
+            "kalin degil"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 7,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.1,
+        "bottom": 19.8
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.1,
+        "bottom": 19.8
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.6
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 17.3
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.6
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 17.3
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 10,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 6,
+        "expected_font_line_count": 6,
+        "expected_size_line_count": 6,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 15.6,
+        "line_spacing_ratio": 0.9,
+        "approx_blank_enter_avg": 0.6,
+        "approx_blank_enter_max": 2.1,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "ÖNSÖZ",
+            "after": "Önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve kurumlara teşe"
+          },
+          {
+            "visible_gap_cm": 1.2,
+            "approx_blank_enter": 2.1,
+            "before": "verilmelidir.",
+            "after": "Öğrenci Adı ÖĞRENCİ SOYADI"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "ÖNSÖZ",
+          "status": "tolerance",
+          "notes": [
+            "ortalama zayif"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 7,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "ÖNSÖZ sonrası 0.6cm/18px/~1.1 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.3671264648438,
+            "y0": 102.68192291259766,
+            "y1": 121.07681274414062
+          },
+          "actual": "0.6cm/18px/~1.1 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 8,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.0,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.0,
+        "bottom": 18.3
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.5
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.5
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 15.8
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold, Calibri / 11 pt": 5,
+        "Calibri / 11 pt": 5,
+        "Calibri-Bold / 11 pt": 3,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 9,
+        "expected_font_line_count": 9,
+        "expected_size_line_count": 9,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 15.6,
+        "line_spacing_ratio": 0.9,
+        "approx_blank_enter_avg": 0.5,
+        "approx_blank_enter_max": 1.3,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.3,
+            "before": "ÖZET",
+            "after": "TEZ BAŞLIĞI 1. SATIR"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "GEREKLİYSE 3. SATIR",
+            "after": "Amaç: Bu dosya, 2025 tez yazım kılavuzuna uygun Türkçe özet yazımı için kısa bir"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "ÖZET",
+          "status": "ok",
+          "notes": [
+            "ana baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 8,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "ÖZET sonrası 0.7cm/21px/~1.3 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 250.95700073242188,
+            "x1": 344.3487854003906,
+            "y0": 98.44792175292969,
+            "y1": 119.61882019042969
+          },
+          "actual": "0.7cm/21px/~1.3 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 9,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.0,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.0,
+        "bottom": 18.0
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.5
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.5
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 15.5
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 9,
+        "Calibri-Bold / 11 pt": 5,
+        "Calibri-Bold, Calibri / 11 pt": 3,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 13,
+        "expected_font_line_count": 13,
+        "expected_size_line_count": 13,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 13.5,
+        "line_spacing_ratio": 0.8,
+        "approx_blank_enter_avg": 0.4,
+        "approx_blank_enter_max": 1.3,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.3,
+            "before": "ABSTRACT",
+            "after": "Thesis Title Line 1"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.0,
+            "before": "3rd line if necessary",
+            "after": "Aim: This file provides a short sample abstract compatible with the 2025 thesis "
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "ABSTRACT",
+          "status": "ok",
+          "notes": [
+            "ana baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 9,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "ABSTRACT sonrası 0.7cm/21px/~1.3 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 257.59100341796875,
+            "x1": 337.7005920410156,
+            "y0": 98.44792175292969,
+            "y1": 119.61882019042969
+          },
+          "actual": "0.7cm/21px/~1.3 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 10,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 7.0,
+        "top": 2.7,
+        "bottom": 23.3
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 4.5
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 20.8
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold, Calibri / 11 pt": 5,
+        "Calibri-Bold / 11 pt": 3,
+        "CMMI10 / 11 pt": 2,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 3,
+        "expected_font_line_count": 3,
+        "expected_size_line_count": 3,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 16.4,
+        "line_spacing_ratio": 1.0,
+        "approx_blank_enter_avg": 0.4,
+        "approx_blank_enter_max": 0.8,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.8,
+            "before": "SİMGELER VE KISALTMALAR DİZİNİ",
+            "after": ": Alpha"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "SİMGELER VE KISALTMALAR DİZİNİ",
+          "status": "ok",
+          "notes": [
+            "ana baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 10,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "SİMGELER VE KISALTMALAR DİZİNİ sonrası 0.5cm/13px/~0.8 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 167.86099243164062,
+            "x1": 397.62518310546875,
+            "y0": 90.72692108154297,
+            "y1": 103.63581848144531
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 11,
+      "overall_status": "check",
+      "page_kind": "no_body_text",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 17.5
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 15.0
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold / 11 pt": 16,
+        "Calibri / 11 pt": 8,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 0.7,
+        "approx_blank_enter_max": 1.2,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.1,
+            "before": "ŞEKİLLER DİZİNİ",
+            "after": "Sayfa"
+          },
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "Sayfa",
+            "after": "Şekil 2.1."
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "ŞEKİLLER DİZİNİ",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 2.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 2.2.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.2.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 4.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 5.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 6.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 11,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "ŞEKİLLER DİZİNİ sonrası 0.7cm/19px/~1.1 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 252.56300354003906,
+            "x1": 524.4236450195312,
+            "y0": 144.12692260742188,
+            "y1": 162.90682983398438
+          },
+          "actual": "0.7cm/19px/~1.1 satır",
+          "expected": "1 satır"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 2.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.6662292480469,
+            "y0": 204.1517333984375,
+            "y1": 193.1928253173828
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 2.2. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.6443176269531,
+            "y0": 224.47573852539062,
+            "y1": 213.51683044433594
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 3.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.5674743652344,
+            "y0": 244.79974365234375,
+            "y1": 233.84083557128906
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 3.2. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.67718505859375,
+            "y0": 265.1237487792969,
+            "y1": 254.16485595703125
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 4.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.644287109375,
+            "y0": 285.4467468261719,
+            "y1": 274.48785400390625
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 5.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.6771240234375,
+            "y0": 305.7707214355469,
+            "y1": 294.81182861328125
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 11,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 6.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.5894775390625,
+            "y0": 326.0947570800781,
+            "y1": 315.1358642578125
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 12,
+      "overall_status": "tolerance",
+      "page_kind": "no_body_text",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 4.6,
+        "bottom": 18.9
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 2.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 16.4
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold / 11 pt": 12,
+        "Calibri / 11 pt": 6,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 0.8,
+        "approx_blank_enter_max": 1.2,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.1,
+            "before": "TABLOLAR DİZİNİ",
+            "after": "Sayfa"
+          },
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "Sayfa",
+            "after": "Tablo 2.1."
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "TABLOLAR DİZİNİ",
+          "status": "tolerance",
+          "notes": [
+            "sayfa ust satirindan uzak"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 2.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 3.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 4.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 5.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 6.1.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 12,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "TABLOLAR DİZİNİ sonrası 0.7cm/19px/~1.1 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 248.4770050048828,
+            "x1": 524.4236450195312,
+            "y0": 144.12692260742188,
+            "y1": 162.90682983398438
+          },
+          "actual": "0.7cm/19px/~1.1 satır",
+          "expected": "1 satır"
+        },
+        {
+          "page": 12,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 2.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.6114196777344,
+            "y0": 204.1517333984375,
+            "y1": 193.1928253173828
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "6 pt"
+        },
+        {
+          "page": 12,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 3.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.5894470214844,
+            "y0": 224.47573852539062,
+            "y1": 213.51683044433594
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "6 pt"
+        },
+        {
+          "page": 12,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 4.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.6004638671875,
+            "y0": 244.79974365234375,
+            "y1": 233.84083557128906
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "6 pt"
+        },
+        {
+          "page": 12,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 5.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.61138916015625,
+            "y0": 265.1237487792969,
+            "y1": 254.16485595703125
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "6 pt"
+        },
+        {
+          "page": 12,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 6.1. sonrası 0.0cm/0px/~0.0 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 503.5785217285156,
+            "y0": 285.4467468261719,
+            "y1": 274.48785400390625
+          },
+          "actual": "0.0cm/0px/~0.0 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 13,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "main",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 19.7
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 17.2
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 11,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 8,
+        "expected_font_line_count": 8,
+        "expected_size_line_count": 8,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 0.7,
+        "approx_blank_enter_max": 1.2,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "1. GİRİŞ",
+            "after": "Giriş bölümü, tez çalışmasının temel çerçevesini okuyucuya sunar. Bu bölümde ara"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "1. GİRİŞ",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 13,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "1. GİRİŞ sonrası 0.7cm/21px/~1.2 satır; beklenen 6 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.3562622070312,
+            "y0": 90.72692108154297,
+            "y1": 111.29981994628906
+          },
+          "actual": "0.7cm/21px/~1.2 satır",
+          "expected": "6 nk"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 14,
+      "overall_status": "unknown",
+      "page_kind": "blank",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": null,
+      "margins_body_cm": null,
+      "margins_all_check": {},
+      "margins_body_check": {},
+      "font_summary": {},
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": null,
+        "line_step_pt": null,
+        "line_spacing_ratio": null,
+        "approx_blank_enter_avg": null,
+        "approx_blank_enter_max": null,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 15,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 2.6
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.1
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 14,
+        "Calibri-Bold / 11 pt": 3,
+        "Calibri / 9 pt": 2,
+        "Calibri, Calibri-Bold / 11 pt": 2,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1,
+        "Calibri / 8 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 12,
+        "expected_font_line_count": 12,
+        "expected_size_line_count": 12,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 1.4,
+        "approx_blank_enter_max": 13.3,
+        "large_gap_count": 6,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 1.1,
+            "approx_blank_enter": 2.0,
+            "before": "2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE",
+            "after": "2.1 Araştırma Alanının Tanıtımı"
+          },
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "doğduğu ortaya konur [ ? ].",
+            "after": "2.2 Kuramsal Yaklaşımlar"
+          },
+          {
+            "visible_gap_cm": 7.7,
+            "approx_blank_enter": 13.3,
+            "before": "kullanılan her terim, tez boyunca aynı anlamda kullanılmalı; zorunlu durumlarda ",
+            "after": "Şekil 2.1. Kuramsal yapıyı gösteren örnek şekil"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.1 Araştırma Alanının Tanıtımı",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.2 Kuramsal Yaklaşımlar",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "2.3 İlgili Çalışmalar",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 2.1. Kuramsal yapıyı gösteren örnek şekil",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 7.7 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 2.1’de gösterilen yapı, kuramsal çerçevenin temel bileşenlerini özetlemektedir. Meti",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 15,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE sonrası 1.1cm/33px/~2.0 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 418.875,
+            "y0": 90.72692108154297,
+            "y1": 123.25482177734375
+          },
+          "actual": "1.1cm/33px/~2.0 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "2.1 Araştırma Alanının Tanıtımı öncesi 1.1cm/33px/~2.0 satır; beklenen 12 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 418.875,
+            "y0": 90.72692108154297,
+            "y1": 123.25482177734375
+          },
+          "actual": "1.1cm/33px/~2.0 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "2.1 Araştırma Alanının Tanıtımı sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.337158203125,
+            "y0": 134.21372985839844,
+            "y1": 143.57882690429688
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "2.2 Kuramsal Yaklaşımlar öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 222.26611328125,
+            "y0": 256.15673828125,
+            "y1": 277.4768371582031
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "2.2 Kuramsal Yaklaşımlar sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29901123046875,
+            "x1": 473.3564453125,
+            "y0": 288.43572998046875,
+            "y1": 297.80084228515625
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "2.3 İlgili Çalışmalar öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 409.9123229980469,
+            "y0": 625.751708984375,
+            "y1": 647.07080078125
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "2.3 İlgili Çalışmalar sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.403076171875,
+            "y0": 658.0297241210938,
+            "y1": 667.394775390625
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 15,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Şekil 2.1. Kuramsal yapıyı gösteren örne sonrası 0.2cm/7px/~0.4 satır",
+          "location": {
+            "x0": 195.5159912109375,
+            "x1": 399.7627868652344,
+            "y0": 559.3023071289062,
+            "y1": 566.0311889648438
+          },
+          "actual": "0.2cm/7px/~0.4 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 16,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.6,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 3.6,
+        "bottom": 12.4
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 1.1
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 1.1
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 9.9
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 23,
+        "LMSans17-Regular / 102 pt": 2,
+        "Calibri-Bold, Calibri / 11 pt": 2,
+        "Calibri / 9 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 3,
+        "expected_font_line_count": 3,
+        "expected_size_line_count": 3,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 10.9,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 0.7,
+        "approx_blank_enter_max": 1.5,
+        "large_gap_count": 5,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.9,
+            "before": "(b)",
+            "after": "Şekil 2.2. Alt şekillerden oluşan ana şekil örneği"
+          },
+          {
+            "visible_gap_cm": 0.9,
+            "approx_blank_enter": 1.5,
+            "before": "Şekil 2.2. Alt şekillerden oluşan ana şekil örneği",
+            "after": "Tablolar, metni gereksiz yere tekrar etmeden veriyi düzenli biçimde sunmalıdır. "
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.0,
+            "before": "içinde kullanılabilecek yalın bir tablo düzenini göstermektedir.",
+            "after": "Tablo 2.1. Tablo başlıkları nokta ile bitmemelidir"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 2.2. Alt şekillerden oluşan ana şekil örneği",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 2.1. Tablo başlıkları nokta ile bitmemelidir",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 16,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 2.2. Alt şekillerden oluşan ana şe sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3919677734375,
+            "y0": 272.8082580566406,
+            "y1": 298.2848205566406
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 16,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 2.1. Tablo başlıkları nokta ile bi sonrası 0.5cm/13px/~0.8 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 283.3669738769531,
+            "y0": 357.68927001953125,
+            "y1": 371.1291809082031
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 17,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 3.8
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 1.3
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 14,
+        "Calibri-Bold / 11 pt": 4,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1,
+        "CMMI10, CMMI8, CMSY10, CMR8, CMSY8, CMR10 / 9 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 10,
+        "expected_font_line_count": 10,
+        "expected_size_line_count": 10,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 24.3,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 1.5,
+        "approx_blank_enter_max": 11.2,
+        "large_gap_count": 10,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 1.1,
+            "approx_blank_enter": 2.0,
+            "before": "3. MATERYAL VE METOT",
+            "after": "3.1 Araştırma Materyali"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "içerdiği açıklanmalıdır.",
+            "after": "3.1.1 Veri Kaynakları"
+          },
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.8,
+            "before": "3.1.1 Veri Kaynakları",
+            "after": "Veri kaynakları yazılırken tarih aralığı, örneklem büyüklüğü, ölçüm birimleri ve"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "3. MATERYAL VE METOT",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "3.1 Araştırma Materyali",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "3.1.1 Veri Kaynakları",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "3.2 Yöntem",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "3.2.1 Model Kurulumu",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.1. Uzun şekil açıklamasında listenin kısa sürümü kullanılabilir",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 6.5 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.1, veri veya yöntem akışını göstermek için kullanılabilecek bir görsel örneğidir.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 17,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "3. MATERYAL VE METOT sonrası 1.1cm/33px/~2.0 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29900360107422,
+            "x1": 369.1765441894531,
+            "y0": 90.72692108154297,
+            "y1": 123.25482177734375
+          },
+          "actual": "1.1cm/33px/~2.0 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "3.1 Araştırma Materyali öncesi 1.1cm/33px/~2.0 satır; beklenen 12 nk",
+          "location": {
+            "x0": 106.29900360107422,
+            "x1": 369.1765441894531,
+            "y0": 90.72692108154297,
+            "y1": 123.25482177734375
+          },
+          "actual": "1.1cm/33px/~2.0 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "3.1 Araştırma Materyali sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29900360107422,
+            "x1": 524.34814453125,
+            "y0": 134.21372985839844,
+            "y1": 143.57882690429688
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.1.1 Veri Kaynakları öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86600494384766,
+            "x1": 202.35377502441406,
+            "y0": 195.1857147216797,
+            "y1": 212.52081298828125
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.1.1 Veri Kaynakları sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29900360107422,
+            "x1": 524.3809204101562,
+            "y0": 223.47972106933594,
+            "y1": 236.82981872558594
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.2 Yöntem öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 481.1590576171875,
+            "y0": 500.8197021484375,
+            "y1": 522.1387939453125
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "3.2 Yöntem sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.2933349609375,
+            "y0": 533.0977172851562,
+            "y1": 542.4628295898438
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.2.1 Model Kurulumu öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 418.06585693359375,
+            "y0": 573.7457275390625,
+            "y1": 591.080810546875
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.2.1 Model Kurulumu sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3480224609375,
+            "y0": 602.0397338867188,
+            "y1": 615.3898315429688
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 17,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 3.1. Uzun şekil açıklamasında list sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 481.1590576171875,
+            "y0": 464.3832702636719,
+            "y1": 489.8608093261719
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 17,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Şekil 3.1, veri veya yöntem akışını göst sonrası 0.8cm/21px/~1.3 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 481.1590576171875,
+            "y0": 500.8197021484375,
+            "y1": 522.1387939453125
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 18,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 10.9
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 8.4
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 10,
+        "Calibri-Bold / 11 pt": 2,
+        "CMEX10, CMMI10, CMMI8, CMR10, CMR8 / 10 pt": 1,
+        "CMR10, CMMI10, CMR8, CMMI8 / 10 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 7,
+        "expected_font_line_count": 7,
+        "expected_size_line_count": 7,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 23.9,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 1.6,
+        "approx_blank_enter_max": 8.7,
+        "large_gap_count": 7,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 1.4,
+            "approx_blank_enter": 2.4,
+            "before": "örnektir.",
+            "after": "b y t = β 0 + β 1 x 1 t + β 2 x 2 t"
+          },
+          {
+            "visible_gap_cm": 0.4,
+            "approx_blank_enter": 0.7,
+            "before": "b y t = β 0 + β 1 x 1 t + β 2 x 2 t",
+            "after": "+ β 3 x 3 t + ε t"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "(3.2)",
+            "after": "3.2.2 Analiz Süreci"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "3.2.2 Analiz Süreci",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "3.3 Yatay Tablo ve Şekil Örnekleri",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.2. Çok satırlı şekil açıklamalarında hizalama örneği",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 5.1 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 3.2’de yöntemin iş akışı gösterilmektedir. Şekil açıklamaları nokta ile bitirilmemel",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 18,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.2.2 Analiz Süreci öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 106.29898071289062,
+            "x1": 524.403076171875,
+            "y0": 175.9767303466797,
+            "y1": 193.31182861328125
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 18,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.2.2 Analiz Süreci sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29898071289062,
+            "x1": 524.3372192382812,
+            "y0": 204.27073669433594,
+            "y1": 217.62083435058594
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 18,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "3.3 Yatay Tablo ve Şekil Örnekleri öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 285.72625732421875,
+            "y0": 460.7087097167969,
+            "y1": 482.02880859375
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 18,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "3.3 Yatay Tablo ve Şekil Örnekleri sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3590698242188,
+            "y0": 492.9877014160156,
+            "y1": 502.3528137207031
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 18,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 3.2. Çok satırlı şekil açıklamalar sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3590087890625,
+            "y0": 403.9492492675781,
+            "y1": 429.4258117675781
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 19,
+      "overall_status": "ok",
+      "page_kind": "no_body_text",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.7,
+        "right": 10.4,
+        "top": 12.0,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.7,
+        "right": 15.6,
+        "top": 12.0,
+        "bottom": 2.7
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.9
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 9.5
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 13.1
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 9.5
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.2
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 25,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 35.1,
+        "line_step_pt": 143.8,
+        "line_spacing_ratio": 8.7,
+        "approx_blank_enter_avg": 6.6,
+        "approx_blank_enter_max": 6.6,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 3.8,
+            "approx_blank_enter": 6.6,
+            "before": "Örnek 3",
+            "after": "Tablo 3.1. Yatay sayfada tablo örneği"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 3.1. Yatay sayfada tablo örneği",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 3.8 cm"
+          ]
+        }
+      ],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 20,
+      "overall_status": "ok",
+      "page_kind": "no_body_text",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 3.7,
+        "right": 3.3,
+        "top": 2.5,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 3.7,
+        "right": 3.3,
+        "top": 2.5,
+        "bottom": 26.9
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 1.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 1.2
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 24.4
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 2
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": null,
+        "line_step_pt": null,
+        "line_spacing_ratio": null,
+        "approx_blank_enter_avg": null,
+        "approx_blank_enter_max": null,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 3.1, geniş içerikli tabloların yatay sayfada nasıl verilebileceğini gösteren bir örn",
+          "status": "tolerance",
+          "notes": [
+            "sonra bosluk 25.4 cm"
+          ]
+        }
+      ],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 21,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "main",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 3.1
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 0.6
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 15,
+        "Calibri-Bold / 11 pt": 4,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 14,
+        "expected_font_line_count": 14,
+        "expected_size_line_count": 14,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 24.3,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 1.6,
+        "approx_blank_enter_max": 14.1,
+        "large_gap_count": 10,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "4. BULGULAR",
+            "after": "Bulgular bölümünde, materyal ve metot bölümünde açıklanan yöntemlerle elde edile"
+          },
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "bırakılmalıdır.",
+            "after": "4.1 Bulguların Genel Değerlendirilmesi"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "hipotezlerle aynı sırayı izleyecek biçimde düzenlenebilir.",
+            "after": "4.1.1 Birinci Veri Seti"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "4. BULGULAR",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "4.1 Bulguların Genel Değerlendirilmesi",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "4.1.1 Birinci Veri Seti",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "4.1.2 İkinci Veri Seti",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 4.1. Çok satırlı bir şekil başlığı için hizalama örneği",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 8.2 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 4.1’de bulguları görselleştirmek için kullanılabilecek bir şekil düzeni verilmiştir.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 4.1, bulguların tablo içinde nasıl düzenlenebileceğini gösteren kısa bir örnektir.",
+          "status": "tolerance",
+          "notes": [
+            "sonra bosluk 1.6 cm"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 21,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "4. BULGULAR sonrası 0.7cm/21px/~1.2 satır; beklenen 6 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.3341674804688,
+            "y0": 90.72692108154297,
+            "y1": 111.29981994628906
+          },
+          "actual": "0.7cm/21px/~1.2 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "4.1 Bulguların Genel Değerlendirilmesi öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 284.1401062011719,
+            "y0": 162.90672302246094,
+            "y1": 184.226806640625
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "4.1 Bulguların Genel Değerlendirilmesi sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 356.655029296875,
+            "y0": 195.1857147216797,
+            "y1": 204.55081176757812
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "4.1.1 Birinci Veri Seti öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 317.4522399902344,
+            "y0": 235.8327178955078,
+            "y1": 253.16781616210938
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "4.1.1 Birinci Veri Seti sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3809204101562,
+            "y0": 264.126708984375,
+            "y1": 277.476806640625
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "4.1.2 İkinci Veri Seti öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.4219360351562,
+            "y0": 308.7597351074219,
+            "y1": 326.0948181152344
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "4.1.2 İkinci Veri Seti sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.337158203125,
+            "y0": 337.0537109375,
+            "y1": 350.40380859375
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 21,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 4.1. Çok satırlı bir şekil başlığı sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 474.090576171875,
+            "y0": 697.48828125,
+            "y1": 722.96484375
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 21,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "ok",
+          "owner": "template",
+          "message": "Şekil 4.1’de bulguları görselleştirmek i sonrası 0.3cm/9px/~0.6 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 479.6029052734375,
+            "y0": 733.9237670898438,
+            "y1": 743.288818359375
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 22,
+      "overall_status": "tolerance",
+      "page_kind": "no_body_text",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 10.3,
+        "top": 13.5,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 10.3,
+        "top": 13.5,
+        "bottom": 13.5
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 11.0
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 11.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 11.0
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 17,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 10.9,
+        "line_step_pt": 13.7,
+        "line_spacing_ratio": 0.8,
+        "approx_blank_enter_avg": 0.4,
+        "approx_blank_enter_max": 0.8,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.8,
+            "before": "Tablo 4.1. Bulgular bölümünde örnek tablo",
+            "after": "Kolon A"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 4.1. Bulgular bölümünde örnek tablo",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 22,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 4.1. Bulgular bölümünde örnek tabl sonrası 0.5cm/13px/~0.8 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 261.26513671875,
+            "y0": 392.65826416015625,
+            "y1": 406.0981750488281
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 23,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 3.8
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 1.3
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 14,
+        "Calibri-Bold / 11 pt": 5,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri, Calibri-Bold / 11 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 12,
+        "expected_font_line_count": 12,
+        "expected_size_line_count": 12,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 22.3,
+        "line_spacing_ratio": 1.4,
+        "approx_blank_enter_avg": 1.3,
+        "approx_blank_enter_max": 10.0,
+        "large_gap_count": 10,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "5. TARTIŞMA",
+            "after": "Tartışma bölümü, bulguların yalnızca tekrar edildiği bir bölüm olmamalıdır. Bu b"
+          },
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "anlamı, literatürle ilişkisi, beklenen veya beklenmeyen yönleri ve çalışmanın sı",
+            "after": "5.1 Çalışmanın Uygulama Alanı"
+          },
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "durumlarda dikkatli yorumlanması gerektiği açıklanır.",
+            "after": "5.2 Bulguların Literatürle Karşılaştırılması"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "5. TARTIŞMA",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "5.1 Çalışmanın Uygulama Alanı",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "5.2 Bulguların Literatürle Karşılaştırılması",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "5.2.1 Yöntemin Sınırlılıkları",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 5.1. Tartışma bölümünde kullanılabilecek örnek şekil",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 5.8 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 5.1’de tartışma kapsamında kullanılabilecek bir görsel örneği verilmiştir.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 5.1, tartışma bölümünde sayısal özetlerin nasıl verilebileceğini göstermektedir.",
+          "status": "tolerance",
+          "notes": [
+            "sonra bosluk 2.3 cm"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 23,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "5. TARTIŞMA sonrası 0.7cm/21px/~1.2 satır; beklenen 6 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.257568359375,
+            "y0": 90.72692108154297,
+            "y1": 111.29981994628906
+          },
+          "actual": "0.7cm/21px/~1.2 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "5.1 Çalışmanın Uygulama Alanı öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 498.7781677246094,
+            "y0": 142.5827178955078,
+            "y1": 163.90281677246094
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "5.1 Çalışmanın Uygulama Alanı sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.2713623046875,
+            "y0": 174.86172485351562,
+            "y1": 184.226806640625
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "5.2 Bulguların Literatürle Karşılaştırıl öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 305.46319580078125,
+            "y0": 215.5097198486328,
+            "y1": 236.82980346679688
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "5.2 Bulguların Literatürle Karşılaştırıl sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3152465820312,
+            "y0": 247.78871154785156,
+            "y1": 257.1528015136719
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "5.2.1 Yöntemin Sınırlılıkları öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 342.1840515136719,
+            "y0": 288.4356994628906,
+            "y1": 305.77081298828125
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "5.2.1 Yöntemin Sınırlılıkları sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29901123046875,
+            "x1": 524.3699951171875,
+            "y0": 316.7297058105469,
+            "y1": 330.0798034667969
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 23,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 5.1. Tartışma bölümünde kullanılab sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 445.66314697265625,
+            "y0": 676.414306640625,
+            "y1": 701.8908081054688
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 23,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "ok",
+          "owner": "template",
+          "message": "Şekil 5.1’de tartışma kapsamında kullanı sonrası 0.3cm/9px/~0.6 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 479.3946533203125,
+            "y0": 712.8497314453125,
+            "y1": 722.2138061523438
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "12 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 24,
+      "overall_status": "tolerance",
+      "page_kind": "no_body_text",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 10.3,
+        "top": 13.5,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 10.3,
+        "top": 13.5,
+        "bottom": 13.5
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 11.0
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.8
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 11.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 11.0
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 17,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 10.9,
+        "line_step_pt": 13.7,
+        "line_spacing_ratio": 0.8,
+        "approx_blank_enter_avg": 0.4,
+        "approx_blank_enter_max": 0.8,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.8,
+            "before": "Tablo 5.1. Tartışma bölümünde örnek tablo",
+            "after": "Kolon A"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 5.1. Tartışma bölümünde örnek tablo",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 24,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 5.1. Tartışma bölümünde örnek tabl sonrası 0.5cm/13px/~0.8 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 262.4760437011719,
+            "y0": 392.65826416015625,
+            "y1": 406.0981750488281
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 25,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 3.9
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 1.4
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 26,
+        "Calibri-Bold / 11 pt": 4,
+        "Calibri-Bold, Calibri / 11 pt": 2,
+        "Calibri-Bold / 14 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 9,
+        "expected_font_line_count": 9,
+        "expected_size_line_count": 9,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 10.9,
+        "line_step_pt": 24.3,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 1.4,
+        "approx_blank_enter_max": 12.4,
+        "large_gap_count": 11,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "6. SONUÇ VE ÖNERİLER",
+            "after": "Bu bölümde çalışmanın temel sonuçları kısa, açık ve bütünlüklü biçimde sunulur. "
+          },
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "ayrıntılar tekrar edilmemeli; araştırma sorularına verilen yanıtlar öne çıkarılm",
+            "after": "6.1 Sonuçların Değerlendirilmesi"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "okuyucuya çalışmanın bilimsel katkısını toplu olarak göstermelidir.",
+            "after": "6.1.1 Araştırma Bulgularına Dayalı Sonuçlar"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 1,
+          "text": "6. SONUÇ VE ÖNERİLER",
+          "status": "tolerance",
+          "notes": [
+            "11 pt yerine 13.9 pt"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "6.1 Sonuçların Değerlendirilmesi",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        },
+        {
+          "kind": "numbered_heading",
+          "level": 3,
+          "text": "6.1.1 Araştırma Bulgularına Dayalı Sonuçlar",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "sekil",
+          "text": "Şekil 6.1. Sonuç bölümünde örnek şekil",
+          "status": "tolerance",
+          "notes": [
+            "once bosluk 7.2 cm"
+          ]
+        },
+        {
+          "kind": "sekil",
+          "text": "Şekil 6.1, sonuç bölümünde kullanılabilecek özet bir görsel için yer tutucu olarak verilmi",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        },
+        {
+          "kind": "tablo",
+          "text": "Tablo 6.1. Sonuç bölümünde örnek tablo",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 25,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "6. SONUÇ VE ÖNERİLER sonrası 0.7cm/21px/~1.2 satır; beklenen 6 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 524.2575073242188,
+            "y0": 90.72692108154297,
+            "y1": 111.29981994628906
+          },
+          "actual": "0.7cm/21px/~1.2 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 25,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "6.1 Sonuçların Değerlendirilmesi öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 436.3124694824219,
+            "y0": 142.5827178955078,
+            "y1": 163.90281677246094
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 25,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "6.1 Sonuçların Değerlendirilmesi sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3152465820312,
+            "y0": 174.86172485351562,
+            "y1": 184.226806640625
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 25,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "6.1.1 Araştırma Bulgularına Dayalı Sonuç öncesi 0.6cm/17px/~1.1 satır; beklenen 12 nk",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 362.4165954589844,
+            "y0": 215.5097198486328,
+            "y1": 232.84481811523438
+          },
+          "actual": "0.6cm/17px/~1.1 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 25,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "6.1.1 Araştırma Bulgularına Dayalı Sonuç sonrası 0.5cm/13px/~0.8 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.3479614257812,
+            "y0": 243.80372619628906,
+            "y1": 257.15283203125
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 25,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Şekil 6.1. Sonuç bölümünde örnek şekil sonrası 0.9cm/25px/~1.5 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 508.7207336425781,
+            "y0": 602.4332885742188,
+            "y1": 627.9098510742188
+          },
+          "actual": "0.9cm/25px/~1.5 satır",
+          "expected": "12 pt"
+        },
+        {
+          "page": 25,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "Tablo 6.1. Sonuç bölümünde örnek tablo sonrası 0.5cm/13px/~0.8 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 251.53424072265625,
+            "y0": 666.9912719726562,
+            "y1": 680.43115234375
+          },
+          "actual": "0.5cm/13px/~0.8 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 26,
+      "overall_status": "check",
+      "page_kind": "regular",
+      "page_part": "front",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.5,
+        "bottom": 24.3
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 21.8
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 4,
+        "Calibri-Bold / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 2,
+        "expected_font_line_count": 2,
+        "expected_size_line_count": 2,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 20.3,
+        "line_spacing_ratio": 1.2,
+        "approx_blank_enter_avg": 0.8,
+        "approx_blank_enter_max": 1.3,
+        "large_gap_count": 1,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.8,
+            "approx_blank_enter": 1.3,
+            "before": "Tablo 6.1, sonuçların özetlenmesi için kullanılabilecek basit bir tablo düzenidi",
+            "after": "6.2 Öneriler"
+          }
+        ]
+      },
+      "heading_checks": [
+        {
+          "kind": "numbered_heading",
+          "level": 2,
+          "text": "6.2 Öneriler",
+          "status": "ok",
+          "notes": [
+            "alt baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [
+        {
+          "kind": "tablo",
+          "text": "Tablo 6.1, sonuçların özetlenmesi için kullanılabilecek basit bir tablo düzenidir.",
+          "status": "ok",
+          "notes": [
+            "sekil/tablo gosterimi kabul edilebilir"
+          ]
+        }
+      ],
+      "rule_findings": [
+        {
+          "page": 26,
+          "rule_id": "subheading_before_gap",
+          "title": "Alt başlık öncesi boşluk",
+          "status": "tolerance",
+          "owner": "template",
+          "message": "6.2 Öneriler öncesi 0.8cm/21px/~1.3 satır; beklenen 12 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 451.59197998046875,
+            "y0": 80.69672393798828,
+            "y1": 102.0168228149414
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "12 nk"
+        },
+        {
+          "page": 26,
+          "rule_id": "subheading_after_gap",
+          "title": "Alt başlık sonrası boşluk",
+          "status": "ok",
+          "owner": "template",
+          "message": "6.2 Öneriler sonrası 0.3cm/9px/~0.6 satır; beklenen 6 nk",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 524.315185546875,
+            "y0": 112.97572326660156,
+            "y1": 122.3408203125
+          },
+          "actual": "0.3cm/9px/~0.6 satır",
+          "expected": "6 nk"
+        },
+        {
+          "page": 26,
+          "rule_id": "caption_adjacent_gap",
+          "title": "Şekil/tablo başlığı boşluğu",
+          "status": "check",
+          "owner": "template",
+          "message": "Tablo 6.1, sonuçların özetlenmesi için k sonrası 0.8cm/21px/~1.3 satır",
+          "location": {
+            "x0": 106.29899597167969,
+            "x1": 451.59197998046875,
+            "y0": 80.69672393798828,
+            "y1": 102.0168228149414
+          },
+          "actual": "0.8cm/21px/~1.3 satır",
+          "expected": "6 pt"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 27,
+      "overall_status": "check",
+      "page_kind": "no_body_text",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 9.9,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 9.9,
+        "top": 2.7,
+        "bottom": 25.1
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.4
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 7.4
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 22.6
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold, Calibri / 11 pt": 3,
+        "Calibri-Bold / 14 pt": 1,
+        "Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 13.6,
+        "line_spacing_ratio": 0.8,
+        "approx_blank_enter_avg": 0.2,
+        "approx_blank_enter_max": 0.2,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [
+        {
+          "kind": "main_heading",
+          "text": "EKLER",
+          "status": "ok",
+          "notes": [
+            "ana baslik kurallari saglaniyor"
+          ]
+        }
+      ],
+      "caption_checks": [],
+      "rule_findings": [
+        {
+          "page": 27,
+          "rule_id": "main_heading_after_gap",
+          "title": "Ana başlık sonrası boşluk",
+          "status": "check",
+          "owner": "template",
+          "message": "EKLER sonrası 0.1cm/2px/~0.1 satır; beklenen yaklaşık 1 satır",
+          "location": {
+            "x0": 70.86599731445312,
+            "x1": 315.1398010253906,
+            "y0": 90.72692108154297,
+            "y1": 92.56982421875
+          },
+          "actual": "0.1cm/2px/~0.1 satır",
+          "expected": "1 satır"
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "page": 28,
+      "overall_status": "unknown",
+      "page_kind": "blank",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": null,
+      "margins_body_cm": null,
+      "margins_all_check": {},
+      "margins_body_check": {},
+      "font_summary": {},
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": null,
+        "line_step_pt": null,
+        "line_spacing_ratio": null,
+        "approx_blank_enter_avg": null,
+        "approx_blank_enter_max": null,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 29,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 4.8,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 4.8,
+        "top": 2.7,
+        "bottom": 14.0
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 2.3
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 2.3
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 11.5
+        }
+      },
+      "font_summary": {
+        "Calibri-Bold / 11 pt": 7,
+        "Calibri / 11 pt": 6,
+        "Calibri-Bold, Calibri / 11 pt": 3,
+        "Calibri, Calibri-Italic / 11 pt": 2
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 12,
+        "expected_font_line_count": 12,
+        "expected_size_line_count": 12,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 25.5,
+        "line_spacing_ratio": 1.5,
+        "approx_blank_enter_avg": 0.9,
+        "approx_blank_enter_max": 1.9,
+        "large_gap_count": 10,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 1.1,
+            "approx_blank_enter": 1.9,
+            "before": "EK‐1 Özgeçmiş",
+            "after": "Adı Soyadı: Adı SOYADI"
+          },
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "E‐posta: ogrenci@inonu.edu.tr",
+            "after": "Öğrenim Durumu"
+          },
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.3,
+            "before": "Mezuniyet yılı, Üniversite, Enstitü, Anabilim Dalı, Program",
+            "after": "Mesleki Deneyimler ve Ödüller"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 30,
+      "overall_status": "unknown",
+      "page_kind": "blank",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": null,
+      "margins_body_cm": null,
+      "margins_all_check": {},
+      "margins_body_check": {},
+      "font_summary": {},
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": null,
+        "line_step_pt": null,
+        "line_spacing_ratio": null,
+        "approx_blank_enter_avg": null,
+        "approx_blank_enter_max": null,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 31,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 21.7
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 19.2
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 20,
+        "Calibri-Bold / 11 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 3,
+        "expected_font_line_count": 3,
+        "expected_size_line_count": 3,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 10.9,
+        "line_step_pt": 13.5,
+        "line_spacing_ratio": 0.8,
+        "approx_blank_enter_avg": 0.4,
+        "approx_blank_enter_max": 1.2,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.7,
+            "approx_blank_enter": 1.2,
+            "before": "ek numarasıyla birlikte verilir.",
+            "after": "Tablo EK‐2.1. Ekler bölümünde tablo örneği"
+          },
+          {
+            "visible_gap_cm": 0.6,
+            "approx_blank_enter": 1.1,
+            "before": "Tablo EK‐2.1. Ekler bölümünde tablo örneği",
+            "after": "Kolon A"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 32,
+      "overall_status": "unknown",
+      "page_kind": "blank",
+      "page_part": "other",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": null,
+      "margins_body_cm": null,
+      "margins_all_check": {},
+      "margins_body_check": {},
+      "font_summary": {},
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 0,
+        "expected_font_line_count": 0,
+        "expected_size_line_count": 0,
+        "expected_font_ratio": null,
+        "expected_size_ratio": null,
+        "font_status": "unknown",
+        "size_status": "unknown",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": null,
+        "line_step_pt": null,
+        "line_spacing_ratio": null,
+        "approx_blank_enter_avg": null,
+        "approx_blank_enter_max": null,
+        "large_gap_count": 0,
+        "sample_gaps": []
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    },
+    {
+      "page": 33,
+      "overall_status": "ok",
+      "page_kind": "regular",
+      "page_part": "back",
+      "page_size_cm": {
+        "width": 21.0,
+        "height": 29.7
+      },
+      "page_size_check": {
+        "expected_width_cm": 21.0,
+        "expected_height_cm": 29.7,
+        "width_status": "ok",
+        "height_status": "ok",
+        "width_diff_cm": 0.0,
+        "height_diff_cm": 0.0
+      },
+      "margins_all_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 1.1
+      },
+      "margins_body_cm": {
+        "left": 2.5,
+        "right": 2.5,
+        "top": 2.7,
+        "bottom": 17.3
+      },
+      "margins_all_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "check",
+          "diff_cm": -1.4
+        }
+      },
+      "margins_body_check": {
+        "left": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "right": {
+          "status": "ok",
+          "diff_cm": 0.0
+        },
+        "top": {
+          "status": "ok",
+          "diff_cm": 0.2
+        },
+        "bottom": {
+          "status": "ok",
+          "diff_cm": 14.8
+        }
+      },
+      "font_summary": {
+        "Calibri / 11 pt": 4,
+        "Calibri-Bold / 11 pt": 1,
+        "CMMI10, CMMI8, CMR10, CMR8, CMSY8 / 9 pt": 1,
+        "Calibri-Bold, Calibri / 11 pt": 1
+      },
+      "body_font_size_estimate": 11,
+      "body_font_check": {
+        "body_candidate_line_count": 2,
+        "expected_font_line_count": 2,
+        "expected_size_line_count": 2,
+        "expected_font_ratio": 100.0,
+        "expected_size_ratio": 100.0,
+        "font_status": "ok",
+        "size_status": "ok",
+        "samples_non_expected_font": [],
+        "samples_non_expected_size": []
+      },
+      "spacing_check": {
+        "line_height_pt": 11.0,
+        "line_step_pt": 18.9,
+        "line_spacing_ratio": 1.1,
+        "approx_blank_enter_avg": 3.4,
+        "approx_blank_enter_max": 12.4,
+        "large_gap_count": 2,
+        "sample_gaps": [
+          {
+            "visible_gap_cm": 0.5,
+            "approx_blank_enter": 0.8,
+            "before": "unsur, ana metindeki konu ile doğrudan ilişkili olmalı ve metin içinde gerekli y",
+            "after": "y t = ϕ 1 y t − 1 + ϵ t"
+          },
+          {
+            "visible_gap_cm": 7.2,
+            "approx_blank_enter": 12.4,
+            "before": "(EK‐3.1)",
+            "after": "Şekil EK‐3.1. Ekler bölümünde şekil örneği"
+          }
+        ]
+      },
+      "heading_checks": [],
+      "caption_checks": [],
+      "rule_findings": [],
+      "gaps": []
+    }
+  ],
+  "summary": {
+    "page_count": 33,
+    "status_counts": {
+      "tolerance": 4,
+      "check": 13,
+      "ok": 12,
+      "unknown": 4
+    },
+    "page_kind_counts": {
+      "no_body_text": 10,
+      "regular": 18,
+      "official_form": 1,
+      "blank": 4
+    },
+    "page_part_counts": {
+      "cover": 2,
+      "official": 1,
+      "back": 7,
+      "front": 11,
+      "main": 2,
+      "other": 10
+    },
+    "blank_page_count": 4,
+    "page_number_only_count": 0,
+    "overall_status": "check"
+  }
+}

@@ -1,0 +1,172 @@
+%
+\usepackage{color}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[sfdefault]{carlito}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % Ana yazı tipi inonutez.cls içinde ayarlanır. Burada tekrar
+  % Calibri/Consolas araması yapılmaz; aksi halde Calibri bulunmayan
+  % sistemlerde XeLaTeX gereksiz font hatası verebilir.
+  \IfFontExistsTF{consola.ttf}{\setmonofont{consola.ttf}[BoldFont=consolab.ttf,ItalicFont=consolai.ttf,BoldItalicFont=consolaz.ttf,Scale=MatchLowercase]}{
+    \IfFontExistsTF{DejaVuSansMono.ttf}{\setmonofont{DejaVuSansMono.ttf}[Scale=MatchLowercase]}{}
+  }
+\fi
+\usepackage{amssymb,amsmath,amsbsy,bm}
+\usepackage{caption}            
+\usepackage{graphics}
+\usepackage{wrapfig}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{latexsym}  
+\usepackage{rotating}
+
+% ----------------------------------------------------------------
+% Tez genel preamble ayarlari. Ana tez.tex dosyasini sade tutmak
+% icin paketler, kaynakca destekleri ve dizin ayarlari burada.
+% ----------------------------------------------------------------
+\usepackage{afterpage}
+\usepackage{tocloft}
+\usepackage{graphicx}
+
+\makeatletter
+\renewcommand{\cftfigpagefont}{\bfseries}
+\renewcommand{\cfttabpagefont}{\bfseries}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+\setlength{\cftfigindent}{0pt}
+\renewcommand{\cftfigpresnum}{\bfseries Şekil }
+\setlength{\cftfignumwidth}{5.5em}
+\renewcommand{\cftfigaftersnum}{. }
+\renewcommand{\cftdotsep}{1}
+
+\setlength{\cfttabindent}{0pt}
+\renewcommand{\cfttabpresnum}{\bfseries Tablo }
+\setlength{\cfttabnumwidth}{5em}
+\renewcommand{\cfttabaftersnum}{. }
+
+\setlength{\cftchapnumwidth}{1.6em}
+\setlength{\cftsecnumwidth}{1.6em}
+\setlength{\cftsubsecnumwidth}{2.4em}
+\setlength{\cftsubsubsecnumwidth}{3.2em}
+
+\setlength{\cftpartindent}{0em}
+\setlength{\cftchapindent}{0em}
+\setlength{\cftsecindent}{1.1em}
+\setlength{\cftsubsecindent}{1.9em}
+\setlength{\cftsubsubsecindent}{2.7em}
+
+\setlength{\cftbeforechapskip}{1.055em}
+\setlength{\cftbeforesecskip}{0.035em}
+\setlength{\cftbeforesubsecskip}{0.035em}
+
+\setlength{\cfttabindent}{0em}
+\renewcommand{\cfttabpresnum}{\bfseries Tablo }
+\setlength{\cfttabnumwidth}{5.5em}
+\renewcommand{\cfttabaftersnum}{. }
+
+\newcommand{\dizinBaslikYazisi}{\sffamily\bfseries\fontsize{14}{16.8}\selectfont}
+\renewcommand{\contentsname}{\makebox[\textwidth][c]{\dizinBaslikYazisi \if@Ingilizce TABLE OF CONTENTS\else İÇİNDEKİLER\fi}}
+\renewcommand{\listfigurename}{\makebox[\textwidth][c]{\dizinBaslikYazisi \if@Ingilizce LIST OF FIGURES\else ŞEKİLLER DİZİNİ\fi}}
+\renewcommand{\listtablename}{\makebox[\textwidth][c]{\dizinBaslikYazisi \if@Ingilizce LIST OF TABLES\else TABLOLAR DİZİNİ\fi}}
+\newcommand{\dizinSayfaBasligi}{%
+  \par\nobreak
+  \vspace{0.5\baselineskip}%
+  \noindent\makebox[\textwidth][r]{\bfseries\underline{\if@Ingilizce Page\else Sayfa\fi}}%
+  \par\nobreak
+}
+\renewcommand\cfttoctitlefont{}
+\renewcommand\cftloftitlefont{}
+\renewcommand\cftlottitlefont{}
+\renewcommand\cftaftertoctitle{\dizinSayfaBasligi}
+\renewcommand\cftafterloftitle{\dizinSayfaBasligi}
+\renewcommand\cftafterlottitle{\dizinSayfaBasligi}
+\renewcommand{\cftaftertoctitleskip}{10pt}
+\renewcommand{\cftafterloftitleskip}{10pt}
+\renewcommand{\cftafterlottitleskip}{10pt}
+\makeatother
+
+% Kaynak stili documentclass icindeki apa veya num secenegi ile belirlenir.
+\makeatletter
+\if@APAStyle
+  \usepackage[style=apa, backend=biber, sortcites=true, maxnames=20, minnames=1, dashed=false]{biblatex}
+  \AtBeginBibliography{%
+    \oneandonehalf
+    \sffamily\normalsize\selectfont
+    \setlength{\bibhang}{1.25cm}%
+    \renewcommand*{\mkbibnamefamily}[1]{#1}%
+    \renewcommand*{\mkbibnamegiven}[1]{#1}%
+  }
+  \addbibresource{kaynaklar.bib}
+  \defbibheading{bibliography}{%
+    \makeatletter
+    \chapter*{\if@Ingilizce REFERENCES\else KAYNAKLAR\fi}
+    \addtocontents{toc}{\protect\addvspace{-10pt}}
+    \addcontentsline{toc}{chapter}{\bf{\if@Ingilizce REFERENCES\else KAYNAKLAR\fi}}
+    \makeatother
+    \sffamily\normalsize\selectfont
+  }
+\else
+  \providecommand{\parencite}[1]{\cite{#1}}
+  \providecommand{\textcite}[1]{\cite{#1}}
+\fi
+\makeatother
+
+% BEGIN TEZ_GUI_THEOREM_ENVIRONMENTS
+\usepackage{amsthm}
+\makeatletter
+\renewcommand{\proofname}{\if@Ingilizce Proof\else İspat\fi}
+\makeatother
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Önerme}
+\newtheorem{corollary}[theorem]{Sonuç}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Tanım}
+\newtheorem{example}[theorem]{Örnek}
+\newtheorem{problem}[theorem]{Problem}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Uyarı}
+% END TEZ_GUI_THEOREM_ENVIRONMENTS
+
+\def\be{\begin{equation}} %
+\def\ee{\end{equation}}%
+\def\beq{\begin{eqnarray}}%
+\def\eeq{\end{eqnarray}}%
+\def\bse{\begin{subequations}}%
+\def\ese{\end{subequations}}%
+\def\nonu{\nonumber}%
+\def\psibar{\overline{\psi}} %
+\def\Delslash{\partial\!\!\!\!\!/}%
+\def\Gslash{G\!\!\!\!\!/}%
+\def\Lmbdslash{\lambda\!\!\!\!\!/}%
+\def\Jslash{J\!\!\!\!\!/}%
+\def\pslash{p\!\!\!\!/}%
+\def\qslash{q\!\!\!\!/}%
+\def\kslash{k\!\!\!\!/}%
+\def\lb{\left[}
+\def\rb{\right]}
+\def\lp{\left(}
+\def\rp{\right)}
+
+\def\Lag{{\cal L}}    % 
+\def\D{{\cal D}}      % 
+\def\H{{\cal H}}      % 
+\def\Z{{\cal Z}}      % 
+\def\S{{\textbf{S}}}  % 
+\def\d{{\rm d}}%
+\def\dt{{\rm{dt}}}%
+\def\Tr{{\rm{Tr}}}%
+\def\gm{\gamma^{\mu}}
+\def\ga{\gamma^{\alpha}}
+\def\gb{\gamma^{\beta}}
+\def\gn{\gamma^{\nu}}
+\def\gs{\gamma^{\sigma}}
+\def\gl{\gamma^{\lambda}}
+\def\gr{\gamma^{\rho}}
+\def\gd{\gamma^{\delta}}

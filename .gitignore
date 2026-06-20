@@ -1,0 +1,44 @@
+# Local archive kept outside the Git project payload
+/git_disinda_tutulacaklar/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex
+*.synctex.gz
+*.toc
+*.xdv
+
+# Generated delivery/build folders
+teslim/
+.tez-gui-yedekler/
+donusturulen_tezler/
+sample_thesis_adapted/
+
+# Local legacy thesis corpus and developer-only publishing tools
+Eski-Sablon-Tezleri/
+developer_tools/
+github_yayin_gui.py
+github_yayin_gui_baslat.bat
+githuba-yayinla.ps1
+
+# Generated adaptation reports
+sample_thesis_adaptation_report.json
+sample_thesis_adaptation_report.md
+
+# Local user thesis data
+tez-bilgileri.json
+

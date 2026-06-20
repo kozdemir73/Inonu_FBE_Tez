@@ -1,0 +1,107 @@
+{
+  "yazar": [
+    "Öğrenci Adı",
+    "SOYADI"
+  ],
+  "ogrencino": [
+    "123456789"
+  ],
+  "unvan": [
+    "(Varsa Unvan)"
+  ],
+  "anabilimdali": [
+    "Matematik Anabilim Dalı",
+    "Department of Mathematics"
+  ],
+  "programi": [
+    "Matematik Programı",
+    "Mathematics Programme"
+  ],
+  "tarih": [
+    "TEZİN SAVUNULDUĞU AY YIL",
+    "MONTH YEAR OF DEFENSE"
+  ],
+  "tarihKucuk": [
+    "Tezin savunulduğu ay yıl",
+    "Month year of defense"
+  ],
+  "tezyoneticisi": [
+    "Prof. Dr. Adı SOYADI",
+    "İnönü Üniversitesi"
+  ],
+  "tezyoneticisiENG": [
+    "Prof. Dr. Name SURNAME",
+    "Inonu University"
+  ],
+  "esdanismani": [
+    "",
+    ""
+  ],
+  "esdanismaniENG": [
+    "Assoc. Prof. Dr. Name SURNAME",
+    "Inonu University"
+  ],
+  "baslik": [
+    "İNÖNÜ ÜNİVERSİTESİ TEZ ŞABLONU -- TEZ BAŞLIĞININ 1. SATIRI",
+    "GEREKLİYSE 2. SATIR - TEZ BAŞLIĞI TEZ BAŞLIĞI",
+    "GEREKLİYSE 3. SATIR, EN FAZLA ÜÇ SATIRA SIĞDIRINIZ"
+  ],
+  "title": [
+    "INONU UNIVERSITY THESIS TEMPLATE -- 1st LINE OF THESIS TITLE",
+    "2nd LINE IF NECESSARY - THESIS TITLE THESIS TITLE",
+    "3rd LINE IF NECESSARY, FIT AT MOST THREE LINES"
+  ],
+  "tezvermetarih": [
+    "22 Eylül 2024",
+    "22 September 2024"
+  ],
+  "tezsavunmatarih": [
+    "21 Aralık 2024",
+    "21 December 2024"
+  ],
+  "kapakyili": [
+    "2025"
+  ],
+  "kapaksehri": [
+    "MALATYA"
+  ],
+  "oy": [
+    "oy birliği"
+  ],
+  "yonetimkurulukarar": [
+    "GG/AA/YYYY",
+    "YYYY/KK"
+  ],
+  "juriBir": [
+    "Prof. Dr. Adı SOYADI",
+    "İnönü Üniversitesi"
+  ],
+  "juriIki": [
+    "Prof. Dr. Adı SOYADI",
+    "Fırat Üniversitesi"
+  ],
+  "juriUc": [
+    "Prof. Dr. Adı SOYADI",
+    "Malatya Turgut Özal Üniversitesi"
+  ],
+  "juriDort": [
+    "Doç. Dr. Adı SOYADI",
+    "İnönü Üniversitesi"
+  ],
+  "juriBes": [
+    "Doç. Dr. Adı SOYADI",
+    "İnönü Üniversitesi"
+  ],
+  "EnstituMuduru": [
+    "Prof. Dr. Adı SOYADI"
+  ],
+  "anahtarkelimeler": [
+    "Anahtar Kelime, LaTeX, Tez"
+  ],
+  "keywords": [
+    "Keyword, LaTeX, Thesis"
+  ],
+  "bapdestegi": [
+    ""
+  ]
+}

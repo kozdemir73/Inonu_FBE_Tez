@@ -1,0 +1,9 @@
+{
+  "user_words": {
+    "tr": [],
+    "en": []
+  },
+  "ignored_findings": [
+    "ozgecmis.tex|29|örnek/placeholder metin kalmış olabilir.|xxxxx"
+  ]
+}

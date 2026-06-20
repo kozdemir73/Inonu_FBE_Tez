@@ -1,0 +1,211 @@
+﻿% !TeX program = xelatex
+% !TeX encoding = UTF-8 Unicode
+
+
+
+% ---------------------------------------------------------------- %
+% Inonu University FBE Thesis Template - 2025 APA Version           %
+%                                                                  %
+% Adapted for the 2025 thesis writing guide.                       %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% Fill the metadata commands below before writing the thesis text.  %
+%                                                                  %
+% Based on the Inonu FBE LaTeX thesis template.                    %
+%                                                                  %
+% Inonu University Graduate School of Natural and Applied Sciences  %
+% Malatya, Turkey                                                  %
+% https://fenbilimleri.inonu.edu.tr                                         %
+% ---------------------------------------------------------------- %
+% ------------------------------------------------------------------------------------------------ %
+% Main official citation style: APA 7.
+% Local adaptation: Inonu FBE 2025 thesis writing guide.           %
+% ------------------------------------------------------------------------------------------------ %
+
+% ---------------------------------------------------------------- %
+% documentclass options used here:
+% [turkce,yukseklisans,bez,fenbilimleri]
+% Doktora tezi icin yukseklisans yerine doktora secenegi kullanilmali
+% ve ilgili metadata alanlari buna gore doldurulmalidir.
+% ---------------------------------------------------------------- %
+\documentclass[bez,fenbilimleri,doktora,num,turkce]{inonutez}
+\providecommand{\ondalikayirici}[1]{}
+\ondalikayirici{nokta}
+\providecommand{\sayfaduzeni}[1]{}
+\sayfaduzeni{tek}
+% ---------------------------------------------------------------- %
+% Pay attention to letter case. The structure is case sensitive    %
+% {Name}{SURNAME} means first letter of name is capital and that   %
+% all letters of surname are capital.                              %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% No titles, only Name and SURNAME must be written.      	   %
+% ---------------------------------------------------------------- %
+\yazar{}{ÖĞRENCİ SOYADI}
+\ogrencino{}
+
+% ---------------------------------------------------------------- %
+% If you do not use the structure, do not delete it. Just delete   %
+% the argument. \unvan{} means title.                              %
+% ---------------------------------------------------------------- %
+\unvan{}
+ 
+% ---------------------------------------------------------------- %
+% For below, the first argument for Turkish, the second is for     %
+% English.       						   %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% Only the first letters of words must be capital.		   %
+% ---------------------------------------------------------------- %
+\anabilimdali{Matematik Anabilim Dalı}{Department of Mathematics}
+\programi{}{Anabilim dalından otomatik doldurulur Programme}
+
+% ---------------------------------------------------------------- %
+% For paperback version, the submission date to the faculty. For   %
+% hardcover (indigo/black) version, date of defense.		   %
+% ---------------------------------------------------------------- %
+
+\tarih{ARALIK 2024}{DECEMBER 2024}
+\tarihKucuk{aralık 2024}{december 2024}
+
+% ---------------------------------------------------------------- %
+% Thesis advisor, title, thesis submission date, defense date      %
+% ---------------------------------------------------------------- %
+
+% ---------------------------------------------------------------- %
+% Add advisor information 
+% \tezyoneticisi{}{}
+% \tezyoneticisiTR{}{}  --this is required for Turkish cover page fill this in Turkish 
+% %
+% ---------------------------------------------------------------- %
+\tezyoneticisi{}{}
+\tezyoneticisiENG{}{}
+\bapdestegi{FBA-2026-1234}
+
+% ---------------------------------------------------------------- %
+% coadvisor information. If you do not use this,     %
+% leave the corresponding arguments blank such as                  %
+% \ikincitezdanismani{}{} 					           %
+% \esdanismaniTR{}{}   --this is required for Turkish cover page fill this in Turkish  %
+% ---------------------------------------------------------------- %
+\ikincitezdanismani{Varsa ikinci tez danışmanı}{Varsa ikinci tez danışmanı kurumu}
+\ikincitezdanismaniENG{İkinci tez danışmanından otomatik doldurulur}{İkinci tez danışmanı kurumundan otomatik doldurulur}
+
+%Adjust the your thesis title
+\baslik{TEZ BAŞLIĞI 1. SATIR}{GEREKLİYSE 2. SATIR}{GEREKLİYSE 3. SATIR}
+
+\title{}{}{}
+
+
+
+
+
+
+
+% ---------------------------------------------------------------- %
+% The date of submission of the paperback to the department.	   %
+% ---------------------------------------------------------------- %
+\tezvermetarih{Eylül 2024}{September 2024}
+
+\tezsavunmatarih{Aralık 2024}{December 2024}
+\kapakyili{2025}
+\kapaksehri{MALATYA}
+\oy{Oy birliği}
+\yonetimkurulukarar{22 Eylül 2024}{2024/12}
+
+% ---------------------------------------------------------------- %
+% coadvisor and jury information. If you do not use all items,     %
+% leave the corresponding arguments blank such as                  %
+% \ikincitezdanismani{}{} 					           %
+% ---------------------------------------------------------------- %
+
+
+
+\juriBir{}{İnönü Üniversitesi}
+
+\juriIki{Jüri 2 Adı Soyadı}{}
+
+\juriUc{Jüri 3 Adı Soyadı}{}
+
+\juriDort{}{İnönü Üniversitesi}
+
+\juriBes{}{İnönü Üniversitesi}
+
+\input defs.tex
+\usepackage{docmute}
+
+% ---------------------------------------------------------------- %
+% For dedication page. Leave the argument blank if not used.	   %
+% ---------------------------------------------------------------- %
+\ithaf{}
+% ---------------------------------------------------------------- %
+% Form the below files						   %
+% Scientific WorkPlace/LyX tarafindan tek basina acilabilen bolum dosyalari
+% kendi \documentclass ve preamble kisimlarini icerebilir. docmute, ana tez
+% derlenirken bu dosyalarin yalnizca document govdesini okur.
+% ---------------------------------------------------------------- %
+\onsoz{\input{onsoz.tex}}
+\kisaltmalistesi{}
+\sembollistesi{\input{simgeler-ve-kisaltmalar.tex}}
+\ozet{\input{ozet.tex}}
+\summary{\input{abstract.tex}}
+\anahtarkelimeler{}
+\keywords{}
+\etikbeyan{\input{etik-beyan.tex}}
+\yapayzekakullanimi{hayir}
+\yapayzekatablosu{}
+\EnstituMuduru{}
+
+\begin{document}
+
+% ---------------------------------------------------------------- %
+% Also form the below files. All corresponding inputs should point %
+% to a file.                                                       %
+% ---------------------------------------------------------------- %
+\input{bolum1.tex}
+\input{bolum2.tex}
+\input{bolum3.tex}
+\input{bolum4.tex}
+\input{bolum5.tex}
+\input{bolum6.tex}
+
+% APA references are read from kaynaklar.bib. Use \parencite or \textcite.
+
+
+
+\makeatletter
+\if@APAStyle
+  \setlength\bibitemsep{0pt}
+  \printbibliography[heading=bibliography]
+\else
+  \bibliographystyle{inonubib}
+  \bibliography{kaynaklar}
+\fi
+\makeatother
+
+% ---------------------------------------------------------------- %
+% Appendix files. eklerkapak is the appendix title page.           %
+% ---------------------------------------------------------------- %
+\eklerkapak{}
+\input eklerkapak.tex  
+
+% ---------------------------------------------------------------- %
+% \eklerbolum{x} forms and appendix of x chapters. 
+% ---------------------------------------------------------------- %
+\eklerbolum{0}
+\chapter{EK-1 Özgeçmiş}
+\input ozgecmis.tex
+\input ekler.tex
+
+% ---------------------------------------------------------------- %
+% Ozgecmis is printed as EK-1 in the appendices for the 2025 guide. %
+% ---------------------------------------------------------------- %
+\ozgecmissondabasmasin
+\end{document}                      
+
+% ---------------------------------------------------------------- %
+% About this template: Inonu University FBE adaptation              %
+% ---------------------------------------------------------------- %

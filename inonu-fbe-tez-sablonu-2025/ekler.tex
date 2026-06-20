@@ -1,0 +1,43 @@
+\chapter{EK-2 Haritalar}
+
+Bu ekte, tez ana metninde ayrıntısına yer verilmeyen yardımcı
+harita, tablo veya veri listeleri sunulabilir. Ek başlıkları `EK-2`,
+`EK-3` biçiminde devam eder; ek içindeki tablo, şekil ve denklem
+numaraları da ilgili ek numarasıyla birlikte verilir.
+
+\vspace{3pt}
+\begin{table}[ht]
+\setlength{\tabcolsep}{14pt}
+\caption{Ekler bölümünde tablo örneği}
+\noindent
+\begin{tabular}{cccc}
+\toprule\midrule
+Kolon A & Kolon B & Kolon C & Kolon D \\
+\hline
+Satır A & Satır A & Satır A & Satır A \\
+Satır B & Satır B & Satır B & Satır B \\
+Satır C & Satır C & Satır C & Satır C \\
+\bottomrule
+\end{tabular}
+\label{table:appendix}
+\end{table}
+\vspace{-6pt}
+
+\chapter{EK-3 Diğer Haritalar}
+Bu ekte, ana metinde yalnızca atıf yapılan ek denklem ve şekil
+örnekleri verilmiştir. Eklerde yer alan her unsur, ana metindeki konu ile
+doğrudan ilişkili olmalı ve metin içinde gerekli yerde
+anılmalıdır.
+%
+\begin{equation}
+    y_{t} = \phi_{1} y_{t-1} + \epsilon_{t}
+\label{eq:appendix}
+\end{equation}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=230pt,keepaspectratio=true]{./fig/sekil7}
+\caption{Ekler bölümünde şekil örneği}
+    \label{fig:appendix}
+\end{figure}
+\vspace{-6pt}

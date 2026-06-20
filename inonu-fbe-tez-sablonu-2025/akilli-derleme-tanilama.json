@@ -1,0 +1,127 @@
+{
+  "GeneratedAt": "2026-06-15T23:46:13",
+  "ExitCode": 0,
+  "Count": 12,
+  "Findings": [
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\etik-beyan.tex",
+      "line": 153,
+      "column": null,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 153--153",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": ""
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\onsoz.tex",
+      "line": 10,
+      "column": null,
+      "message": "Underfull \\hbox (badness 2221) in paragraph at lines 10--153",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "Önsöz metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve"
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\onsoz.tex",
+      "line": 153,
+      "column": null,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 153--153",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": ""
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\abstract.tex",
+      "line": 5,
+      "column": null,
+      "message": "Underfull \\hbox (badness 2119) in paragraph at lines 5--6",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "\\textbf{Results:} The most important findings of the thesis are presented directly and clearly. Abbreviations should be used only in the forms defined in the ``Symbols and Abbreviations'' section."
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum2.tex",
+      "line": 41,
+      "column": null,
+      "message": "Underfull \\hbox (badness 2237) in paragraph at lines 41--42",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "Kuramsal \\c{c}er\\c{c}eve, ara\\c{s}t\\i{}rman\\i{}n kulland\\i{}\\u{g}\\i{} kavramlar\\i{} ve varsay\\i{}mlar\\i{} tan\\i{}mlar. Metinde kullan\\i{}lan her terim, tez boyunca ayn\\i{} anlamda kullan\\i{}lmal\\i{}; zorunlu durumlarda tan\\i{}mlar a\\c{c}\\i{}klanmal\\i{}d\\i{}r."
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum4.tex",
+      "line": 37,
+      "column": null,
+      "message": "Underfull \\hbox (badness 2689) in paragraph at lines 37--38",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "Bu k\\i{}s\\i{}mda temel bulgular\\i{}n genel g\\\"{o}r\\\"{u}n\\\"{u}m\\\"{u} verilir. Bulgular, ara\\c{s}t\\i{}rma sorular\\i{} veya hipotezlerle ayn\\i{} s\\i{}ray\\i{} izleyecek bi\\c{c}imde d\\\"{u}zenlenebilir."
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum5.tex",
+      "line": 53,
+      "column": null,
+      "message": "Underfull \\hbox (badness 4001) in paragraph at lines 53--54",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "D\\\"{o}rd\\\"{u}nc\\\"{u} dereceden sonraki ba\\c{s}l\\i{}klar zorunlu olmad\\i{}k\\c{c}a kullan\\i{}lmamal\\i{}; kullan\\i{}ld\\i{}\\u{g}\\i{}nda numaras\\i{}z ve dizinde yer almayan yard\\i{}mc\\i{} ba\\c{s}l\\i{}k olarak kalmal\\i{}d\\i{}r."
+    },
+    {
+      "severity": "BİLGİ",
+      "category": "Dizgi",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\eklerkapak.tex",
+      "line": 3,
+      "column": null,
+      "message": "Underfull \\hbox (badness 10000) in paragraph at lines 3--185",
+      "hint": "Bu çoğunlukla estetik dizgi bilgisidir; PDF görüntüsü kötü değilse tek tek müdahale etmek gerekmez.",
+      "excerpt": "\\textbf{EK-1} Özgeçmiş\\\\"
+    },
+    {
+      "severity": "UYARI",
+      "category": "SWP",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum1.tex",
+      "line": 39,
+      "column": 77,
+      "message": "Satır sonunda `%` var. Bu işaret SWP'de paragraf parçasının silinmiş görünmesine (`DELETED PARAGRAPH`) yol açabilir; gerçek yorum değilse kaldırın.",
+      "hint": "Scientific WorkPlace bu satırı içe aktarırken değiştirmiş veya bazı TeX aksan/paragraf parçalarını atlamış olabilir. Bölüm dosyasını kaydetmeden önce satırı TeX editöründe kontrol edin.",
+      "excerpt": "Giri\\c{s} b\\\"{o}l\\\"{u}m\\\"{u}, tez \\c{c}al\\i{}\\c{s}mas\\i{}n\\i{}n temel \\c{c}er%"
+    },
+    {
+      "severity": "UYARI",
+      "category": "SWP",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum1.tex",
+      "line": 42,
+      "column": 76,
+      "message": "Satır sonunda `%` var. Bu işaret SWP'de paragraf parçasının silinmiş görünmesine (`DELETED PARAGRAPH`) yol açabilir; gerçek yorum değilse kaldırın.",
+      "hint": "Scientific WorkPlace bu satırı içe aktarırken değiştirmiş veya bazı TeX aksan/paragraf parçalarını atlamış olabilir. Bölüm dosyasını kaydetmeden önce satırı TeX editöründe kontrol edin.",
+      "excerpt": "varsay\\i{}mlar ve temel tan\\i{}mlar akademik bir b\\\"{u}t\\\"{u}nl\\\"{u}k i\\c{c}%"
+    },
+    {
+      "severity": "UYARI",
+      "category": "SWP",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum1.tex",
+      "line": 49,
+      "column": 77,
+      "message": "Satır sonunda `%` var. Bu işaret SWP'de paragraf parçasının silinmiş görünmesine (`DELETED PARAGRAPH`) yol açabilir; gerçek yorum değilse kaldırın.",
+      "hint": "Scientific WorkPlace bu satırı içe aktarırken değiştirmiş veya bazı TeX aksan/paragraf parçalarını atlamış olabilir. Bölüm dosyasını kaydetmeden önce satırı TeX editöründe kontrol edin.",
+      "excerpt": "paragraflar aras\\i{}nda mant\\i{}kl\\i{} ge\\c{c}i\\c{s}ler kurularak sunulmal\\i{%"
+    },
+    {
+      "severity": "UYARI",
+      "category": "SWP",
+      "file": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\bolum1.tex",
+      "line": 53,
+      "column": 76,
+      "message": "Satır sonunda `%` var. Bu işaret SWP'de paragraf parçasının silinmiş görünmesine (`DELETED PARAGRAPH`) yol açabilir; gerçek yorum değilse kaldırın.",
+      "hint": "Scientific WorkPlace bu satırı içe aktarırken değiştirmiş veya bazı TeX aksan/paragraf parçalarını atlamış olabilir. Bölüm dosyasını kaydetmeden önce satırı TeX editöründe kontrol edin.",
+      "excerpt": "Bu b\\\"{o}l\\\"{u}mde okuyucuya \\c{c}al\\i{}\\c{s}man\\i{}n hangi bilimsel bo\\c{s}%"
+    }
+  ]
+}

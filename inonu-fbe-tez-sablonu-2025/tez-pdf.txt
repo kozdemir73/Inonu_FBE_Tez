@@ -1,0 +1,666 @@
+     İNÖNÜ ÜNİVERSİTESİ
+FEN BİLİMLERİ ENSTİTÜSÜ
+
+
+
+
+      TEZ BAŞLIĞI
+
+
+  YÜKSEK LİSANS TEZİ
+
+
+MASTER OF SCIENCE DISSERTATION
+
+
+
+
+        ADI SOYADI
+
+
+
+
+        MALATYA, 2025
+       İNÖNÜ ÜNİVERSİTESİ
+     FEN BİLİMLERİ ENSTİTÜSÜ
+
+
+
+
+         TEZ BAŞLIĞI
+
+
+
+YÜKSEK LİSANS TEZİ
+ MASTER OF SCIENCE DISSERTATION
+
+
+
+
+        ADI SOYADI
+            000000000
+
+
+
+
+    MATEMATIK ANABILIM DALI
+       Matematik Programı
+
+
+
+
+ Tez Danışmanı: Prof. Dr. Adı SOYADI
+
+
+
+
+        MALATYA, 2025
+                                         KABUL VE ONAY
+
+
+Adı SOYADI, İnönü Üniversitesi Fen Bilimleri Enstitüsü 000000000 numaralı yüksek lisans öğrencisi olarak,
+“Tez Başlığı ” başlıklı tezini jüri önünde başarı ile sunmuştur.
+
+
+
+Tez Danışmanı:               Prof. Dr. Adı SOYADI
+                             İnönü Üniversitesi
+Jüri Üyeleri:                Prof. Dr. Adı SOYADI
+
+                             Jüri 2 Adı Soyadı
+
+                             Jüri 3 Adı Soyadı
+
+
+
+
+Teslim Tarihi: Eylül 2024                                                   Savunma Tarihi: Aralık 2024
+
+
+Bu tez, jüri üyeleri tarafından Oy birliği ile kabul edilmiş ve Enstitü Yönetim Kurulu’nun 22 Eylül 2024
+tarihli, 2024/12 sayılı kararı ile onaylanmıştır.
+                                           ETİK VE ÜRETKEN YAPAY ZEKÂ BEYANI
+
+
+Bu tez çalışmasının hazırlanmasında bilimsel etik ilkelere ve akademik dürüstlük kurallarına uyduğumu;
+yararlandığım tüm kaynakları metin içinde ve kaynaklar bölümünde uygun biçimde gösterdiğimi beyan
+ederim.
+             Bu tez çalışmasında üretken yapay zekâ tabanlı araçlar kullanıldıysa, bu araçların hangi amaçla,
+hangi kapsamda ve tezin hangi bölümlerinde kullanıldığı danışman bilgisi dahilinde açıklanmalıdır. Kul‐
+lanılmadıysa bu cümle, “Bu tez çalışmasında üretken yapay zekâ tabanlı araç kullanılmamıştır.” şeklinde
+düzenlenmelidir. Tarih: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+
+                                                                                                                                                     Adı SOYADI
+
+
+
+                                                                                                               ................................
+                                                                                           İÇİNDEKİLER
+
+                                                                                                                                                                                                             Sayfa
+
+ÖZET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . viii
+
+ABSTRACT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ix
+
+SİMGELER VE KISALTMALAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                            x
+ŞEKİLLER DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xi
+TABLOLAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii
+
+1. GİRİŞ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      1
+
+2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                      3
+     2.1 Araştırma Alanının Tanıtımı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                  3
+     2.2 Kuramsal Yaklaşımlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           3
+     2.3 İlgili Çalışmalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  3
+
+3. MATERYAL VE METOT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              5
+     3.1 Araştırma Materyali . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                          5
+         3.1.1 Veri Kaynakları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      5
+     3.2 Yöntem. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            5
+         3.2.1 Model Kurulumu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           5
+         3.2.2 Analiz Süreci. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   6
+     3.3 Yatay Tablo ve Şekil Örnekleri. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                    6
+
+4. BULGULAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               9
+     4.1 Bulguların Genel Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                             9
+         4.1.1 Birinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                    9
+         4.1.2 İkinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   9
+
+5. TARTIŞMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+     5.1 Çalışmanın Uygulama Alanı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+     5.2 Bulguların Literatürle Karşılaştırılması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+         5.2.1 Yöntemin Sınırlılıkları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+6. SONUÇ VE ÖNERİLER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+     6.1 Sonuçların Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+         6.1.1 Araştırma Bulgularına Dayalı Sonuçlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+     6.2 Öneriler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+KAYNAKLAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+EKLER. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+     EK‐1 Özgeçmiş . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+     EK‐2 Haritalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+     EK‐3 Diğer Haritalar. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+ÖNSÖZ
+
+Önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve kurumlara teşekkür etmek için
+kullanılır. Bu bölümde bilimsel içerik tartışılmaz; destek, katkı ve teşekkür ifadeleri kısa ve açık biçimde
+yazılır.
+          Tezi destekleyen kurum adları ve katkı sağlayan kişiler burada belirtilebilir. Teşekkür edilen
+kişilerin soyadları büyük harflerle yazılmalıdır.
+          Önsöz metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve yazar adı birlikte
+verilmelidir.
+
+
+
+aralık 2024                                                                                     Adı SOYADI
+                                                 ÖZET
+                                               Tez Başlığı
+
+
+
+Amaç: Bu dosya, 2025 tez yazım kılavuzuna uygun Türkçe özet yazımı için kısa bir örnektir. Özet metni;
+tez konusu, amaç, kullanılan yöntem ve ulaşılan temel sonuçları gereksiz ayrıntıya girmeden sunmalıdır.
+        Materyal ve metot: Bu bölümde araştırma tasarımı, veri kaynağı, deneysel veya kuramsal
+yöntem ve analiz süreci öz biçimde açıklanır. Özet içinde kaynak, şekil veya tablo verilmez.
+        Bulgular: Tezin en önemli bulguları doğrudan ve sade bir dille belirtilir. Kısaltmalar gerekiyorsa
+yalnızca “Simgeler ve Kısaltmalar Dizini”nde tanımlanan biçimleriyle kullanılmalıdır.
+        Sonuç: Özet başlık ve anahtar kelimeler hariç en fazla 250 kelime olmalı, tercihen tek sayfaya
+sığmalıdır. Gerektiğinde satır aralığı 1,15’e indirilebilir.
+Anahtar Kelimeler: Anahtar Kelime, LaTeX, Tez
+
+
+
+
+                                                                                                       viii
+                                            ABSTRACT
+                                             Thesis Title
+
+
+
+Aim: This file provides a short sample abstract compatible with the 2025 thesis writing guide. The
+abstract should state the thesis topic, aim, method, and main conclusions without unnecessary detail.
+        Material and method: This part briefly describes the research design, data source, experimental
+or theoretical method, and analysis process. References, figures, and tables should not be included in
+the abstract.
+        Results: The most important findings of the thesis are presented directly and clearly.
+Abbreviations should be used only in the forms defined in the “Symbols and Abbreviations” section.
+        Conclusion: Excluding the title and keywords, the abstract should not exceed 250 words and
+should preferably fit on a single page. If needed, the line spacing may be reduced to 1.15 only for the
+abstract pages.
+Keywords: Keyword, LaTeX, Thesis
+
+
+
+
+                                                                                                     ix
+                    SİMGELER VE KISALTMALAR DİZİNİ
+C              : Dokunun Kapasitansı
+H              : Isı Miktarı
+Mx , My        : Moment Bileşenleri
+Nx , Ny , Nz   : Normal Kuvvet Bileşenleri
+q              : Faz Yükü
+t              : Zaman
+u, v           : Yer Değiştirme Vektörü Bileşenleri
+w              : Açı sal Hı z
+XC             : Kapasitif Reaktans
+XL             : Endüktif Reaktans
+
+
+AIC            : Akaike Information Criteria
+ANN            : Artificial Neural Network
+App            : Appendix
+BP             : Backpropagation
+CGI            : Common Gateway Interface
+ESS            : Error Sum‐of‐Squares
+GARCH          : Generalized Autoregressive Conditional Heteroskedasticity
+GIS            : Geographic Information Systems
+HCA            : Hierarchical Cluster Analysis
+Mbps           : Megabits
+St             : Station
+SWAT           : Soil and Water Assessment Tool
+UMN            : University of Minnesota
+
+
+
+
+                                                                             x
+                                                                           ŞEKİLLER DİZİNİ
+
+                                                                                                                                                                                        Sayfa
+
+Şekil 2.1.            Kuramsal yapıyı gösteren örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        3
+Şekil 2.2.            Alt şekillerden oluşan ana şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         4
+Şekil 3.1.            Kısa şekil açıklaması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+Şekil 3.2.            Çok satırlı şekil açıklamalarında hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                     6
+Şekil 4.1.            Çok satırlı bir şekil başlığı için hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              9
+Şekil 5.1.            Tartışma bölümünde kullanılabilecek örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Şekil 6.1.            Sonuç bölümünde örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Şekil EK‐3.1. Ekler bölümünde şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+
+
+
+
+                                                                                                                                                                                              xi
+                                                                      TABLOLAR DİZİNİ
+
+                                                                                                                                                                               Sayfa
+
+Tablo 2.1.            Tablo başlıkları nokta ile bitmemelidir . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               4
+Tablo 3.1.            Yatay sayfada tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    7
+Tablo 4.1.            Bulgular bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Tablo 5.1.            Tartışma bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Tablo 6.1.            Sonuç bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Tablo EK‐2.1. Ekler bölümünde tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+
+
+
+                                                                                                                                                                                     xii
+                                                1. GİRİŞ
+
+Giriş bölümü, tez çalışmasının temel çerçevesini okuyucuya sunar. Bu bölümde araştırma konusu,
+problem durumu, tezin amacı ve önemi, sınırlılıklar, varsayımlar ve temel tanımlar akademik bir bütünlük
+içinde açıklanmalıdır.
+        Kılavuz gereği GİRİŞ ana başlığı altında ayrıca numaralı alt başlık oluşturulmamalıdır. Bu nedenle
+bu şablonda Giriş bölümü, alt başlık kullanmadan tek bir akış halinde verilmiştir. Gerekli bilgiler,
+paragraflar arasında mantıklı geçişler kurularak sunulmalı; yöntem, literatür ve bulgulara ilişkin ayrıntılar
+ilgili ana bölümlere bırakılmalıdır.
+        Bu bölümde okuyucuya çalışmanın hangi bilimsel boşluğa odaklandığı, hangi sorulara yanıt
+aradığı ve tezin genel organizasyonunun nasıl ilerlediği kısa ve açık biçimde aktarılabilir.
+
+
+
+
+                                                     1
+                             2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE
+
+
+           2.1 Araştırma Alanının Tanıtımı
+           Bu bölümde tez konusunun dayandığı temel kavramlar, kuramsal yaklaşımlar ve konu ile ilgili
+önceki çalışmalar özetlenir. Okuyucunun araştırma problemini anlayabilmesi için gerekli arka plan bilgisi
+açık ve sistemli biçimde verilir.2
+           Literatür değerlendirmesinde yalnızca kaynakları sıralamak yerine, kaynaklar arasındaki ilişki,
+boşluk ve tartışmalara yer verilmelidir. Bu kısımda tez çalışmasının hangi bilimsel gereksinimden
+doğduğu ortaya konur [1].
+
+           2.2 Kuramsal Yaklaşımlar
+           Kuramsal çerçeve, araştırmanın kullandığı kavramları ve varsayımları tanımlar.           Metinde
+kullanılan her terim, tez boyunca aynı anlamda kullanılmalı; zorunlu durumlarda tanımlar açıklanmalıdır.
+
+
+
+
+                                   Şekil 2.1. Kuramsal yapıyı gösteren örnek şekil
+                                        Not: Şekil altı açıklamaları 9 punto ile verilir.
+
+
+           Şekil 2.1’de gösterilen yapı, kuramsal çerçevenin temel bileşenlerini özetlemektedir. Metinde
+şekil ve tablolar ilk geçtikleri yerde anılmalı, ardından ilgili görsel verilmelidir.
+
+           2.3 İlgili Çalışmalar
+           Bu kısımda benzer yöntemler, veri kaynakları ve bulgular karşılaştırmalı olarak ele alınır. Kaynak
+gösterimi için uygun atıf komutu kullanılmalıdır [1].
+           Alt şekil kullanılması gerekiyorsa her alt parça metinde ayrı ayrı açıklanabilir. Şekil 2.2’de iki
+parçalı bir şekil örneği verilmiştir.
+
+   2
+       Dipnotlar kısa tutulmalı; ana metin dışındaki açıklamalar için kullanılmalıdır.
+
+
+
+                                                               3
+                     A                                                             B
+                             (a)                                                         (b)
+
+                                    Şekil 2.2. Alt şekillerden oluşan ana şekil örneği
+
+
+          Tablolar, metni gereksiz yere tekrar etmeden veriyi düzenli biçimde sunmalıdır. Tablo 2.1, tez
+içinde kullanılabilecek yalın bir tablo düzenini göstermektedir.
+
+Tablo 2.1. Tablo başlıkları nokta ile bitmemelidir
+
+    Kolon A           Kolon B            Kolon C      Kolon D
+    Satır A           Satır A            Satır A       Satır A
+     Satır B          Satır B            Satır B       Satır B
+     Satır C          Satır C            Satır C       Satır C
+Not: Tablo altı açıklamaları 9 punto ile verilir.
+
+
+          Bu bölümün sonunda, kuramsal çerçeveden materyal ve metot bölümüne geçişi sağlayan kısa
+bir değerlendirme yapılabilir.
+
+
+
+
+                                                            4
+                                      3. MATERYAL VE METOT
+
+
+        3.1 Araştırma Materyali
+        Bu bölümde çalışmada kullanılan veri, deney materyali, yazılım, donanım, saha bilgisi veya belge
+kaynakları tanıtılır. Materyalin nasıl elde edildiği, hangi kapsama sahip olduğu ve hangi sınırlılıkları
+içerdiği açıklanmalıdır.
+
+        3.1.1 Veri Kaynakları
+
+        Veri kaynakları yazılırken tarih aralığı, örneklem büyüklüğü, ölçüm birimleri ve veri seçim
+ölçütleri belirtilir. Gerekirse veri hazırlama süreci aşamalar halinde verilebilir.
+
+
+
+
+                  Şekil 3.1. Uzun şekil açıklamasında listenin kısa sürümü kullanılabilir
+
+
+        Şekil 3.1, veri veya yöntem akışını göstermek için kullanılabilecek bir görsel örneğidir.
+
+        3.2 Yöntem
+        Yöntem kısmı, çalışmanın tekrarlanabilmesini sağlayacak ayrıntıda yazılmalıdır. Kullanılan analiz
+adımları, yazılım ayarları, varsayımlar ve değerlendirme ölçütleri burada verilir.
+
+        3.2.1 Model Kurulumu
+
+        Model veya analiz yaklaşımı açıklanırken temel denklemler numaralandırılabilir. Denklem 3.1,
+zaman serisi benzeri bir gösterim için örnek olarak verilmiştir.
+
+
+                                              yt ≡ ϕ1 yt−1 + ϵt                                     (3.1)
+
+        Denklemden sonra sembollerin anlamı ve modeldeki rolleri metin içinde açıklanmalıdır. Daha
+uzun denklemler gerekiyorsa satır kırımları okunabilirliği bozmayacak biçimde düzenlenmelidir. Birden
+
+
+
+
+                                                       5
+fazla satırda verilen denklemlerde numara son satır hizasında yer almalıdır; Denklem 3.2 bu kullanıma
+örnektir.
+
+
+
+                                         ybt = β0 + β1 x1t + β2 x2t
+
+                                              + β3 x3t + εt                                            (3.2)
+
+        3.2.2 Analiz Süreci
+
+        Analiz süreci; ön işleme, modelleme, doğrulama ve yorumlama adımlarından oluşabilir. Her
+adımın amacı ve çalışmadaki karşılığı açıkça belirtilmelidir.
+
+
+
+
+                       Şekil 3.2. Çok satırlı şekil açıklamalarında hizalama örneği
+
+
+        Şekil 3.2’de yöntemin iş akışı gösterilmektedir. Şekil açıklamaları nokta ile bitirilmemeli ve metin
+içinde ilgili şekle mutlaka gönderme yapılmalıdır.
+
+        3.3 Yatay Tablo ve Şekil Örnekleri
+        Sayfaya sığmayan tablo veya şekiller yatay olarak verilebilir. Yatay kullanım zorunlu olmadıkça
+tercih edilmemeli, kullanıldığında başlık ve sayfa numarası yerleşimi kontrol edilmelidir.
+
+
+
+
+                                                     6
+    Tablo 3.1. Yatay sayfada tablo örneği
+
+                                            Değişken   A    B    C    D     E
+                                            Örnek 1    12   18   24   31   35
+                                            Örnek 2    14   21   26   33   39
+                                            Örnek 3    16   23   29   37   42
+
+
+
+
+7
+Tablo 3.1, geniş içerikli tabloların yatay sayfada nasıl verilebileceğini gösteren bir örnektir.
+
+
+
+
+                                              8
+                                              4. BULGULAR
+
+Bulgular bölümünde, materyal ve metot bölümünde açıklanan yöntemlerle elde edilen sonuçlar nesnel
+bir dille sunulur. Bu bölümde yorum ve tartışma sınırlı tutulmalı; ayrıntılı yorumlar tartışma bölümüne
+bırakılmalıdır.
+
+        4.1 Bulguların Genel Değerlendirilmesi
+        Bu kısımda temel bulguların genel görünümü verilir.                Bulgular, araştırma soruları veya
+hipotezlerle aynı sırayı izleyecek biçimde düzenlenebilir.
+
+        4.1.1 Birinci Veri Seti
+
+        Birinci veri setinden elde edilen bulgular, gerekli tablo ve şekillerle desteklenerek sunulur. Metin,
+tabloda zaten verilen sayıları tekrar etmek yerine dikkat edilmesi gereken eğilimleri açıklamalıdır.
+
+        4.1.2 İkinci Veri Seti
+
+        İkinci veri setine ilişkin sonuçlar, ilk veri setiyle karşılaştırılabilir. Bulgular arasındaki benzerlik ve
+farklar, tartışma bölümüne temel oluşturacak biçimde belirtilir.
+
+        Model Çıktılarının Karşılaştırılması
+
+        Dördüncü derece başlıklar ancak gerekli olduğunda kullanılmalıdır. Bu örnekte, ayrıntılı bir
+model karşılaştırmasının nasıl verilebileceği gösterilmektedir.
+
+
+
+
+                         Şekil 4.1. Çok satırlı bir şekil başlığı için hizalama örneği
+
+
+        Şekil 4.1’de bulguları görselleştirmek için kullanılabilecek bir şekil düzeni verilmiştir.
+        Tablo 4.1, bulguların tablo içinde nasıl düzenlenebileceğini gösteren kısa bir örnektir.
+
+
+
+
+                                                        9
+Tablo 4.1. Bulgular bölümünde örnek tablo
+
+   Kolon A      Kolon B      Kolon C        Kolon D
+   Satır A      Satır A      Satır A         Satır A
+    Satır B     Satır B      Satır B         Satır B
+    Satır C     Satır C      Satır C         Satır C
+
+
+
+
+                                                 10
+                                             5. TARTIŞMA
+
+Tartışma bölümü, bulguların yalnızca tekrar edildiği bir bölüm olmamalıdır. Bu bölümde bulguların
+anlamı, literatürle ilişkisi, beklenen veya beklenmeyen yönleri ve çalışmanın sınırlılıkları ele alınır.
+
+        5.1 Çalışmanın Uygulama Alanı
+        Elde edilen sonuçların hangi alanlarda kullanılabileceği, hangi koşullarda geçerli olduğu ve hangi
+durumlarda dikkatli yorumlanması gerektiği açıklanır.
+
+        5.2 Bulguların Literatürle Karşılaştırılması
+        Bu kısımda bulgular, ilgili çalışmalarla benzerlik ve farklılıkları açısından tartışılır. Kaynaklara
+yapılan göndermeler tartışmanın akışına hizmet etmelidir [2].
+
+        5.2.1 Yöntemin Sınırlılıkları
+
+        Her yöntemin varsayımları ve sınırlılıkları vardır. Veri kapsamı, örneklem, ölçüm doğruluğu,
+model seçimi veya yorumlama sınırları burada açıkça belirtilmelidir.
+
+        Gelecek Çalışmalara Etkisi
+
+        Bulguların hangi yeni araştırma sorularını doğurduğu ve sonraki çalışmalar için nasıl bir yol
+haritası sunduğu açıklanabilir.
+
+        Ek Değerlendirme Başlığı
+        Dördüncü dereceden sonraki başlıklar zorunlu olmadıkça kullanılmamalı; kullanıldığında
+numarasız ve dizinde yer almayan yardımcı başlık olarak kalmalıdır.
+
+
+
+
+                        Şekil 5.1. Tartışma bölümünde kullanılabilecek örnek şekil
+
+
+        Şekil 5.1’de tartışma kapsamında kullanılabilecek bir görsel örneği verilmiştir.
+        Tablo 5.1, tartışma bölümünde sayısal özetlerin nasıl verilebileceğini göstermektedir.
+
+
+
+
+                                                      11
+Tablo 5.1. Tartışma bölümünde örnek tablo
+
+  Kolon A       Kolon B      Kolon C        Kolon D
+  Satır A       Satır A      Satır A         Satır A
+   Satır B      Satır B      Satır B         Satır B
+   Satır C      Satır C      Satır C         Satır C
+
+
+
+
+                                                 12
+                                     6. SONUÇ VE ÖNERİLER
+
+Bu bölümde çalışmanın temel sonuçları kısa, açık ve bütünlüklü biçimde sunulur. Bulgular bölümündeki
+ayrıntılar tekrar edilmemeli; araştırma sorularına verilen yanıtlar öne çıkarılmalıdır.
+
+        6.1 Sonuçların Değerlendirilmesi
+        Tez kapsamında elde edilen sonuçlar, araştırmanın amacı ile ilişkilendirilerek açıklanır. Bu kısım,
+okuyucuya çalışmanın bilimsel katkısını toplu olarak göstermelidir.
+
+        6.1.1 Araştırma Bulgularına Dayalı Sonuçlar
+
+        Temel bulguların her biri, kısa ve doğrudan cümlelerle belirtilir. Bulguların hangi veri, analiz veya
+gözleme dayandığı gerektiğinde hatırlatılabilir.
+
+        Yönteme İlişkin Sonuçlar
+
+        Yöntemin çalışmaya sağladığı katkı, güçlü yönleri ve sınırları burada özetlenebilir.
+
+        Ek Sonuç Notu
+        Bu başlık, dördüncü dereceden sonra kullanılan numarasız yardımcı başlık örneğidir.
+
+
+
+
+                                 Şekil 6.1. Sonuç bölümünde örnek şekil
+
+
+        Şekil 6.1, sonuç bölümünde kullanılabilecek özet bir görsel için yer tutucu olarak verilmiştir.
+
+Tablo 6.1. Sonuç bölümünde örnek tablo
+
+   Kolon A        Kolon B       Kolon C        Kolon D
+   Satır A        Satır A       Satır A         Satır A
+    Satır B       Satır B       Satır B         Satır B
+    Satır C       Satır C       Satır C         Satır C
+
+
+
+
+                                                    13
+        Tablo 6.1, sonuçların özetlenmesi için kullanılabilecek basit bir tablo düzenidir.
+
+        6.2 Öneriler
+        Öneriler, çalışmanın sonuçlarına dayanmalı ve uygulanabilir nitelikte olmalıdır. Yeni araştırmalar,
+yöntem geliştirmeleri veya uygulama alanları için somut öneriler bu kısımda verilebilir.
+
+
+
+
+                                                    14
+                                          KAYNAKLAR
+
+[1] Moore, C. (1991). Encyclopedia of chemical technology, Mass spectrometry, Wiley, New York, 4.
+             sürüm.
+
+[2] Zuckerman, M. ve Kieffer, S.C. (1994). Race Differences in Face‐ism: Does Facial Prominence Imply
+             Dominance?, Journal of Personality and Social Psychology, 66(1), 86 – 92.
+
+
+
+
+                                                 15
+                       EKLER
+EK‐1 Özgeçmiş
+EK‐2 Haritalar
+EK‐3 Diğer Haritalar
+
+
+
+
+                        17
+EK‐1 Özgeçmiş
+
+
+Adı Soyadı: Adı SOYADI
+Doğum Yeri ve Yılı: Malatya / 2000
+E‐posta: ogrenci@inonu.edu.tr
+
+Öğrenim Durumu
+        Lisans                     Mezuniyet yılı, Üniversite, Fakülte, Bölüm
+        Yüksek Lisans              Mezuniyet yılı, Üniversite, Enstitü, Anabilim Dalı, Program
+
+Mesleki Deneyimler ve Ödüller
+
+• Yıl aralığı, kurum/kuruluş adı, görev veya deneyim bilgisi.
+
+• Yıl, ödül veya başarı bilgisi.
+
+
+Tezden Türetilen Yayınlar, Sunumlar ve Patentler
+
+• Soyad, A. (Yıl). Yayın veya sunum başlığı. Dergi/Etkinlik Adı, sayfa veya etkinlik bilgisi.
+
+• Soyad, A. (Yıl). Patent/tescil başlığı. Patent numarası: XXXXX.
+
+
+Diğer Yayınlar, Sunumlar ve Patentler
+
+• Soyad, A. (Yıl). Yayın veya sunum başlığı. Dergi/Etkinlik Adı.
+
+
+
+
+                                                       19
+EK‐2 Haritalar
+Bu ekte, tez ana metninde ayrıntısına yer verilmeyen yardımcı harita, tablo veya veri listeleri sunulabilir.
+Ek başlıkları ‘EK‐2‘, ‘EK‐3‘ biçiminde devam eder; ek içindeki tablo, şekil ve denklem numaraları da ilgili
+ek numarasıyla birlikte verilir.
+
+Tablo EK‐2.1. Ekler bölümünde tablo örneği
+
+   Kolon A        Kolon B       Kolon C        Kolon D
+   Satır A        Satır A       Satır A         Satır A
+    Satır B       Satır B       Satır B         Satır B
+    Satır C       Satır C       Satır C         Satır C
+
+
+
+
+                                                    21
+EK‐3 Diğer Haritalar
+Bu ekte, ana metinde yalnızca atıf yapılan ek denklem ve şekil örnekleri verilmiştir. Eklerde yer alan her
+unsur, ana metindeki konu ile doğrudan ilişkili olmalı ve metin içinde gerekli yerde anılmalıdır.
+
+                                            yt = ϕ1 yt−1 + ϵt                                    (EK‐3.1)
+
+
+
+
+                               Şekil EK‐3.1. Ekler bölümünde şekil örneği
+
+
+
+
+                                                   23
+

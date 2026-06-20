@@ -1,0 +1,79 @@
+\documentclass[12pt,a4paper]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2934}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Scientific WorkPlace\LaTeX Report">}
+%TCIDATA{Language=Turkish}
+%TCIDATA{CSTFile=LaTeX Report.cst}
+%TCIDATA{PageSetup=72,72,72,72,0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[shorthands=off,turkish]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{{./fig/}{fig/}}
+\providecommand{\parencite}[1]{(#1)}
+\providecommand{\textcite}[1]{#1}
+\providecommand{\sekilnotu}[1]{\par\small #1}
+\providecommand{\tablonotu}[1]{\par\small #1}
+\providecommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{BULGULAR}\label{ch:ifnecch4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Bulgular b\"{o}l\"{u}m\"{u}nde, materyal ve metot b\"{o}l\"{u}m\"{u}nde a\c{c}\i{}klanan y\"{o}ntemlerle elde edilen sonu\c{c}lar nesnel bir dille sunulur. Bu b\"{o}l\"{u}mde yorum ve tart\i{}\c{s}ma s\i{}n\i{}rl\i{} tutulmal\i{}; ayr\i{}nt\i{}l\i{} yorumlar tart\i{}\c{s}ma b\"{o}l\"{u}m\"{u}ne b\i{}rak\i{}lmal\i{}d\i{}r.
+
+\section{Bulgular\i{}n Genel De\u{g}erlendirilmesi}
+
+Bu k\i{}s\i{}mda temel bulgular\i{}n genel g\"{o}r\"{u}n\"{u}m\"{u} verilir. Bulgular, ara\c{s}t\i{}rma sorular\i{} veya hipotezlerle ayn\i{} s\i{}ray\i{} izleyecek bi\c{c}imde d\"{u}zenlenebilir.
+
+\subsection{Birinci Veri Seti}
+
+Birinci veri setinden elde edilen bulgular, gerekli tablo ve \c{s}ekillerle desteklenerek sunulur. Metin, tabloda zaten verilen say\i{}lar\i{} tekrar etmek yerine dikkat edilmesi gereken e\u{g}ilimleri a\c{c}\i{}klamal\i{}d\i{}r.
+
+\subsection{\.{I}kinci Veri Seti}
+
+\.{I}kinci veri setine ili\c{s}kin sonu\c{c}lar, ilk veri setiyle kar\c{s}\i{}la\c{s}t\i{}r\i{}labilir. Bulgular aras\i{}ndaki benzerlik ve farklar, tart\i{}\c{s}ma b\"{o}l\"{u}m\"{u}ne temel olu\c{s}turacak bi\c{c}imde belirtilir.
+
+\subsubsection{Model \c{C}\i{}kt\i{}lar\i{}n\i{}n Kar\c{s}\i{}la\c{s}t\i{}r\i{}lmas\i{}}
+
+D\"{o}rd\"{u}nc\"{u} derece ba\c{s}l\i{}klar ancak gerekli oldu\u{g}unda kullan\i{}lmal\i{}d\i{}r. Bu \"{o}rnekte, ayr\i{}nt\i{}l\i{} bir model kar\c{s}\i{}la\c{s}t\i{}rmas\i{}n\i{}n nas\i{}l verilebilece\u{g}i g\"{o}sterilmektedir.
+
+\begin{figure}[!ht]
+ \centering
+ \includegraphics[width=230pt,keepaspectratio=true]{./fig/sekil6}
+ \vspace{4mm}
+ \caption{\c{C}ok sat\i{}rl\i{} bir \c{s}ekil ba\c{s}l\i{}\u{g}\i{} i\c{c}in hizalama \"{o}rne\u{g}i}
+ \label{fig:4-1}
+\end{figure}
+
+\c{S}ekil~\ref{fig:4-1}'de bulgular\i{} g\"{o}rselle\c{s}tirmek i\c{c}in kullan\i{}labilecek bir \c{s}ekil d\"{u}zeni verilmi\c{s}tir.
+
+\begin{table*}[!ht]
+{\setlength{\tabcolsep}{14pt}
+\caption{Bulgular b\"{o}l\"{u}m\"{u}nde \"{o}rnek tablo}
+\noindent
+\begin{tabular}{cccc}
+\hline\hline
+Kolon A & Kolon B & Kolon C & Kolon D \\
+\hline
+Sat\i{}r A & Sat\i{}r A & Sat\i{}r A & Sat\i{}r A \\
+Sat\i{}r B & Sat\i{}r B & Sat\i{}r B & Sat\i{}r B \\
+Sat\i{}r C & Sat\i{}r C & Sat\i{}r C & Sat\i{}r C \\
+\hline
+\end{tabular}
+\par
+\label{tableforCh4-1}}
+\end{table*}
+
+Tablo~\ref{tableforCh4-1}, bulgular\i{}n tablo i\c{c}inde nas\i{}l d\"{u}zenlenebilece\u{g}ini g\"{o}steren k\i{}sa bir \"{o}rnektir.
+\end{document}

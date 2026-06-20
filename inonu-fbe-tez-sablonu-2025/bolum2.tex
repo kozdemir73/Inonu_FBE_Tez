@@ -1,0 +1,101 @@
+\documentclass[12pt,a4paper]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2934}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Scientific WorkPlace\LaTeX Report">}
+%TCIDATA{Language=Turkish}
+%TCIDATA{CSTFile=LaTeX Report.cst}
+%TCIDATA{PageSetup=72,72,72,72,0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[shorthands=off,turkish]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{{./fig/}{fig/}}
+\providecommand{\parencite}[1]{(#1)}
+\providecommand{\textcite}[1]{#1}
+\providecommand{\sekilnotu}[1]{\par\small #1}
+\providecommand{\tablonotu}[1]{\par\small #1}
+\providecommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{GENEL B\.{I}LG\.{I}LER / KURAMSAL \c{C}ER\c{C}EVE}\label{CH2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Ara\c{s}t\i{}rma Alan\i{}n\i{}n Tan\i{}t\i{}m\i{}}
+
+Bu b\"{o}l\"{u}mde tez konusunun dayand\i{}\u{g}\i{} temel kavramlar, kuramsal yakla\c{s}\i{}mlar ve konu ile ilgili \"{o}nceki \c{c}al\i{}\c{s}malar \"{o}zetlenir. Okuyucunun ara\c{s}t\i{}rma problemini anlayabilmesi i\c{c}in gerekli arka plan bilgisi a\c{c}\i{}k ve sistemli bi\c{c}imde verilir.\footnote{Dipnotlar k\i{}sa tutulmal\i{}; ana metin d\i{}\c{s}\i{}ndaki a\c{c}\i{}klamalar i\c{c}in kullan\i{}lmal\i{}d\i{}r.}
+
+Literat\"{u}r de\u{g}erlendirmesinde yaln\i{}zca kaynaklar\i{} s\i{}ralamak yerine, kaynaklar aras\i{}ndaki ili\c{s}ki, bo\c{s}luk ve tart\i{}\c{s}malara yer verilmelidir. Bu k\i{}s\i{}mda tez \c{c}al\i{}\c{s}mas\i{}n\i{}n hangi bilimsel gereksinimden do\u{g}du\u{g}u ortaya konur \parencite{moore91}.
+
+\section{Kuramsal Yakla\c{s}\i{}mlar}
+
+Kuramsal \c{c}er\c{c}eve, ara\c{s}t\i{}rman\i{}n kulland\i{}\u{g}\i{} kavramlar\i{} ve varsay\i{}mlar\i{} tan\i{}mlar. Metinde kullan\i{}lan her terim, tez boyunca ayn\i{} anlamda kullan\i{}lmal\i{}; zorunlu durumlarda tan\i{}mlar a\c{c}\i{}klanmal\i{}d\i{}r.
+
+\begin{figure}[!ht]
+ \centering
+ \includegraphics[width=10cm,keepaspectratio=true]{./fig/sekil2}
+ \vspace*{4mm}
+ \caption{Kuramsal yap\i{}y\i{} g\"{o}steren \"{o}rnek \c{s}ekil}
+ \sekilnotu{Not: \c{S}ekil alt\i{} a\c{c}\i{}klamalar\i{} 9 punto ile verilir.}
+ \label{fig:ch2-1}
+\end{figure}
+
+\c{S}ekil~\ref{fig:ch2-1}'de g\"{o}sterilen yap\i{}, kuramsal \c{c}er\c{c}evenin temel bile\c{s}enlerini \"{o}zetlemektedir. Metinde \c{s}ekil ve tablolar ilk ge\c{c}tikleri yerde an\i{}lmal\i{}, ard\i{}ndan ilgili g\"{o}rsel verilmelidir.
+
+\section{\.{I}lgili \c{C}al\i{}\c{s}malar}
+
+Bu k\i{}s\i{}mda benzer y\"{o}ntemler, veri kaynaklar\i{} ve bulgular kar\c{s}\i{}la\c{s}t\i{}rmal\i{} olarak ele al\i{}n\i{}r. Kaynak g\"{o}sterimi i\c{c}in uygun at\i{}f komutu kullan\i{}lmal\i{}d\i{}r \parencite{moore91}.
+
+Alt \c{s}ekil kullan\i{}lmas\i{} gerekiyorsa her alt par\c{c}a metinde ayr\i{} ayr\i{} a\c{c}\i{}klanabilir. \c{S}ekil~\ref{fig:ch2-2}'de iki par\c{c}al\i{} bir \c{s}ekil \"{o}rne\u{g}i verilmi\c{s}tir.
+
+\vspace{6pt}
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{example-image-a}
+        \captionsetup{labelformat=empty}
+        \caption*{(a)}
+        \label{fig:ch2-2a}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{example-image-b}
+        \captionsetup{labelformat=empty}
+        \caption*{(b)}
+        \label{fig:ch2-2b}
+    \end{subfigure}
+    \caption{Alt \c{s}ekillerden olu\c{s}an ana \c{s}ekil \"{o}rne\u{g}i}
+    \label{fig:ch2-2}
+\end{figure}
+
+Tablolar, metni gereksiz yere tekrar etmeden veriyi d\"{u}zenli bi\c{c}imde sunmal\i{}d\i{}r. Tablo~\ref{table_ex2}, tez i\c{c}inde kullan\i{}labilecek yal\i{}n bir tablo d\"{u}zenini g\"{o}stermektedir.
+
+\begin{table*}[!ht]
+{\setlength{\tabcolsep}{14pt}
+\caption{Tablo ba\c{s}l\i{}klar\i{} nokta ile bitmemelidir}
+\noindent
+\begin{tabular}{cccc}
+\hline\hline
+Kolon A & Kolon B & Kolon C & Kolon D \\
+\hline
+Sat\i{}r A & Sat\i{}r A & Sat\i{}r A & Sat\i{}r A \\
+Sat\i{}r B & Sat\i{}r B & Sat\i{}r B & Sat\i{}r B \\
+Sat\i{}r C & Sat\i{}r C & Sat\i{}r C & Sat\i{}r C \\
+\hline
+\end{tabular}
+\tablonotu{Not: Tablo alt\i{} a\c{c}\i{}klamalar\i{} 9 punto ile verilir.}
+\par
+\label{table_ex2}}
+\end{table*}
+
+Bu b\"{o}l\"{u}m\"{u}n sonunda, kuramsal \c{c}er\c{c}eveden materyal ve metot b\"{o}l\"{u}m\"{u}ne ge\c{c}i\c{s}i sa\u{g}layan k\i{}sa bir de\u{g}erlendirme yap\i{}labilir.
+\end{document}

@@ -1,0 +1,191 @@
+﻿{
+    "Folder":  "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025",
+    "Engine":  "xelatex",
+    "Build":  false,
+    "WithSpine":  false,
+    "Fail":  0,
+    "Warning":  8,
+    "Manual":  4,
+    "Results":  [
+                    {
+                        "Status":  "OK",
+                        "Message":  "Zorunlu sablon kaynak dosyalari bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kapak icin FBE amblem/logo varligi bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Ana PDF bulundu: tez.pdf"
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "LaTeX logunda gozden gecirilecek uyarilar var; PDF yine de uretildi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027INONU UNIVERSITESI\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027FEN BILIMLERI ENSTITUSU\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027KABUL VE ONAY\u0027 bulunamadi veya farkli yazildi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027ICINDEKILER\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027ONSOZ\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027OZET\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027ABSTRACT\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027SEKILLER DIZINI\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027TABLOLAR DIZINI\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde \u0027KAYNAKLAR\u0027 bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: Simgeler/kisaltmalar dizini PDF metninde gorunuyor."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Teslim oncesi: PDF metninde yaygin karakter bozulmasi isareti gorunmedi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "PDF metninde dorduncu derece numarali baslik kalibi gorunmedi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Ana PDF sayfa bilgisi okunabildi: Pages:           33"
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "PDF font listesinde Calibri/Carlito bulundu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "pdffonts ciktisinda gomulu olmayan font isareti gorulmedi."
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Ornek/yer tutucu bilgiler kalmis olabilir: tez.tex:53"
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Sirt kapakta ana tezle farkli alanlar var: yazar, baslik. sirt-kapak-guncelle.ps1 calistirilabilir."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "ozet.tex kelime sayisi yaklasik 101; 250 siniri icinde."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "ozet.tex icinde kaynak/sekil/tablo komutu bulunmadi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "ozet.tex anahtar kelimeleri tez.tex icindeki \\ anahtarkelimeler makrosundan aliniyor."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "abstract.tex kelime sayisi yaklasik 125; 250 siniri icinde."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "abstract.tex icinde kaynak/sekil/tablo komutu bulunmadi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "abstract.tex anahtar kelimeleri tez.tex icindeki \\ keywords makrosundan aliniyor."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Metin ici atif anahtarlari .bib dosyalarinda bulundu."
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Metinde atif verilmeyen bib kayitlari olabilir: abrahart98, acar97, Burke74, harper2007, unesco, mccaffrey88, nelson88, sisaky, simpsondvd, startrek, TS-40561, url-1, url-2, HYP:HYP57, Box:1990:TSA:574978, 17590413, vanden2001, Wegener2000629, Wolchik2000843"
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Teslim oncesi: tez.bbl bulunamadi; kaynakca derlemesi tamamlanmamis olabilir."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kaynakca kontrolu: Bib kayitlarinda yazar/editor alani genel olarak dolu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kaynakca kontrolu: Bib kayitlarinda baslik alani genel olarak dolu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kaynakca kontrolu: Bib kayitlarinda yil/tarih alani genel olarak dolu."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kaynakca kontrolu: DOI alanlarinda yaygin bicim sorunu gorunmedi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Kaynakca kontrolu: URL alanlarinda yaygin bicim sorunu gorunmedi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Metin ici ref/eqref hedefleri tanimli gorunuyor."
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "Metinde anilmayan sekil/tablo/denklem etiketleri olabilir: fig:ch2-2a, table:appendix, eq:appendix, fig:appendix"
+                    },
+                    {
+                        "Status":  "UYARI",
+                        "Message":  "1 sekil/tablo/denklem ortami label icermiyor olabilir."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "Sekil/tablo basliklarinda sonda nokta otomatik taramada gorunmedi."
+                    },
+                    {
+                        "Status":  "OK",
+                        "Message":  "GIRIS bolumunde otomatik taramada alt baslik gorunmedi."
+                    },
+                    {
+                        "Status":  "MANUEL",
+                        "Message":  "Kapak ve sirt kapakta uzun baslik tasmasi son PDF uzerinden gozle kontrol edilmeli."
+                    },
+                    {
+                        "Status":  "MANUEL",
+                        "Message":  "Juri, tarih, karar numarasi ve resmi bilgiler Enstitu/Danisman bilgileriyle karsilastirilmali."
+                    },
+                    {
+                        "Status":  "MANUEL",
+                        "Message":  "APA 7 ayrintilari ve akademik icerik danismanla son PDF uzerinden kontrol edilmeli."
+                    },
+                    {
+                        "Status":  "MANUEL",
+                        "Message":  "Etik ve uretken yapay zeka beyaninin gercek kullanim durumunu yansittigi teyit edilmeli."
+                    }
+                ]
+}
