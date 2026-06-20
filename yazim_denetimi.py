@@ -325,6 +325,27 @@ SPELLING_STOPWORDS_EN = {
     "additionally", "approximately", "investigated", "demonstrated",
     "scheme", "stability", "accuracy", "comparison", "particularly",
     "internally", "classical",
+    "able", "about", "above", "according", "achieve", "achieved", "across",
+    "addition", "additional", "after", "algorithm", "algorithms", "also",
+    "among", "approach", "approaches", "appropriate", "arbitrary", "based",
+    "basic", "before", "between", "brief", "calculated", "case", "cases",
+    "coefficient", "coefficients", "common", "complete", "complex",
+    "concept", "concepts", "condition", "convergence", "corresponding",
+    "data", "defined", "definition", "definitions", "demonstrate",
+    "dependent", "derived", "design", "determined", "different",
+    "dimensional", "directly", "discussion", "during", "each", "effective",
+    "example", "examples", "existing", "experimental", "following",
+    "function", "functions", "general", "generally", "important",
+    "initial", "internal", "interval", "known", "light", "main",
+    "mathematical", "model", "models", "necessary", "needed", "normal",
+    "order", "orders", "ordinary", "other", "parameter", "parameters",
+    "partial", "physical", "preferred", "process", "proposed", "purpose",
+    "regarding", "researcher", "researchers", "respectively", "same",
+    "several", "should", "shown", "similar", "simple", "simulation",
+    "source", "specific", "standard", "studies", "study", "such",
+    "system", "systems", "technique", "techniques", "theoretical",
+    "through", "throughout", "type", "used", "various", "well", "which",
+    "while", "with", "without",
 }
 TURKISH_SUFFIXES = [
     "lerindeki", "larındaki", "lerimizden", "larımızdan", "lerimizin", "larımızın",
@@ -579,6 +600,8 @@ def dictionary_accepts(word, dictionary, lang):
     lower = word.casefold().strip("'’")
     if len(lower) < 4 or lower in TECHNICAL_WORDS:
         return True
+    if str(lang).lower().startswith("en") and lower in SPELLING_STOPWORDS_EN:
+        return True
     if any(char.isdigit() for char in lower) or re.search(r"[A-ZÇĞİÖŞÜ]{2,}", word):
         return True
     if "-" in lower:
@@ -611,6 +634,14 @@ def dictionary_accepts(word, dictionary, lang):
         if lower.endswith("ing") and len(lower) > 5:
             candidates.add(lower[:-3])
             candidates.add(lower[:-3] + "e")
+        for suffix in ("ingly", "edly", "ally", "ation", "ations", "ment", "ments", "ness", "less", "ful", "ers", "er", "ly"):
+            if lower.endswith(suffix) and len(lower) > len(suffix) + 3:
+                stem = lower[:-len(suffix)]
+                candidates.add(stem)
+                if suffix in {"er", "ers"}:
+                    candidates.add(stem + "e")
+                elif suffix == "ally":
+                    candidates.add(stem + "al")
         if any(candidate in dictionary or candidate in SPELLING_STOPWORDS_EN for candidate in candidates):
             SPELL_CHECK_CACHE[cache_key] = True
             return True

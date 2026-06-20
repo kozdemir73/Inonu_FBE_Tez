@@ -25,6 +25,7 @@ import sablon_koruma
 
 ROOT = Path(__file__).resolve().parent
 LOCAL_OUTPUT_ROOT = ROOT.parent
+CONVERTED_OUTPUT_DIR_NAME = "tez-donusum-ciktilari"
 
 
 def resolve_git_executable():
@@ -1565,14 +1566,27 @@ class ThesisManager(tk.Tk):
         if self.zemberek_install_prompted or self.zemberek_install_running:
             return
         self.zemberek_install_prompted = True
-        dictionary = yazim_denetimi.load_dictionary("tr", workdir=self.template_dir)
-        if getattr(dictionary, "zemberek", None):
+
+        def worker():
+            active = False
+            packages = []
+            try:
+                dictionary = yazim_denetimi.load_dictionary("tr", workdir=self.template_dir)
+                active = bool(getattr(dictionary, "zemberek", None))
+            except Exception:
+                active = False
+            if not active:
+                if importlib.util.find_spec("pkg_resources") is None:
+                    packages.append("setuptools<81")
+                if importlib.util.find_spec("zemberek") is None:
+                    packages.append("zemberek-python")
+            self.after(0, lambda: self._finish_zemberek_installation_check(active, packages))
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _finish_zemberek_installation_check(self, active, packages):
+        if active:
             return
-        packages = []
-        if importlib.util.find_spec("pkg_resources") is None:
-            packages.append("setuptools<81")
-        if importlib.util.find_spec("zemberek") is None:
-            packages.append("zemberek-python")
         if not packages:
             self.status.configure(text="Zemberek kurulu, ancak bu oturumda aktifleşmedi")
             return
@@ -1985,7 +1999,7 @@ class ThesisManager(tk.Tk):
         box.columnconfigure(0, weight=1)
         ttk.Label(
             box,
-            text="Eski tez klasörünü seçin. Orijinal klasör değiştirilmez; dönüştürülen kopya repo dışındaki donusturulen_tezler klasörüne yazılır.",
+            text=f"Eski tez klasörünü seçin. Orijinal klasör değiştirilmez; dönüştürülen kopya repo dışındaki {CONVERTED_OUTPUT_DIR_NAME} klasörüne yazılır.",
             wraplength=780,
         ).grid(row=0, column=0, sticky="w", pady=(0, 10))
         btn = ttk.Button(box, text="Eski Tezi Dönüştür", image=self._button_icon("convert"), compound="left", command=self.convert_legacy_thesis)
@@ -7759,7 +7773,7 @@ class ThesisManager(tk.Tk):
             return
         report_stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
         safe_name = re.sub(r"[^0-9A-Za-zÇĞİÖŞÜçğıöşü_.-]+", "-", source.name).strip("-_.") or "tez"
-        output_root = LOCAL_OUTPUT_ROOT / "donusturulen_tezler" / f"{safe_name}-{report_stamp}"
+        output_root = LOCAL_OUTPUT_ROOT / CONVERTED_OUTPUT_DIR_NAME / f"{safe_name}-{report_stamp}"
         self.last_legacy_source = source
         report_json = output_root / "donusum-raporu.json"
         report_md = output_root / "donusum-raporu.md"
