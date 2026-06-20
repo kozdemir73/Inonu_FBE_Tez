@@ -4941,10 +4941,10 @@ class ThesisManager(tk.Tk):
     def check_for_remote_update(self):
         if self.update_check_running:
             return
-        git_exe = resolve_git_executable()
-        if not git_exe:
+        script = ROOT / "guncelle.ps1"
+        if not script.exists():
             self.update_available = False
-            self.update_status_text = "Git bulunamadı; GitHub hesabı gerekmez ama güncelleme kontrolü için git.exe gerekir."
+            self.update_status_text = "Güncelleme betiği bulunamadı."
             self.render_update_buttons()
             return
         self.update_check_running = True
@@ -4953,44 +4953,35 @@ class ThesisManager(tk.Tk):
             available = False
             status = ""
             try:
-                git_env = os.environ.copy()
-                git_env.update({
-                    "GIT_TERMINAL_PROMPT": "0",
-                    "GCM_INTERACTIVE": "Never",
-                    "GIT_ASKPASS": "echo",
-                })
-                local = subprocess.run(
-                    [git_exe, "rev-parse", "HEAD"],
+                result = subprocess.run(
+                    [
+                        "powershell",
+                        "-ExecutionPolicy",
+                        "Bypass",
+                        "-File",
+                        str(script),
+                        "-Workdir",
+                        str(self.template_dir),
+                        "-CheckOnly",
+                    ],
                     cwd=str(ROOT),
                     stdout=subprocess.PIPE,
-                    stderr=subprocess.DEVNULL,
+                    stderr=subprocess.STDOUT,
                     text=True,
                     encoding="utf-8",
                     errors="replace",
-                    timeout=8,
-                    env=git_env,
+                    timeout=45,
                 )
-                remote = subprocess.run(
-                    [git_exe, "-c", "credential.helper=", "-c", "core.askPass=", "ls-remote", "origin", "HEAD"],
-                    cwd=str(ROOT),
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.DEVNULL,
-                    text=True,
-                    encoding="utf-8",
-                    errors="replace",
-                    timeout=12,
-                    env=git_env,
-                )
-                if local.returncode == 0 and remote.returncode == 0:
-                    local_sha = local.stdout.strip()
-                    remote_sha = remote.stdout.split()[0] if remote.stdout.split() else ""
-                    if local_sha and remote_sha and local_sha != remote_sha:
-                        available = True
-                        status = "Yeni sürüm hazır. Yüklemeden önce değişiklik özeti gösterilecek."
-                    elif local_sha and remote_sha:
-                        status = "Güncel."
-                elif local.returncode == 0 and remote.returncode != 0:
-                    status = "Güncelleme deposu herkese açık okunamadı; GitHub hesabı istenmez, depo public olmalıdır."
+                output = result.stdout or ""
+                repaired = self._repair_mojibake(output)
+                if result.returncode == 0 and "Durum: Güncelleme hazır." in repaired:
+                    available = True
+                    status = "Yeni sürüm hazır. Yüklemeden önce değişiklik özeti gösterilecek."
+                elif "Durum: Panel zaten güncel." in repaired:
+                    status = "Güncel."
+                elif "Neden:" in repaired:
+                    reason = next((line.strip() for line in repaired.splitlines() if line.strip().startswith("Neden:")), "")
+                    status = reason or "Güncelleme denetimi tamamlandı; yeni sürüm bulunamadı."
             except Exception:
                 status = ""
             self.output_queue.put(("__UPDATE_STATUS__", available, status))

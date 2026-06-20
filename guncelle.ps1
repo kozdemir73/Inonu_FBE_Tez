@@ -99,6 +99,27 @@ function Get-PublicUpdateUrls([string]$RemoteUrl) {
     return $urls
 }
 
+function Get-UpstreamRef([string]$Branch) {
+    $oldErrorAction = $ErrorActionPreference
+    try {
+        $ErrorActionPreference = "Continue"
+        try {
+            $value = (& $Git rev-parse --abbrev-ref --symbolic-full-name "@{u}" 2>$null)
+            if ($LASTEXITCODE -eq 0 -and $value) {
+                return ($value -join "`n").Trim()
+            }
+        } catch {
+            # Upstream tanımlı değilse origin/<dal>, origin/main veya origin/master denenir.
+        }
+    } finally {
+        $ErrorActionPreference = $oldErrorAction
+    }
+    if (Test-GitRef "origin/$Branch") { return "origin/$Branch" }
+    if (Test-GitRef "origin/main") { return "origin/main" }
+    if (Test-GitRef "origin/master") { return "origin/master" }
+    return ""
+}
+
 function Read-LocalVersion {
     $versionFile = Join-Path $Root "VERSION"
     if (Test-Path -LiteralPath $versionFile) {
@@ -259,20 +280,12 @@ try {
         exit 2
     }
 
-    $upstream = (& $Git rev-parse --abbrev-ref --symbolic-full-name "@{u}" 2>$null)
-    if ($LASTEXITCODE -ne 0 -or -not $upstream) {
-        if (Test-GitRef "origin/$branch") {
-            $upstream = "origin/$branch"
-        } elseif (Test-GitRef "origin/main") {
-            $upstream = "origin/main"
-        } elseif (Test-GitRef "origin/master") {
-            $upstream = "origin/master"
-        } else {
-            Add-Line "Durum: Güncelleme yapılamadı."
-            Add-Line "Neden: Güncellenecek GitHub dalı bulunamadı."
-            Save-Report
-            exit 2
-        }
+    $upstream = Get-UpstreamRef $branch
+    if (-not $upstream) {
+        Add-Line "Durum: Güncelleme yapılamadı."
+        Add-Line "Neden: Güncellenecek GitHub dalı bulunamadı."
+        Save-Report
+        exit 2
     }
 
     $upstream = $upstream.Trim()
