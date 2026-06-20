@@ -1478,6 +1478,7 @@ class ThesisManager(tk.Tk):
         self.zemberek_install_prompted = False
         self.preview_logo_images = {}
         self.preview_after_id = None
+        self.preview_deferred = False
         self.main_canvas_sync_after_id = None
         self.button_images = {}
         self.tooltips = []
@@ -3371,6 +3372,9 @@ class ThesisManager(tk.Tk):
 
     def update_preview(self):
         self.preview_after_id = None
+        if getattr(self, "loading_form", False):
+            self.preview_deferred = True
+            return
         if not hasattr(self, "preview_cover"):
             return
         title = "\n".join(part for part in [self._value("baslik1"), self._value("baslik2"), self._value("baslik3")] if part) or "[Tez başlığı]"
@@ -3414,6 +3418,9 @@ class ThesisManager(tk.Tk):
         self.update_ai_preview()
 
     def schedule_update_preview(self, delay=180):
+        if getattr(self, "loading_form", False):
+            self.preview_deferred = True
+            return
         if not hasattr(self, "preview_cover"):
             return
         if self.preview_after_id:
@@ -4204,21 +4211,25 @@ class ThesisManager(tk.Tk):
         tex_path = self.template_dir / "tez.tex"
         if tex_path.exists():
             self.loading_form = True
-            self.macros_to_form(read_macros(tex_path))
-            degree = read_degree(tex_path)
-            if degree:
-                self.degree_var.set(DEGREE_DISPLAY["tr"].get(degree, "Yüksek Lisans"))
-            self.citation_var.set(CITATION_DISPLAY["tr"].get(read_citation_style(tex_path), "APA 7"))
-            self.thesis_language_var.set("İngilizce" if read_thesis_language(tex_path) == "ingilizce" else "Türkçe")
-            self.decimal_separator_var.set(DECIMAL_SEPARATOR_DISPLAY["tr"].get(read_decimal_separator(tex_path), DECIMAL_SEPARATOR_DISPLAY["tr"]["nokta"]))
-            self.page_layout_var.set(PAGE_LAYOUT_DISPLAY["tr"].get(read_page_layout(tex_path), PAGE_LAYOUT_DISPLAY["tr"]["tek"]))
-            self._sync_option_display(ui_lang_key(self.lang_var.get()))
-            self._apply_defaults()
-            self.last_autosave_data = self.form_to_macros()
-            self.undo_stack = []
-            self.loading_form = False
+            self.preview_deferred = False
+            try:
+                self.macros_to_form(read_macros(tex_path))
+                degree = read_degree(tex_path)
+                if degree:
+                    self.degree_var.set(DEGREE_DISPLAY["tr"].get(degree, "Yüksek Lisans"))
+                self.citation_var.set(CITATION_DISPLAY["tr"].get(read_citation_style(tex_path), "APA 7"))
+                self.thesis_language_var.set("İngilizce" if read_thesis_language(tex_path) == "ingilizce" else "Türkçe")
+                self.decimal_separator_var.set(DECIMAL_SEPARATOR_DISPLAY["tr"].get(read_decimal_separator(tex_path), DECIMAL_SEPARATOR_DISPLAY["tr"]["nokta"]))
+                self.page_layout_var.set(PAGE_LAYOUT_DISPLAY["tr"].get(read_page_layout(tex_path), PAGE_LAYOUT_DISPLAY["tr"]["tek"]))
+                self._sync_option_display(ui_lang_key(self.lang_var.get()))
+                self._apply_defaults()
+                self.last_autosave_data = self.form_to_macros()
+                self.undo_stack = []
+            finally:
+                self.loading_form = False
             self.on_degree_change()
             self.on_thesis_language_change()
+            self.preview_deferred = False
             self.update_preview()
 
     def save_json(self, notify=True, normalize_focused=True):
