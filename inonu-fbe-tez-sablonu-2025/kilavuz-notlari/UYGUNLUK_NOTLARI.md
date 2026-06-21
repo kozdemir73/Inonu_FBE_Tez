@@ -8,7 +8,7 @@ noktalarin gercek tez PDF'i uzerinden kontrol edilmesi gerektigini ozetler.
 
 - Dis kapak Ek-1/Ek-2 duzenine gore FBE amblemi, universite/enstitu adi, tez
   basligi, tez turu, ogrenci adi ve `MALATYA, 2025` alt bandi ile uretilir.
-- Ic kapakta anabilim dali, program, ogrenci numarasi ve danisman bilgileri
+- Ic kapakta ana bilim dali, program, ogrenci numarasi ve danisman bilgileri
   yer alir.
 - `yukseklisans` ve `doktora` sinif secenekleri tez turu metinlerini ayirir.
 - `sirt-kapak.tex`, cilt/sirt kapagi icin ana tezden ayri tek sayfalik PDF

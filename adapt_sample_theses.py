@@ -440,7 +440,7 @@ def build_new_tez(source_tex, dest):
 
     yazar = (parse_command(text, "yazar") + ["", ""])[:2]
     ogrencino = (parse_command(text, "ogrencino") + [""])[0]
-    anabilimdali = parse_command(text, "anabilimdali") or ["Matematik Anabilim Dalı", "Department of Mathematics"]
+    anabilimdali = parse_command(text, "anabilimdali") or ["Matematik Ana Bilim Dalı", "Department of Mathematics"]
     if len(anabilimdali) == 1:
         anabilimdali.append("Department of Mathematics")
     programi = parse_command(text, "programi") or ["Matematik Programı", "Mathematics Programme"]

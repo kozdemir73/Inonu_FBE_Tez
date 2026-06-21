@@ -100,7 +100,7 @@ Güncel örnek PDF daha önce boş başlık, boş anahtar kelime ve kapak şehri
 
 Güncelleme:
 
-- Örnek başlık, anabilim dalı, program, danışman, şehir/yıl, karar bilgisi ve anahtar kelime alanları şablon önizlemesini anlaşılır kılacak biçimde dolduruldu.
+- Örnek başlık, ana bilim dalı, program, danışman, şehir/yıl, karar bilgisi ve anahtar kelime alanları şablon önizlemesini anlaşılır kılacak biçimde dolduruldu.
 - Örnek tablolardaki `Satı r` yazımları `Satır` olarak düzeltildi.
 - Sırt kapak bilgileri ana `tez.tex` ile eşitlendi.
 

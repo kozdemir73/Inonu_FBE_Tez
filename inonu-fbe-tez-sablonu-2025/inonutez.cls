@@ -532,7 +532,7 @@
   \def\Baslikiki{\th@Titleiki}
   \def\Baslikuc{\th@Titleuc}
   \def\Anabilim{\th@Department}
-  \def\AnabilimBaslik{Anabilim Dalı}
+  \def\AnabilimBaslik{Ana Bilim Dalı}
   \def\Program{\th@Programme}
   \def\ProgramBaslik{Programı}
   \def\TarihBuyuk{\th@date}
@@ -561,7 +561,7 @@
   \def\Baslikiki{\th@baslikiki}
   \def\Baslikuc{\th@baslikuc}
   \def\Anabilim{\th@AnaBilimDali}
-  \def\AnabilimBaslik{Anabilim Dalı}
+  \def\AnabilimBaslik{Ana Bilim Dalı}
   \def\Program{\th@Programi}
   \def\ProgramBaslik{Programı}
   \def\TarihBuyuk{\th@tarih}
@@ -2127,7 +2127,7 @@ ve Enstitü Yönetim Kurulu'nun \textbf{\th@yonetimkurulutarih} tarihli,
   \end{center}
   \vspace*{7mm}
   \noindent Jürimiz tarafından \dotfill/\dotfill/20\dotfill{} tarihinde yapılan tez savunma sınavı sonucunda bu tez
-  \textbf{oybirliği / oyçokluğu} ile başarılı bulunarak \dotfill{} Anabilim Dalı \TezSeviyesi{} olarak kabul etmiştir.
+  \textbf{oybirliği / oyçokluğu} ile başarılı bulunarak \dotfill{} Ana Bilim Dalı \TezSeviyesi{} olarak kabul etmiştir.
   \vspace*{4mm}
   \noindent\begin{tabular*}{\textwidth}{@{}p{123mm}@{\extracolsep{\fill}}p{35mm}@{}}
   \textbf{Jüri Üyelerinin Unvanı Adı Soyadı} & \textbf{İmza}\\[1.5mm]

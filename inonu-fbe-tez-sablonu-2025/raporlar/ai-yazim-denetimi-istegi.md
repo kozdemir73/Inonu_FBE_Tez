@@ -3,7 +3,7 @@
 Aşağıdaki tez metnini akademik Türkçe açısından inceleyin. Yazım, noktalama, anlatım bozukluğu, gereksiz tekrar, çok uzun cümle ve terminoloji tutarlılığı için öneriler verin. LaTeX komutlarını değiştirmeyin; önerileri dosya ve satır numarasıyla listeleyin.
 
 ```text
-tez.tex:63: Matematik Anabilim Dalı
+tez.tex:63: Matematik Ana Bilim Dalı
 tez.tex:98: TEZ BAŞLIĞI 1. SATIR
 tez.tex:98: GEREKLİYSE 2. SATIR
 tez.tex:98: GEREKLİYSE 3. SATIR

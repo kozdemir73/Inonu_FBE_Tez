@@ -134,7 +134,7 @@
             "visible_gap_cm": 1.9,
             "approx_blank_enter": 3.2,
             "before": "ÖĞRENCİ SOYADI",
-            "after": "MATEMATİK ANABİLİM DALI"
+            "after": "MATEMATİK ANA BİLİM DALI"
           }
         ]
       },
@@ -150,7 +150,7 @@
         },
         {
           "kind": "main_heading",
-          "text": "MATEMATİK ANABİLİM DALI",
+          "text": "MATEMATİK ANA BİLİM DALI",
           "status": "tolerance",
           "notes": [
             "sayfa ust satirindan uzak"
@@ -374,10 +374,10 @@
           "title": "Kapak satırı font/punto",
           "status": "info",
           "owner": "template",
-          "message": "MATEMATİK ANABİLİM DALI: Calibri-Bold 14.9 pt kalın",
+          "message": "MATEMATİK ANA BİLİM DALI: Calibri-Bold 14.9 pt kalın",
           "location": {
-            "x0": 210.13400268554688,
-            "x1": 385.18804931640625,
+            "x0": 208.44500732421875,
+            "x1": 386.87640380859375,
             "y0": 506.02001953125,
             "y1": 520.9640502929688
           },
@@ -470,10 +470,10 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "ÖĞRENCİ SOYADI -> MATEMATİK ANABİLİM DALI: 1.9cm/53px/~3.2 satır",
+          "message": "ÖĞRENCİ SOYADI -> MATEMATİK ANA BİLİM DALI: 1.9cm/53px/~3.2 satır",
           "location": {
-            "x0": 210.13400268554688,
-            "x1": 385.18804931640625,
+            "x0": 208.44500732421875,
+            "x1": 386.87640380859375,
             "y0": 453.50238037109375,
             "y1": 506.02001953125
           },
@@ -486,10 +486,10 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "MATEMATİK ANABİLİM DALI -> DOKTORA TEZİ: 2.0cm/58px/~3.5 satır",
+          "message": "MATEMATİK ANA BİLİM DALI -> DOKTORA TEZİ: 2.0cm/58px/~3.5 satır",
           "location": {
-            "x0": 210.13400268554688,
-            "x1": 385.18804931640625,
+            "x0": 208.44500732421875,
+            "x1": 386.87640380859375,
             "y0": 520.9640502929688,
             "y1": 578.7128295898438
           },
@@ -586,9 +586,9 @@
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 4,
-        "expected_font_line_count": 4,
-        "expected_size_line_count": 4,
+        "body_candidate_line_count": 5,
+        "expected_font_line_count": 5,
+        "expected_size_line_count": 5,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -620,7 +620,7 @@
             "visible_gap_cm": 2.6,
             "approx_blank_enter": 4.5,
             "before": "ÖĞRENCİ SOYADI",
-            "after": "Matematik Anabilim Dalı"
+            "after": "Matematik Ana Bilim Dalı"
           }
         ]
       },
@@ -745,10 +745,10 @@
           "title": "Kapak satırı font/punto",
           "status": "info",
           "owner": "template",
-          "message": "Matematik Anabilim Dalı: Calibri-Bold 11.0 pt kalın",
+          "message": "Matematik Ana Bilim Dalı: Calibri-Bold 11.0 pt kalın",
           "location": {
-            "x0": 240.9250030517578,
-            "x1": 354.37158203125,
+            "x0": 239.55499267578125,
+            "x1": 355.7413024902344,
             "y0": 375.8248291015625,
             "y1": 386.7837219238281
           },
@@ -905,10 +905,10 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "ÖĞRENCİ SOYADI -> Matematik Anabilim Dalı: 2.6cm/74px/~4.5 satır",
+          "message": "ÖĞRENCİ SOYADI -> Matematik Ana Bilim Dalı: 2.6cm/74px/~4.5 satır",
           "location": {
-            "x0": 240.9250030517578,
-            "x1": 354.37158203125,
+            "x0": 239.55499267578125,
+            "x1": 355.7413024902344,
             "y0": 302.3136901855469,
             "y1": 375.8248291015625
           },
@@ -921,10 +921,10 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "Matematik Anabilim Dalı -> DOKTORA TEZİ: 1.3cm/37px/~2.2 satır",
+          "message": "Matematik Ana Bilim Dalı -> DOKTORA TEZİ: 1.3cm/37px/~2.2 satır",
           "location": {
-            "x0": 240.9250030517578,
-            "x1": 354.37158203125,
+            "x0": 239.55499267578125,
+            "x1": 355.7413024902344,
             "y0": 386.7837219238281,
             "y1": 423.4438171386719
           },
@@ -5994,13 +5994,13 @@
       },
       "margins_all_cm": {
         "left": 2.5,
-        "right": 4.8,
+        "right": 4.7,
         "top": 2.7,
         "bottom": 1.1
       },
       "margins_body_cm": {
         "left": 2.5,
-        "right": 4.8,
+        "right": 4.7,
         "top": 2.7,
         "bottom": 14.0
       },
@@ -6011,7 +6011,7 @@
         },
         "right": {
           "status": "ok",
-          "diff_cm": 2.3
+          "diff_cm": 2.2
         },
         "top": {
           "status": "ok",
@@ -6029,7 +6029,7 @@
         },
         "right": {
           "status": "ok",
-          "diff_cm": 2.3
+          "diff_cm": 2.2
         },
         "top": {
           "status": "ok",
@@ -6081,7 +6081,7 @@
           {
             "visible_gap_cm": 0.7,
             "approx_blank_enter": 1.3,
-            "before": "Mezuniyet yılı, Üniversite, Enstitü, Anabilim Dalı, Program",
+            "before": "Mezuniyet yılı, Üniversite, Enstitü, Ana Bilim Dalı, Program",
             "after": "Mesleki Deneyimler ve Ödüller"
           }
         ]

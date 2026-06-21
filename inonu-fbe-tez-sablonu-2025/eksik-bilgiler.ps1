@@ -10,7 +10,7 @@ $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Checks = @(
   @{ File = "tez.tex"; Pattern = "123456789"; Label = "Ogrenci numarasi" },
   @{ File = "tez.tex"; Pattern = "\(Varsa Unvan\)"; Label = "Varsa mezuniyet/unvan bilgisi" },
-  @{ File = "tez.tex"; Pattern = "Anab\{\\\.i\}l\{\\\.i\}m Dal\{\\i\} Ad\{\\i\}|Department Name"; Label = "Anabilim dali / department" },
+  @{ File = "tez.tex"; Pattern = "Anab\{\\\.i\}l\{\\\.i\}m Dal\{\\i\} Ad\{\\i\}|Department Name"; Label = "Ana bilim dali / department" },
   @{ File = "tez.tex"; Pattern = "Program Ad\{\\i\}|Programme Name"; Label = "Program adi / programme" },
   @{ File = "tez.tex"; Pattern = "TEZ\\\.IN SAVUNULDU|MONTH YEAR OF DEFENSE|Month year of defense"; Label = "Savunma ayi/yili" },
   @{ File = "tez.tex"; Pattern = "GG/AA/YYYY|YYYY/KK"; Label = "Enstitu Yonetim Kurulu tarihi ve karar numarasi" },

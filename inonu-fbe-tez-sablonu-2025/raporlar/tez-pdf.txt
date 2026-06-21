@@ -1,6 +1,6 @@
-                T.C.
-        İNÖNÜ ÜNİVERSİTESİ
-      FEN BİLİMLERİ ENSTİTÜSÜ
+                 T.C.
+         İNÖNÜ ÜNİVERSİTESİ
+       FEN BİLİMLERİ ENSTİTÜSÜ
 
 
 
@@ -8,10 +8,10 @@
 TEZ BAŞLIĞI 1. SATIR
 GEREKLİYSE 2. SATIR
 GEREKLİYSE 3. SATIR
-    ÖĞRENCİ SOYADI
+     ÖĞRENCİ SOYADI
 
 
-   MATEMATİK ANABİLİM DALI
+   MATEMATİK ANA BİLİM DALI
 
 
 
@@ -22,7 +22,7 @@ GEREKLİYSE 3. SATIR
 
 
 
-        MALATYA, 2025
+         MALATYA, 2025
                                   T.C.
                            İNÖNÜ ÜNİVERSİTESİ
                          FEN BİLİMLERİ ENSTİTÜSÜ
@@ -42,7 +42,7 @@ GEREKLİYSE 3. SATIR
 
 
 
-                          Matematik Anabilim Dalı
+                         Matematik Ana Bilim Dalı
 
 
 
@@ -67,31 +67,31 @@ Bu Araştırma İnönü Üniversitesi Bilimsel Araştırma Projeleri Birimi Tara
 
                                   MALATYA
                                    2025
-                                                                                    Doküman No                  İNÜ‐KYS‐FRM‐142
-                                                                                    Yayın Tarihi                      19.08.2019
+                                                                                     Doküman No                 İNÜ‐KYS‐FRM‐142
+                                                                                     Yayın Tarihi                     19.08.2019
                                          KABUL ONAY FORMU
-                                                                                    Revizyon No
+                                                                                     Revizyon No
      İNÖNÜ ÜNİVERSİTESİ
-                                                                                    Revizyon Tarihi
+                                                                                     Revizyon Tarihi
 
 
 
-                                       İNÖNÜ ÜNİVERSİTESİ
-                              FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ
+                                        İNÖNÜ ÜNİVERSİTESİ
+                               FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ
 
 
                   TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR
 
                                                       DOKTORA TEZİ
 
-              DANIŞMAN                           İKİNCİ TEZ DANIŞMANI                              HAZIRLAYAN
+              DANIŞMAN                           İKİNCİ TEZ DANIŞMANI                               HAZIRLAYAN
 
-                                               Varsa ikinci tez danışmanı                      ÖĞRENCİ SOYADI
+                                               Varsa ikinci tez danışmanı                       ÖĞRENCİ SOYADI
 
 
 Jürimiz tarafından //20 tarihinde yapılan tez savunma sınavı sonucunda bu tez oybirliği / oyçokluğu ile
-başarılı bulunarak . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Anabilim Dalı DOKTORA TEZİ olarak kabul etmiştir.
-Jüri Üyelerinin Unvanı Adı Soyadı                                                                       İmza
+başarılı bulunarak . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Ana Bilim Dalı DOKTORA TEZİ olarak kabul etmiştir.
+Jüri Üyelerinin Unvanı Adı Soyadı                                                                        İmza
 1.                                                                                                  ....................
 
 2. Jüri 2 Adı Soyadı                                                                                ....................
@@ -642,7 +642,7 @@ E‐posta: ogrenci@inonu.edu.tr
 
 Öğrenim Durumu
         Lisans                     Mezuniyet yılı, Üniversite, Fakülte, Bölüm
-        Yüksek Lisans              Mezuniyet yılı, Üniversite, Enstitü, Anabilim Dalı, Program
+        Yüksek Lisans              Mezuniyet yılı, Üniversite, Enstitü, Ana Bilim Dalı, Program
 
 Mesleki Deneyimler ve Ödüller
 

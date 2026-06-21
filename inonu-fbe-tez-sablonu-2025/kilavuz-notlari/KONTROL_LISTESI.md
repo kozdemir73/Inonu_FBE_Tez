@@ -12,7 +12,7 @@ Bu liste, `latexsablon` klasorundeki 2025 Inonu Universitesi Fen Bilimleri Ensti
 
 ## On Bolumler
 
-- [ ] Dis kapak ve ic kapakta tez basligi, tez turu, ogrenci adi, anabilim dali, program, danisman, sehir ve yil dogru.
+- [ ] Dis kapak ve ic kapakta tez basligi, tez turu, ogrenci adi, ana bilim dali, program, danisman, sehir ve yil dogru.
 - [ ] Dis kapakta FBE amblemi ve alt bant PDF uzerinden gorsel olarak kontrol edildi.
 - [ ] Cilt/sirt kapagi gerekiyorsa `sirt-kapak.tex` dolduruldu ve ayri PDF olarak uretildi.
 - [ ] Kabul ve Onay sayfasinda savunma tarihi, teslim tarihi, oy durumu ve Enstitu Yonetim Kurulu bilgileri dolduruldu.

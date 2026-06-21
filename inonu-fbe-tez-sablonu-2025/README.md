@@ -89,7 +89,7 @@ Notlar:
 - Tez Asistani icindeki `Kaynakca Havuzu` denetimi `kaynaklar.bib` dosyasini
   okur, kaynak anahtarlarini ilk yazar soyadi ve yil bicimine gore onerir
   (`Zuckerman1994`, ayni yil tekrarinda `Zuckerman1994a` gibi) ve istenirse
-  anabilim dalina ait yerel havuza ekler. Yerel havuzlar sablon klasorunun
+  ana bilim dalina ait yerel havuza ekler. Yerel havuzlar sablon klasorunun
   disinda, calisma alaninin `kaynakca-havuzlari` klasorunde tutulur.
 - APA surumunde parantezli atif icin `\parencite{anahtar}`, anlatimli atif
   icin `\textcite{anahtar}` kullanilmalidir.
@@ -128,7 +128,7 @@ Notlar:
   verilmistir.
 - Dis kapak Ek-1 kapak duzenine uygun olarak logo, universite/enstitu adi,
   tez basligi, tez turu, ogrenci adi, sehir ve yil alt bandini kullanir.
-  Anabilim dali, danisman, ogrenci numarasi ve program bilgisi ic kapakta
+  Ana bilim dali, danisman, ogrenci numarasi ve program bilgisi ic kapakta
   yer alir.
 - Cilt baskisi icin gereken sirt yazisi ana teze otomatik eklenmez; ayri
   uretmek gerektiginde `sirt-kapak.tex` dosyasindaki bilgiler doldurulup

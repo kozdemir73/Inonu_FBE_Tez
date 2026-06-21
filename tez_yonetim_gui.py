@@ -196,7 +196,7 @@ TOOLTIPS = {
         "ai_declaration": "Üretken Yapay Zekâ Beyanı metnini hazırlar veya düzenler.",
         "writing_check": "Tez metni için yerel yazım ön denetimi yapar ve işaretli PDF önizlemesi üretir.",
         "guideline_check": "PDF çıktısını tez yazım kılavuzunun ölçülebilir kurallarına göre denetler.",
-        "reference_pool": "kaynaklar.bib dosyasını denetler ve istenirse anabilim dalı kaynakça havuzuna yeni kayıtları ekler.",
+        "reference_pool": "kaynaklar.bib dosyasını denetler ve istenirse ana bilim dalı kaynakça havuzuna yeni kayıtları ekler.",
         "theorem_envs": "defs.tex içindeki teorem, ispat/kanıt ve benzeri matematik ortamlarını düzenler.",
         "update_app": "GitHub üzerinden güvenli güncelleme kontrolü yapar; yerel değişiklik varsa dosyaları ezmeden raporlar.",
         "spine_cover": "PDF ve teslim paketi oluşturulurken sırt kapağı da hazırlansın.",
@@ -237,7 +237,7 @@ PLACEHOLDER_PATTERNS = [
     "TEZ.IN SAVUNULDU", "MONTH YEAR", "GG/AA/YYYY", "YYYY/KK",
     "Ad{\\i} SOYADI", "Adı SOYADI", "Name SURNAME", "TEZ \\c{S}ABLONU",
     "TEZ ŞABLONU", "INONU UNIVERSITY THESIS TEMPLATE", "Öğrenci Adı",
-    "Öğrenci Soyadı", "Tez Başlığı", "Thesis Title", "Anabilim Dalı Adı",
+    "Öğrenci Soyadı", "Tez Başlığı", "Thesis Title", "Ana Bilim Dalı Adı",
     "Program Adı", "Prof. Dr. Adı SOYADI", "Prof. Dr. Name SURNAME",
 ]
 
@@ -337,9 +337,9 @@ FORMAT_HINTS = {
     "ogrencino": "Yalnız rakam",
     "unvan": "Varsa unvan/mezuniyet bilgisi",
     "anabilimdali_tr": "",
-    "anabilimdali_en": "Anabilim dalından otomatik doldurulur",
-    "program_tr": "Anabilim dalından otomatik doldurulur",
-    "program_en": "Anabilim dalından otomatik doldurulur",
+    "anabilimdali_en": "Ana bilim dalından otomatik doldurulur",
+    "program_tr": "Ana bilim dalından farklıysa yazınız",
+    "program_en": "Enter only if different from department",
     "baslik1": "Tez Başlığı 1. Satır",
     "baslik2": "Gerekliyse 2. satır",
     "baslik3": "Gerekliyse 3. satır",
@@ -379,8 +379,8 @@ FORMAT_HINTS_EN = {
     "unvan": "Optional title",
     "anabilimdali_tr": "",
     "anabilimdali_en": "Filled automatically from department",
-    "program_tr": "Filled automatically from department",
-    "program_en": "Filled automatically from department",
+    "program_tr": "Enter only if different from department",
+    "program_en": "Enter only if different from department",
     "baslik1": "Turkish title line 1",
     "baslik2": "Turkish title line 2",
     "baslik3": "Turkish title line 3",
@@ -542,7 +542,7 @@ FIELDS = [
         ("unvan", "Varsa unvan/mezuniyet bilgisi", "unvan", 0),
     ]),
     ("Program", [
-        ("anabilimdali_tr", "Anabilim Dalı", "anabilimdali", 0),
+        ("anabilimdali_tr", "Ana Bilim Dalı", "anabilimdali", 0),
         ("anabilimdali_en", "Department", "anabilimdali", 1),
         ("program_tr", "Program", "programi", 0),
         ("program_en", "Programme", "programi", 1),
@@ -3602,7 +3602,7 @@ class ThesisManager(tk.Tk):
         if value in DEPARTMENT_OPTIONS and display:
             return value
         if value in DEPARTMENT_OPTIONS:
-            return f"{value} Anabilim Dalı"
+            return f"{value} Ana Bilim Dalı"
         return value
 
     def citation_key_for_department(self, department):
@@ -3630,7 +3630,7 @@ class ThesisManager(tk.Tk):
         if selected in DEPARTMENT_EN and "anabilimdali_en" in self.vars:
             self.vars["anabilimdali_en"].set(DEPARTMENT_EN[selected])
             self._mark_manual_value("anabilimdali_en")
-        # Program alanı anabilim dalından otomatik doldurulmaz; kullanıcı farklı program yazarsa girer.
+        # Program alanı ana bilim dalından otomatik doldurulmaz; kullanıcı farklı program yazarsa girer.
         for key in ("program_tr", "program_en"):
             current = self._field_value(key)
             if not current or program_same_as_department(current, selected):
@@ -4140,7 +4140,7 @@ class ThesisManager(tk.Tk):
                 raw_value = self._field_output_value(key)
                 if key == "anabilimdali_tr":
                     if raw_value in DEPARTMENT_OPTIONS:
-                        raw_value = f"{raw_value} Anabilim Dalı"
+                        raw_value = f"{raw_value} Ana Bilim Dalı"
                 elif key == "program_tr":
                     dept_value = self._field_value("anabilimdali_tr")
                     raw_value = "" if program_same_as_department(raw_value, dept_value) else ensure_program_suffix_tr(raw_value)
@@ -4161,8 +4161,9 @@ class ThesisManager(tk.Tk):
                 value = values[index] if index < len(values) else ""
                 if is_template_placeholder(value):
                     value = ""
-                if key == "anabilimdali_tr" and value.endswith(" Anabilim Dalı"):
-                    candidate = value[:-len(" Anabilim Dalı")]
+                if key == "anabilimdali_tr" and (value.endswith(" Ana Bilim Dalı") or value.endswith(" Anabilim Dalı")):
+                    suffix = " Ana Bilim Dalı" if value.endswith(" Ana Bilim Dalı") else " Anabilim Dalı"
+                    candidate = value[:-len(suffix)]
                     if candidate in DEPARTMENT_OPTIONS:
                         value = candidate
                 value_text = latex_to_text(value)
@@ -4349,7 +4350,7 @@ class ThesisManager(tk.Tk):
             ("Öğrenci numarası girilmeli", macros.get("ogrencino", [""])[0], "ogrencino"),
             ("Türkçe tez başlığı gerçek başlık olmalı", " ".join(macros.get("baslik", [])), "baslik1"),
             ("İngilizce tez başlığı gerçek başlık olmalı", " ".join(macros.get("title", [])), "title1"),
-            ("Anabilim dalı ve program bilgisi doldurulmalı", " ".join(macros.get("anabilimdali", []) + macros.get("programi", [])), "anabilimdali_tr"),
+            ("Ana bilim dalı ve program bilgisi doldurulmalı", " ".join(macros.get("anabilimdali", []) + macros.get("programi", [])), "anabilimdali_tr"),
             ("Savunma ayı/yılı ve tarih bilgileri doldurulmalı", " ".join(macros.get("tarih", []) + macros.get("tezsavunmatarih", [])), "tarih_tr"),
             ("Yönetim Kurulu tarihi ve karar numarası doldurulmalı", " ".join(macros.get("yonetimkurulukarar", [])), "kurul_tarih"),
             ("Danışman ve jüri adları gerçek bilgilerle değiştirilmeli", " ".join(macros.get("tezyoneticisi", []) + macros.get("juriBir", []) + macros.get("juriIki", [])), "danisman_tr"),
@@ -4780,7 +4781,7 @@ class ThesisManager(tk.Tk):
         label_targets = {
             "Ogrenci numarasi": "ogrencino",
             "Varsa mezuniyet/unvan bilgisi": "unvan",
-            "Anabilim dali / department": "anabilimdali_tr",
+            "Ana bilim dali / department": "anabilimdali_tr",
             "Program adi / programme": "program_tr",
             "Savunma ayi/yili": "tarih_tr",
             "Enstitu Yonetim Kurulu tarihi ve karar numarasi": "kurul_tarih",
@@ -4791,7 +4792,7 @@ class ThesisManager(tk.Tk):
         display_labels = {
             "Ogrenci numarasi": "Öğrenci numarası",
             "Varsa mezuniyet/unvan bilgisi": "Mezuniyet / unvan bilgisi",
-            "Anabilim dali / department": "Anabilim dalı / department",
+            "Ana bilim dali / department": "Ana bilim dalı / department",
             "Program adi / programme": "Program adı / programme",
             "Savunma ayi/yili": "Savunma ayı / yılı",
             "Enstitu Yonetim Kurulu tarihi ve karar numarasi": "Enstitü Yönetim Kurulu tarihi ve karar numarası",
