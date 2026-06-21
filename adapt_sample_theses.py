@@ -398,7 +398,36 @@ def extract_document_body(text):
         if stripped in {r"\begin{document}", r"\end{document}", r"\raggedleft", r"\\", r"\\"}:
             continue
         cleaned.append(line)
-    return "\n".join(cleaned).strip() + "\n"
+    return repair_tabular_row_breaks("\n".join(cleaned).strip()) + "\n"
+
+
+def repair_tabular_row_breaks(text):
+    lines = text.splitlines()
+    repaired = []
+    in_tabular = False
+    for idx, line in enumerate(lines):
+        stripped = line.strip()
+        if re.search(r"\\begin\{(?:tabular|tabularx|array|longtable|matrix|bmatrix|pmatrix|vmatrix|Vmatrix)\}", stripped):
+            in_tabular = True
+        next_stripped = lines[idx + 1].strip() if idx + 1 < len(lines) else ""
+        out_line = line
+        dollar_count = len(re.findall(r"(?<!\\)\$", stripped))
+        if (
+            in_tabular
+            and "&" in stripped
+            and dollar_count % 2 == 0
+            and not stripped.endswith(("\\\\","\\\\*"))
+            and not stripped.endswith("%")
+            and not re.search(r"\\(?:hline|cline|end)\b", stripped)
+            and next_stripped
+            and "&" in next_stripped
+            and not next_stripped.startswith(("\\\\", "%"))
+        ):
+            out_line = line.rstrip() + r" \\"
+        repaired.append(out_line)
+        if re.search(r"\\end\{(?:tabular|tabularx|array|longtable|matrix|bmatrix|pmatrix|vmatrix|Vmatrix)\}", stripped):
+            in_tabular = False
+    return "\n".join(repaired).strip()
 
 
 def build_new_tez(source_tex, dest):
@@ -438,10 +467,6 @@ def build_new_tez(source_tex, dest):
         juri_lines.append(macro_line(name, (parse_command(text, name) + ["", ""])[:2]))
 
     chapters = referenced_chapters(text, source_dir)
-    chapter_lines = []
-    for ref in chapters:
-        stem = Path(ref).with_suffix("").as_posix()
-        chapter_lines.append(f"\\includedocskip{{{stem}}}")
     bibliography_stem = copy_or_make_bib(dest, all_commands(text, "bibliography"))
     preamble = custom_preamble(text)
     graphicspath = graphics_path_line(dest)
@@ -464,6 +489,13 @@ def build_new_tez(source_tex, dest):
         if "\\documentclass" in body or "\\begin{document}" in body:
             return fr"\includedocskip{{{stem}}}"
         return fr"\input{{{stem}.tex}}"
+
+    chapter_lines = []
+    for ref in chapters:
+        stem = Path(ref).with_suffix("").as_posix()
+        expr = include_expr(stem, body_copy=True)
+        if expr:
+            chapter_lines.append(expr)
 
     lines = [
         "% Yeni Inonu FBE 2025 sablonuna otomatik pilot uyarlama.",
