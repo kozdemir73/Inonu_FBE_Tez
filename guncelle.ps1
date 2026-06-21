@@ -91,6 +91,30 @@ function Invoke-GitNoPrompt([string[]]$Arguments) {
     }
 }
 
+function Invoke-GitUpdateCommand([string[]]$Arguments, [switch]$KeepOutput) {
+    $oldErrorAction = $ErrorActionPreference
+    try {
+        # Git, satır sonu gibi zararsız uyarıları stderr'e yazabilir. PowerShell 7
+        # bunları ErrorActionPreference=Stop altında istisna gibi yükseltebildiği
+        # için karar yalnız git çıkış koduna göre verilir.
+        $ErrorActionPreference = "Continue"
+        $output = @(& $Git @Arguments 2>&1)
+        $code = $LASTEXITCODE
+        if ($KeepOutput -and $output.Count -gt 0) {
+            foreach ($line in $output) {
+                $text = [string]$line
+                if ($text.Trim()) { Add-Line $text }
+            }
+        }
+        return $code
+    } catch {
+        Add-Line "Git komutu çalıştırılırken sorun: $($_.Exception.Message)"
+        return 1
+    } finally {
+        $ErrorActionPreference = $oldErrorAction
+    }
+}
+
 function Get-PublicUpdateUrls([string]$RemoteUrl) {
     $urls = New-Object System.Collections.Generic.List[string]
     if ($RemoteUrl) { $urls.Add($RemoteUrl.Trim()) | Out-Null }
@@ -399,8 +423,8 @@ try {
     $usedStash = $false
     if ($dirty.Count -gt 0) {
         Add-Line "Yerel değişiklikler geçici olarak saklanıyor..."
-        & $Git stash push --include-untracked -m "tez-asistani-guncelleme-$Stamp" *> $null
-        if ($LASTEXITCODE -ne 0) {
+        $stashCode = Invoke-GitUpdateCommand -Arguments @("stash", "push", "--include-untracked", "-m", "tez-asistani-guncelleme-$Stamp")
+        if ($stashCode -ne 0) {
             Add-Line "Durum: Güncelleme uygulanmadı."
             Add-Line "Neden: Yerel değişiklikler güvenli şekilde saklanamadı."
             Save-Report
@@ -408,10 +432,10 @@ try {
         }
         $usedStash = $true
     }
-    & $Git merge --ff-only $upstream
-    if ($LASTEXITCODE -ne 0) {
+    $mergeCode = Invoke-GitUpdateCommand -Arguments @("merge", "--ff-only", $upstream) -KeepOutput
+    if ($mergeCode -ne 0) {
         Add-Line "Güncelleme sırasında sorun oluştu. Eski duruma dönülüyor..."
-        & $Git reset --hard $headFull *> $null
+        Invoke-GitUpdateCommand -Arguments @("reset", "--hard", $headFull) | Out-Null
         Restore-Workdir $backupForRestore $Workdir
         Add-Line "Durum: Güncelleme başarısız oldu; eski klasör geri getirildi."
         Save-Report

@@ -1477,6 +1477,7 @@ class ThesisManager(tk.Tk):
         self.update_buttons = []
         self.update_check_running = False
         self.update_available = False
+        self.update_notified = False
         self.update_status_text = ""
         self.zemberek_install_running = False
         self.zemberek_install_prompted = False
@@ -4962,10 +4963,9 @@ class ThesisManager(tk.Tk):
         )
 
     def schedule_update_check(self):
-        if self.update_available:
-            return
-        self.check_for_remote_update()
-        self.after(10 * 60 * 1000, self.schedule_update_check)
+        if not self.update_available:
+            self.check_for_remote_update()
+        self.after(2 * 60 * 1000, self.schedule_update_check)
 
     def check_for_remote_update(self):
         if self.update_check_running:
@@ -5019,9 +5019,16 @@ class ThesisManager(tk.Tk):
 
     def apply_update_status(self, available, status):
         self.update_check_running = False
+        was_available = self.update_available
         self.update_available = bool(available)
         self.update_status_text = status or ""
         self.render_update_buttons()
+        if self.update_available and not was_available and not getattr(self, "update_notified", False):
+            self.update_notified = True
+            self.after(200, lambda: messagebox.showinfo(
+                "Güncelleme var",
+                "Yeni bir Tez Asistanı güncellemesi bulundu. Sağ üstteki 'Güncelleme hazır' düğmesiyle değişiklik özetini görüp yükleyebilirsiniz."
+            ))
 
     def render_update_buttons(self):
         for button in getattr(self, "update_buttons", []):
@@ -5102,6 +5109,7 @@ class ThesisManager(tk.Tk):
         self.refresh_system()
         if code == 0:
             self.update_available = False
+            self.update_notified = False
             self.render_update_buttons()
             if messagebox.askyesno("Güncelleme tamamlandı", "Güncelleme tamamlandı. Panel yeni sürümle yeniden başlatılsın mı?"):
                 self.restart_app()
