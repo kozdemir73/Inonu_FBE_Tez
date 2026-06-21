@@ -744,7 +744,7 @@
 \newcommand*{\abstractnameToC}{\sffamily\normalsize\selectfont ABSTRACT\normalfont}
 \newcommand*{\onaynameToC}{\sffamily\normalsize\selectfont KABUL VE ONAY\normalfont}
 \newcommand*{\ozetnameToC}{\sffamily\normalsize\selectfont ÖZET\normalfont}
-\newcommand*{\onsoznameToC}{\sffamily\normalsize\selectfont \if@Ingilizce FOREWORD\else ÖNSÖZ\fi\normalfont}
+\newcommand*{\onsoznameToC}{\sffamily\normalsize\selectfont \if@Ingilizce ACKNOWLEDGEMENTS AND FOREWORD\else TEŞEKKÜR VE ÖNSÖZ\fi\normalfont}
 \newcommand*{\ozgecmisnameToC}{\sffamily\normalsize\selectfont \if@Ingilizce CURRICULUM VITAE\else ÖZGEÇMİŞ\fi\normalfont}
 \newcommand*{\appendixnameToC}{\sffamily\normalsize\selectfont \if@Ingilizce APPENDICES\else EKLER\fi\normalfont}
 \newcommand*{\symbolnameToC}{\sffamily\normalsize\selectfont \if@Ingilizce SYMBOLS AND ABBREVIATIONS\else SİMGELER VE KISALTMALAR DİZİNİ\fi\normalfont}
@@ -754,7 +754,7 @@
 KISALTMALAR\fi\normalfont}
 \newcommand*{\kisaltmaname}{\th@ChapHead{\if@Ingilizce ABBREVIATIONS\else KISALTMALAR\fi}} 
 
-\def\prefacename{\th@ChapHead{\if@Ingilizce FOREWORD\else ÖNSÖZ\fi}}%
+\def\prefacename{\th@ChapHead{\if@Ingilizce ACKNOWLEDGEMENTS AND FOREWORD\else TEŞEKKÜR VE ÖNSÖZ\fi}}%
 \def\refname{\th@ChapHead{\if@Ingilizce REFERENCES\else KAYNAKLAR\fi}}%
 \def\abstractname{\th@ChapHead{ÖZET}}%
 \def\summaryname{\th@ChapHead{ABSTRACT}}%
@@ -930,7 +930,8 @@ KISALTMALAR\fi\normalfont}
 \newcommand{\anahtarkelimeler}[1]{\th@StoreIn{\th@AnahtarKelimeler}{#1}}
 \newcommand{\keywords}[1]{\th@StoreIn{\th@Keywords}{#1}}
 \newcommand{\ozgecmis}[1]{\th@StoreIn{\th@ozgecmisStash}{#1}}
-\newcommand{\onsoz}[1]{\@TesekkurVartrue\th@StoreIn{\th@tesekkurStash}{#1}}
+\newcommand{\tesekkur}[1]{\@TesekkurVartrue\th@StoreIn{\th@tesekkurStash}{#1}}
+\newcommand{\onsoz}[1]{\tesekkur{#1}}
 \newcommand{\sembollistesi}[1]{%
   \edef\th@tmp{\detokenize{#1}}%
   \ifx\th@tmp\@empty\else

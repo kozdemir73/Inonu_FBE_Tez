@@ -22,6 +22,7 @@ TEXT_FILES = [
     "ozet.tex",
     "abstract.tex",
     "summary.tex",
+    "tesekkur.tex",
     "onsoz.tex",
     "bolum1.tex",
     "bolum2.tex",

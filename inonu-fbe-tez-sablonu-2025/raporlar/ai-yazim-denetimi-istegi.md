@@ -15,15 +15,15 @@ abstract.tex:1: Aim: This file provides a short sample abstract compatible with 
 abstract.tex:3: Material and method: This part briefly describes the research design, data source, experimental or theoretical method, and analysis process. References, figures, and tables should not be included in the abstract.
 abstract.tex:5: Results: The most important findings of the thesis are presented directly and clearly. Abbreviations should be used only in the forms defined in the Symbols and Abbreviations section.
 abstract.tex:7: Conclusion: Excluding the title and keywords, the abstract should not exceed 250 words and should preferably fit on a single page. If needed, the line spacing may be reduced to 1.15 only for the abstract pages.
-onsoz.tex:1: Önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan
-onsoz.tex:2: kişi ve kurumlara teşekkür etmek için kullanılır. Bu
-onsoz.tex:3: bölümde bilimsel içerik tartışılmaz; destek, katkı ve
-onsoz.tex:4: teşekkür ifadeleri kısa ve açık biçimde yazılır.
-onsoz.tex:6: Tezi destekleyen kurum adları ve katkı sağlayan kişiler burada
-onsoz.tex:7: belirtilebilir. Teşekkür edilen kişilerin soyadları büyük
-onsoz.tex:8: harflerle yazılmalıdır.
-onsoz.tex:10: Önsöz metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve
-onsoz.tex:11: yazar adı birlikte verilmelidir.
+tesekkur.tex:1: Teşekkür bölümü, tezin hazırlanması sürecinde katkı sağlayan
+tesekkur.tex:2: kişi ve kurumlara teşekkür etmek için kullanılır. Bu
+tesekkur.tex:3: bölümde bilimsel içerik tartışılmaz; destek, katkı ve
+tesekkur.tex:4: teşekkür ifadeleri kısa ve açık biçimde yazılır.
+tesekkur.tex:6: Tezi destekleyen kurum adları ve katkı sağlayan kişiler burada
+tesekkur.tex:7: belirtilebilir. Teşekkür edilen kişilerin soyadları büyük
+tesekkur.tex:8: harflerle yazılmalıdır.
+tesekkur.tex:10: Teşekkür metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve
+tesekkur.tex:11: yazar adı birlikte verilmelidir.
 bolum1.tex:1: GIRIŞ
 bolum1.tex:6: Giriş bölümü, tez çalışmasının temel çer
 bolum1.tex:8: problem durumu, tezin amacı ve önemi, sınırlılıklar,

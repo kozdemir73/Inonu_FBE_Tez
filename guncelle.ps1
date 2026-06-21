@@ -214,6 +214,50 @@ function Restore-Workdir {
     Copy-Item -LiteralPath $Backup -Destination $Target -Recurse -Force
 }
 
+function Restore-UserThesisFiles {
+    param([string]$Backup, [string]$Target)
+    if (-not $Backup -or -not $Target) { return @() }
+    if (-not (Test-Path -LiteralPath $Backup)) { return @() }
+    if (-not (Test-Path -LiteralPath $Target)) { return @() }
+
+    $restored = New-Object System.Collections.Generic.List[string]
+    $fileNames = @(
+        "tez.tex", "tez-bilgileri.json", "kaynaklar.bib",
+        "onsoz.tex", "tesekkur.tex", "ozet.tex", "abstract.tex",
+        "simgeler-ve-kisaltmalar.tex", "etik-beyan.tex",
+        "ozgecmis.tex", "eklerkapak.tex", "ekler.tex"
+    )
+    $wildcards = @("bolum*.tex", "*_body.tex", "*body.tex")
+    $directories = @("fig")
+
+    foreach ($name in $fileNames) {
+        $src = Join-Path $Backup $name
+        if (Test-Path -LiteralPath $src) {
+            Copy-Item -LiteralPath $src -Destination (Join-Path $Target $name) -Force
+            $restored.Add($name) | Out-Null
+        }
+    }
+    foreach ($pattern in $wildcards) {
+        Get-ChildItem -LiteralPath $Backup -File -Filter $pattern -ErrorAction SilentlyContinue | ForEach-Object {
+            Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $Target $_.Name) -Force
+            $restored.Add($_.Name) | Out-Null
+        }
+    }
+    foreach ($dir in $directories) {
+        $srcDir = Join-Path $Backup $dir
+        $dstDir = Join-Path $Target $dir
+        if (Test-Path -LiteralPath $srcDir) {
+            if (Test-Path -LiteralPath $dstDir) {
+                Copy-Item -LiteralPath (Join-Path $srcDir "*") -Destination $dstDir -Recurse -Force -ErrorAction SilentlyContinue
+            } else {
+                Copy-Item -LiteralPath $srcDir -Destination $dstDir -Recurse -Force
+            }
+            $restored.Add("$dir/") | Out-Null
+        }
+    }
+    return @($restored | Sort-Object -Unique)
+}
+
 Push-Location $Root
 try {
     Add-Line "# Güncelleme Özeti"
@@ -330,19 +374,18 @@ try {
     $dirty = @(& $Git status --porcelain)
     if ($dirty.Count -gt 0) {
         $backupPath = Backup-Workdir $Workdir
-        Add-Line "Durum: Güncelleme uygulanmadı."
-        Add-Line "Neden: Yerelde kaydedilmemiş dosya değişiklikleri var."
-        Add-Line "Tez dosyalarınız ezilmedi."
+        Add-Line "Yerelde kaydedilmemiş değişiklikler var."
         if ($backupPath) { Add-Line "Yedek alındı: $backupPath" }
         Add-Line ""
-        Add-Line "Öneri: Önce mevcut tez dosyalarınızı kaydedin. İsterseniz bu klasörü ayrı bir yere kopyalayıp sonra güncellemeyi tekrar deneyin."
-        Save-Report
-        exit 4
+        Add-Line "Güvenli güncelleme modu: panel ve şablon güncellenecek; tez içerik dosyaları yedekten geri korunacak."
     }
 
     if ($CheckOnly) {
         Add-Line "Durum: Güncelleme hazır."
         Add-Line "Bu ekranda yalnızca bilgi verildi; henüz dosyalara dokunulmadı."
+        if ($dirty.Count -gt 0) {
+            Add-Line "Not: Uygulama sırasında yerel değişiklikler önce yedeklenir. Tez içerik dosyaları güncellemeden sonra geri korunur."
+        }
         Save-Report
         exit 0
     }
@@ -353,6 +396,18 @@ try {
     }
 
     Add-Line "Güncelleme uygulanıyor..."
+    $usedStash = $false
+    if ($dirty.Count -gt 0) {
+        Add-Line "Yerel değişiklikler geçici olarak saklanıyor..."
+        & $Git stash push --include-untracked -m "tez-asistani-guncelleme-$Stamp" *> $null
+        if ($LASTEXITCODE -ne 0) {
+            Add-Line "Durum: Güncelleme uygulanmadı."
+            Add-Line "Neden: Yerel değişiklikler güvenli şekilde saklanamadı."
+            Save-Report
+            exit 4
+        }
+        $usedStash = $true
+    }
     & $Git merge --ff-only $upstream
     if ($LASTEXITCODE -ne 0) {
         Add-Line "Güncelleme sırasında sorun oluştu. Eski duruma dönülüyor..."
@@ -363,12 +418,22 @@ try {
         exit 2
     }
 
+    if ($backupForRestore -and $Workdir) {
+        $restoredThesisFiles = Restore-UserThesisFiles $backupForRestore $Workdir
+        if ($restoredThesisFiles.Count -gt 0) {
+            Add-Line "Korunan tez içerik dosyaları geri yerleştirildi: $($restoredThesisFiles -join ', ')"
+        }
+    }
+
     $newVersion = Read-LocalVersion
     $newHead = (& $Git rev-parse --short HEAD).Trim()
     Add-Line "Durum: Güncelleme tamamlandı."
     Add-Line "Yeni sürüm: $newVersion"
     Add-Line "Yeni kayıt: $newHead"
     Add-Line "Tez dosyalarınız için yedek korundu."
+    if ($usedStash) {
+        Add-Line "Not: Güncelleme için yerel değişiklikler geçici Git saklamasına alındı; tez içerik dosyaları yedekten geri yerleştirildi."
+    }
     Save-Report
     exit 0
 } catch {

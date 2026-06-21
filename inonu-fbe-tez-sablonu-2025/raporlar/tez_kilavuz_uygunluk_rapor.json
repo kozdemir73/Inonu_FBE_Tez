@@ -1,6 +1,6 @@
 {
-  "input_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\tez.pdf",
-  "output_pdf": "D:\\Developments\\Yeni_Tez_LaTeX\\Inonu_FBE_Tez\\inonu-fbe-tez-sablonu-2025\\raporlar\\tez_kilavuz_uygunluk_isaretli.pdf",
+  "input_pdf": "tez.pdf",
+  "output_pdf": "raporlar\\tez_kilavuz_uygunluk_isaretli.pdf",
   "reference": "Inonu Universitesi Lisansustu Tez Yazim Kilavuzu; onayli Word/LaTeX sablon bulunmadigi icin kilavuzdaki olculebilir kurallar esas alinmistir.",
   "config": {
     "expected_page_width_cm": 21.0,
@@ -178,11 +178,43 @@
       "rule_findings": [
         {
           "page": 1,
+          "rule_id": "cover_title",
+          "title": "Tez adı punto",
+          "status": "ok",
+          "owner": "template",
+          "message": "TEZ BAŞLIĞI 1. SATIR: 31.9 pt; beklenen 32 pt; tüm harfler büyük",
+          "location": {
+            "x0": 161.83999633789062,
+            "x1": 433.5248107910156,
+            "y0": 287.4407043457031,
+            "y1": 319.32110595703125
+          },
+          "actual": 31.9,
+          "expected": 32
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_author",
+          "title": "Öğrenci adı punto",
+          "status": "ok",
+          "owner": "template",
+          "message": "ÖĞRENCİ SOYADI: 20.9 pt; beklenen 21 pt; tüm harfler büyük",
+          "location": {
+            "x0": 223.37600708007812,
+            "x1": 371.91864013671875,
+            "y0": 432.58087158203125,
+            "y1": 453.50238037109375
+          },
+          "actual": 20.9,
+          "expected": 21
+        },
+        {
+          "page": 1,
           "rule_id": "cover_degree",
           "title": "Tez türü punto",
           "status": "ok",
           "owner": "template",
-          "message": "DOKTORA TEZİ: 25.9 pt; beklenen 26 pt",
+          "message": "DOKTORA TEZİ: 25.9 pt; beklenen 26 pt; tüm harfler büyük",
           "location": {
             "x0": 218.4300079345703,
             "x1": 376.8521423339844,
@@ -198,7 +230,7 @@
           "title": "İngilizce tez türü punto",
           "status": "ok",
           "owner": "template",
-          "message": "DOCTORAL DISSERTATION: 14.9 pt; beklenen 15 pt",
+          "message": "DOCTORAL DISSERTATION: 14.9 pt; beklenen 15 pt; tüm harfler büyük",
           "location": {
             "x0": 217.4820098876953,
             "x1": 377.8012390136719,
@@ -214,7 +246,7 @@
           "title": "Şehir/yıl punto",
           "status": "ok",
           "owner": "template",
-          "message": "MALATYA, 2025: 14.9 pt; beklenen 15 pt",
+          "message": "MALATYA, 2025: 14.9 pt; beklenen 15 pt; tüm harfler büyük",
           "location": {
             "x0": 249.14999389648438,
             "x1": 346.13653564453125,
@@ -223,6 +255,198 @@
           },
           "actual": 14.9,
           "expected": 15
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "T.C.: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 289.64898681640625,
+            "x1": 305.6270751953125,
+            "y0": 165.56182861328125,
+            "y1": 176.52073669433594
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "İNÖNÜ ÜNİVERSİTESİ: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 249.41200256347656,
+            "x1": 345.90509033203125,
+            "y0": 181.99981689453125,
+            "y1": 192.95872497558594
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "FEN BİLİMLERİ ENSTİTÜSÜ: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 238.2790069580078,
+            "x1": 357.05157470703125,
+            "y0": 198.4378204345703,
+            "y1": 209.396728515625
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "TEZ BAŞLIĞI 1. SATIR: Calibri-Bold 31.9 pt kalın",
+          "location": {
+            "x0": 161.83999633789062,
+            "x1": 433.5248107910156,
+            "y0": 287.4407043457031,
+            "y1": 319.32110595703125
+          },
+          "actual": "31.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 2. SATIR: Calibri-Bold 31.9 pt kalın",
+          "location": {
+            "x0": 162.2760009765625,
+            "x1": 433.10003662109375,
+            "y0": 324.10369873046875,
+            "y1": 355.9841003417969
+          },
+          "actual": "31.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 3. SATIR: Calibri-Bold 31.9 pt kalın",
+          "location": {
+            "x0": 162.2760009765625,
+            "x1": 433.10003662109375,
+            "y0": 360.7666931152344,
+            "y1": 392.6470947265625
+          },
+          "actual": "31.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "ÖĞRENCİ SOYADI: Calibri-Bold 20.9 pt kalın",
+          "location": {
+            "x0": 223.37600708007812,
+            "x1": 371.91864013671875,
+            "y0": 432.58087158203125,
+            "y1": 453.50238037109375
+          },
+          "actual": "20.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "MATEMATİK ANABİLİM DALI: Calibri-Bold 14.9 pt kalın",
+          "location": {
+            "x0": 210.13400268554688,
+            "x1": 385.18804931640625,
+            "y0": 506.02001953125,
+            "y1": 520.9640502929688
+          },
+          "actual": "14.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "DOKTORA TEZİ: Calibri-Bold 25.9 pt kalın",
+          "location": {
+            "x0": 218.4300079345703,
+            "x1": 376.8521423339844,
+            "y0": 578.7128295898438,
+            "y1": 604.61572265625
+          },
+          "actual": "25.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "DOCTORAL DISSERTATION: Calibri-Bold 14.9 pt kalın",
+          "location": {
+            "x0": 217.4820098876953,
+            "x1": 377.8012390136719,
+            "y0": 610.5339965820312,
+            "y1": 625.47802734375
+          },
+          "actual": "14.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "MALATYA, 2025: Calibri-Bold 14.9 pt kalın",
+          "location": {
+            "x0": 249.14999389648438,
+            "x1": 346.13653564453125,
+            "y0": 762.1380004882812,
+            "y1": 777.08203125
+          },
+          "actual": "14.9 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 1,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "FEN BİLİMLERİ ENSTİTÜSÜ -> TEZ BAŞLIĞI 1. SATIR: 2.8cm/78px/~4.7 satır",
+          "location": {
+            "x0": 161.83999633789062,
+            "x1": 433.5248107910156,
+            "y0": 209.396728515625,
+            "y1": 287.4407043457031
+          },
+          "actual": "2.8cm/78px/~4.7 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
         },
         {
           "page": 1,
@@ -405,19 +629,259 @@
       "rule_findings": [
         {
           "page": 2,
-          "rule_id": "cover_degree",
-          "title": "Tez türü punto",
-          "status": "check",
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
           "owner": "template",
-          "message": "DOKTORA TEZİ: 11.0 pt; beklenen 26 pt",
+          "message": "T.C.: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 289.64898681640625,
+            "x1": 305.6270751953125,
+            "y0": 70.83482360839844,
+            "y1": 81.7937240600586
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "İNÖNÜ ÜNİVERSİTESİ: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 249.41200256347656,
+            "x1": 345.90509033203125,
+            "y0": 87.2728271484375,
+            "y1": 98.23172760009766
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "FEN BİLİMLERİ ENSTİTÜSÜ: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 238.2790069580078,
+            "x1": 357.05157470703125,
+            "y0": 103.71182250976562,
+            "y1": 114.67072296142578
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "TEZ BAŞLIĞI 1. SATIR: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 250.95700073242188,
+            "x1": 344.3487854003906,
+            "y0": 185.34683227539062,
+            "y1": 196.3057403564453
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 2. SATIR: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 251.10699462890625,
+            "x1": 344.202880859375,
+            "y0": 201.78482055664062,
+            "y1": 212.7437286376953
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "GEREKLİYSE 3. SATIR: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 251.10699462890625,
+            "x1": 344.202880859375,
+            "y0": 218.22381591796875,
+            "y1": 229.18272399902344
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "ÖĞRENCİ SOYADI: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 258.739013671875,
+            "x1": 336.5472106933594,
+            "y0": 291.35479736328125,
+            "y1": 302.3136901855469
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "Matematik Anabilim Dalı: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 240.9250030517578,
+            "x1": 354.37158203125,
+            "y0": 375.8248291015625,
+            "y1": 386.7837219238281
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "DOKTORA TEZİ: Calibri-Bold 11.0 pt kalın",
           "location": {
             "x0": 264.12701416015625,
             "x1": 331.1516418457031,
             "y0": 423.4438171386719,
             "y1": 434.4027099609375
           },
-          "actual": 11.0,
-          "expected": 26
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "Tez Danışmanı: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 265.197021484375,
+            "x1": 330.07373046875,
+            "y0": 510.74884033203125,
+            "y1": 521.707763671875
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "İkinci Tez Danışmanı (Varsa): Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 234.87600708007812,
+            "x1": 360.4322204589844,
+            "y0": 541.3598022460938,
+            "y1": 552.3187255859375
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "Varsa ikinci tez danışmanı: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 239.32501220703125,
+            "x1": 355.9715576171875,
+            "y0": 557.7987670898438,
+            "y1": 568.7576904296875
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "Bu Araştırma İnönü Üniversitesi Bil: Calibri 11.0 pt",
+          "location": {
+            "x0": 127.31501007080078,
+            "x1": 467.9284973144531,
+            "y0": 636.2288208007812,
+            "y1": 647.187744140625
+          },
+          "actual": "11.0 pt",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "FBA‐2026‐1234 Proje Numarası ile De: Calibri 11.0 pt",
+          "location": {
+            "x0": 184.92601013183594,
+            "x1": 410.361572265625,
+            "y0": 652.6678466796875,
+            "y1": 663.6267700195312
+          },
+          "actual": "11.0 pt",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_line_style",
+          "title": "Kapak satırı font/punto",
+          "status": "info",
+          "owner": "template",
+          "message": "MALATYA: Calibri-Bold 11.0 pt kalın",
+          "location": {
+            "x0": 275.9070129394531,
+            "x1": 319.3809509277344,
+            "y0": 728.255859375,
+            "y1": 739.2147827148438
+          },
+          "actual": "11.0 pt bold",
+          "expected": "Kılavuz şekil düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "FEN BİLİMLERİ ENSTİTÜSÜ -> TEZ BAŞLIĞI 1. SATIR: 2.5cm/71px/~4.3 satır",
+          "location": {
+            "x0": 238.2790069580078,
+            "x1": 357.05157470703125,
+            "y0": 114.67072296142578,
+            "y1": 185.34683227539062
+          },
+          "actual": "2.5cm/71px/~4.3 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
         },
         {
           "page": 2,
@@ -441,14 +905,94 @@
           "title": "Kapak öğeleri arası boşluk",
           "status": "info",
           "owner": "template",
-          "message": "ÖĞRENCİ SOYADI -> DOKTORA TEZİ: 4.3cm/121px/~7.3 satır",
+          "message": "ÖĞRENCİ SOYADI -> Matematik Anabilim Dalı: 2.6cm/74px/~4.5 satır",
           "location": {
-            "x0": 258.739013671875,
-            "x1": 336.5472106933594,
+            "x0": 240.9250030517578,
+            "x1": 354.37158203125,
             "y0": 302.3136901855469,
+            "y1": 375.8248291015625
+          },
+          "actual": "2.6cm/74px/~4.5 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "Matematik Anabilim Dalı -> DOKTORA TEZİ: 1.3cm/37px/~2.2 satır",
+          "location": {
+            "x0": 240.9250030517578,
+            "x1": 354.37158203125,
+            "y0": 386.7837219238281,
             "y1": 423.4438171386719
           },
-          "actual": "4.3cm/121px/~7.3 satır",
+          "actual": "1.3cm/37px/~2.2 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "DOKTORA TEZİ -> Tez Danışmanı: 2.7cm/76px/~4.6 satır",
+          "location": {
+            "x0": 264.12701416015625,
+            "x1": 331.1516418457031,
+            "y0": 434.4027099609375,
+            "y1": 510.74884033203125
+          },
+          "actual": "2.7cm/76px/~4.6 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "Tez Danışmanı -> İkinci Tez Danışmanı (Varsa): 0.7cm/20px/~1.2 satır",
+          "location": {
+            "x0": 234.87600708007812,
+            "x1": 360.4322204589844,
+            "y0": 521.707763671875,
+            "y1": 541.3598022460938
+          },
+          "actual": "0.7cm/20px/~1.2 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "Varsa ikinci tez danışmanı -> Bu Araştırma İnönü Üniversit: 2.4cm/67px/~4.1 satır",
+          "location": {
+            "x0": 127.31501007080078,
+            "x1": 467.9284973144531,
+            "y0": 568.7576904296875,
+            "y1": 636.2288208007812
+          },
+          "actual": "2.4cm/67px/~4.1 satır",
+          "expected": "Şekil 10/11 görsel düzeni"
+        },
+        {
+          "page": 2,
+          "rule_id": "cover_visual_gap",
+          "title": "Kapak öğeleri arası boşluk",
+          "status": "info",
+          "owner": "template",
+          "message": "FBA‐2026‐1234 Proje Numarası -> MALATYA: 2.3cm/65px/~3.9 satır",
+          "location": {
+            "x0": 184.92601013183594,
+            "x1": 410.361572265625,
+            "y0": 663.6267700195312,
+            "y1": 728.255859375
+          },
+          "actual": "2.3cm/65px/~3.9 satır",
           "expected": "Şekil 10/11 görsel düzeni"
         }
       ],
@@ -606,7 +1150,19 @@
         }
       ],
       "caption_checks": [],
-      "rule_findings": [],
+      "rule_findings": [
+        {
+          "page": 3,
+          "rule_id": "approval_guide",
+          "title": "Kabul-onay formu",
+          "status": "info",
+          "owner": "template",
+          "message": "Kalite formunun tablo, logo ve üst bilgi görünümü korunur; metinler resmi forma uygun yerleşmelidir.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        }
+      ],
       "gaps": []
     },
     {
@@ -732,7 +1288,19 @@
         }
       ],
       "caption_checks": [],
-      "rule_findings": [],
+      "rule_findings": [
+        {
+          "page": 4,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        }
+      ],
       "gaps": []
     },
     {
@@ -923,6 +1491,72 @@
       "rule_findings": [
         {
           "page": 5,
+          "rule_id": "toc_guide",
+          "title": "İçindekiler sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; ön sayfalar, ana/alt başlıklar, kaynaklar ve ekler sayfa numarasıyla listelenir; 3. dereceden ileri başlık kullanılmaz.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
+          "rule_id": "symbols_guide",
+          "title": "Simgeler ve kısaltmalar",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; dizin 1,25 cm içeriden başlar; satır aralığı 1,5; simge/kısaltmalar 11 punto kalın ve alfabetik olmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
+          "rule_id": "lof_guide",
+          "title": "Şekiller dizini",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; satır aralığı 1,5; açıklamalar tez içindeki başlıklarla aynı olmalı ve taşan satır aynı hizadan devam etmelidir.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
+          "rule_id": "lot_guide",
+          "title": "Tablolar dizini",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; satır aralığı 1,5; açıklamalar tez içindeki tablo başlıklarıyla aynı olmalı ve taşan satır aynı hizadan devam etmelidir.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 5,
           "rule_id": "main_heading_after_gap",
           "title": "Ana başlık sonrası boşluk",
           "status": "ok",
@@ -1065,7 +1699,19 @@
         }
       ],
       "caption_checks": [],
-      "rule_findings": [],
+      "rule_findings": [
+        {
+          "page": 6,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        }
+      ],
       "gaps": []
     },
     {
@@ -1089,13 +1735,13 @@
         "left": 2.5,
         "right": 2.5,
         "top": 3.1,
-        "bottom": 20.1
+        "bottom": 20.7
       },
       "margins_body_cm": {
         "left": 2.5,
         "right": 2.5,
         "top": 3.1,
-        "bottom": 20.1
+        "bottom": 20.7
       },
       "margins_all_check": {
         "left": {
@@ -1112,7 +1758,7 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 17.6
+          "diff_cm": 18.2
         }
       },
       "margins_body_check": {
@@ -1130,18 +1776,18 @@
         },
         "bottom": {
           "status": "ok",
-          "diff_cm": 17.6
+          "diff_cm": 18.2
         }
       },
       "font_summary": {
-        "Calibri / 11 pt": 9,
+        "Calibri / 11 pt": 8,
         "Calibri-Bold / 14 pt": 1
       },
       "body_font_size_estimate": 11,
       "body_font_check": {
-        "body_candidate_line_count": 5,
-        "expected_font_line_count": 5,
-        "expected_size_line_count": 5,
+        "body_candidate_line_count": 6,
+        "expected_font_line_count": 6,
+        "expected_size_line_count": 6,
         "expected_font_ratio": 100.0,
         "expected_size_ratio": 100.0,
         "font_status": "ok",
@@ -1153,28 +1799,28 @@
         "line_height_pt": 11.0,
         "line_step_pt": 15.6,
         "line_spacing_ratio": 0.9,
-        "approx_blank_enter_avg": 0.6,
+        "approx_blank_enter_avg": 0.7,
         "approx_blank_enter_max": 2.1,
         "large_gap_count": 2,
         "sample_gaps": [
           {
             "visible_gap_cm": 0.6,
             "approx_blank_enter": 1.1,
-            "before": "ÖNSÖZ",
-            "after": "Önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve kurumlara teşe"
+            "before": "TEŞEKKÜR VE ÖNSÖZ",
+            "after": "Teşekkür ve önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve ku"
           },
           {
             "visible_gap_cm": 1.2,
             "approx_blank_enter": 2.1,
-            "before": "verilmelidir.",
-            "after": "ÖĞRENCİ SOYADI"
+            "before": "Metnin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve yazar adı birlikte v",
+            "after": "aralık 2024"
           }
         ]
       },
       "heading_checks": [
         {
           "kind": "main_heading",
-          "text": "ÖNSÖZ",
+          "text": "TEŞEKKÜR VE ÖNSÖZ",
           "status": "tolerance",
           "notes": [
             "ortalama zayif"
@@ -1189,10 +1835,10 @@
           "title": "Ana başlık sonrası boşluk",
           "status": "ok",
           "owner": "template",
-          "message": "ÖNSÖZ sonrası 0.6cm/18px/~1.1 satır; beklenen yaklaşık 1 satır",
+          "message": "TEŞEKKÜR VE ÖNSÖZ sonrası 0.6cm/18px/~1.1 satır; beklenen yaklaşık 1 satır",
           "location": {
             "x0": 70.86599731445312,
-            "x1": 524.3671264648438,
+            "x1": 524.4110107421875,
             "y0": 102.68192291259766,
             "y1": 121.07681274414062
           },
@@ -1319,6 +1965,28 @@
       ],
       "caption_checks": [],
       "rule_findings": [
+        {
+          "page": 8,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 8,
+          "rule_id": "symbols_guide",
+          "title": "Simgeler ve kısaltmalar",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; dizin 1,25 cm içeriden başlar; satır aralığı 1,5; simge/kısaltmalar 11 punto kalın ve alfabetik olmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 8,
           "rule_id": "main_heading_after_gap",
@@ -1451,6 +2119,17 @@
       "rule_findings": [
         {
           "page": 9,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 9,
           "rule_id": "main_heading_after_gap",
           "title": "Ana başlık sonrası boşluk",
           "status": "check",
@@ -1580,6 +2259,17 @@
       ],
       "caption_checks": [],
       "rule_findings": [
+        {
+          "page": 10,
+          "rule_id": "symbols_guide",
+          "title": "Simgeler ve kısaltmalar",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; dizin 1,25 cm içeriden başlar; satır aralığı 1,5; simge/kısaltmalar 11 punto kalın ve alfabetik olmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 10,
           "rule_id": "main_heading_after_gap",
@@ -1773,6 +2463,17 @@
         }
       ],
       "rule_findings": [
+        {
+          "page": 11,
+          "rule_id": "lof_guide",
+          "title": "Şekiller dizini",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; satır aralığı 1,5; açıklamalar tez içindeki başlıklarla aynı olmalı ve taşan satır aynı hizadan devam etmelidir.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 11,
           "rule_id": "main_heading_after_gap",
@@ -2062,6 +2763,17 @@
         }
       ],
       "rule_findings": [
+        {
+          "page": 12,
+          "rule_id": "lot_guide",
+          "title": "Tablolar dizini",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; sonra 1 satır boşluk; satır aralığı 1,5; açıklamalar tez içindeki tablo başlıklarıyla aynı olmalı ve taşan satır aynı hizadan devam etmelidir.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 12,
           "rule_id": "main_heading_after_gap",
@@ -2460,6 +3172,28 @@
         }
       ],
       "rule_findings": [
+        {
+          "page": 14,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 14,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 14,
           "rule_id": "subheading_after_gap",
@@ -2935,6 +3669,17 @@
         }
       ],
       "rule_findings": [
+        {
+          "page": 16,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 16,
           "rule_id": "subheading_after_gap",
@@ -4191,6 +4936,28 @@
       "rule_findings": [
         {
           "page": 22,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 22,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 22,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -4633,6 +5400,17 @@
       "rule_findings": [
         {
           "page": 24,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 24,
           "rule_id": "subheading_after_gap",
           "title": "Alt başlık sonrası boşluk",
           "status": "check",
@@ -4867,6 +5645,17 @@
       "rule_findings": [
         {
           "page": 25,
+          "rule_id": "abstract_guide",
+          "title": "Özet/Abstract sayfası",
+          "status": "info",
+          "owner": "template",
+          "message": "Başlık 14 punto kalın ortalı; başlıktan ve tez başlığından sonra 1 satır boşluk; metin 11 punto; en çok 250 kelime; kaynak/şekil/tablo yok; anahtar kelimeler alfabetik olmalı.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
+        {
+          "page": 25,
           "rule_id": "subheading_before_gap",
           "title": "Alt başlık öncesi boşluk",
           "status": "tolerance",
@@ -5034,6 +5823,17 @@
       ],
       "caption_checks": [],
       "rule_findings": [
+        {
+          "page": 26,
+          "rule_id": "references_guide",
+          "title": "Kaynaklar",
+          "status": "info",
+          "owner": "template",
+          "message": "KAYNAKLAR başlığı 14 punto büyük harf kalın ortalı; sonra 1 satır boşluk; her kaynak ayrı paragraf, Calibri 11 punto ve 1,5 satır aralığı ile yazılmalıdır.",
+          "location": null,
+          "actual": null,
+          "expected": "Kılavuz ölçülebilir madde"
+        },
         {
           "page": 26,
           "rule_id": "main_heading_after_gap",

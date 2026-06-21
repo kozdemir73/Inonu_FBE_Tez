@@ -497,7 +497,7 @@ def build_new_tez(source_tex, dest):
         macro_line("yonetimkurulukarar", ["", ""]),
         *juri_lines,
         macro_line("ithaf", [""]),
-        macro_line("onsoz", [include_expr("onsoz", body_copy=True)]),
+        macro_line("tesekkur", [include_expr("tesekkur", body_copy=True) or include_expr("onsoz", body_copy=True)]),
         macro_line("kisaltmalistesi", [r"\input{kisaltmalar.tex}" if (dest / "kisaltmalar.tex").exists() else ""]),
         macro_line("sembollistesi", [include_expr(sembol_file, body_copy=True)]),
         macro_line("ozet", [include_expr("ozet", body_copy=True)]),

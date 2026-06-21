@@ -1,168 +1,222 @@
+                T.C.
+        İNÖNÜ ÜNİVERSİTESİ
+      FEN BİLİMLERİ ENSTİTÜSÜ
+
+
+
+
+TEZ BAŞLIĞI 1. SATIR
+GEREKLİYSE 2. SATIR
+GEREKLİYSE 3. SATIR
+    ÖĞRENCİ SOYADI
+
+
+   MATEMATİK ANABİLİM DALI
+
+
+
+
+    DOKTORA TEZİ
+    DOCTORAL DISSERTATION
+
+
+
+
+        MALATYA, 2025
+                                  T.C.
+                           İNÖNÜ ÜNİVERSİTESİ
+                         FEN BİLİMLERİ ENSTİTÜSÜ
+
+
+
+
+                            TEZ BAŞLIĞI 1. SATIR
+                            GEREKLİYSE 2. SATIR
+                            GEREKLİYSE 3. SATIR
+
+
+
+
+                              ÖĞRENCİ SOYADI
+
+
+
+
+                          Matematik Anabilim Dalı
+
+
+
+                               DOKTORA TEZİ
+
+
+
+
+                               Tez Danışmanı
+
+                        İkinci Tez Danışmanı (Varsa)
+                         Varsa ikinci tez danışmanı
+
+
+
+
+Bu Araştırma İnönü Üniversitesi Bilimsel Araştırma Projeleri Birimi Tarafından
+             FBA‐2026‐1234 Proje Numarası ile Desteklenmiştir.
+
+
+
+
+                                  MALATYA
+                                   2025
+                                                                                    Doküman No                  İNÜ‐KYS‐FRM‐142
+                                                                                    Yayın Tarihi                      19.08.2019
+                                         KABUL ONAY FORMU
+                                                                                    Revizyon No
      İNÖNÜ ÜNİVERSİTESİ
-FEN BİLİMLERİ ENSTİTÜSÜ
+                                                                                    Revizyon Tarihi
 
 
 
+                                       İNÖNÜ ÜNİVERSİTESİ
+                              FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜ
 
-      TEZ BAŞLIĞI
 
+                  TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR
 
-  YÜKSEK LİSANS TEZİ
+                                                      DOKTORA TEZİ
 
+              DANIŞMAN                           İKİNCİ TEZ DANIŞMANI                              HAZIRLAYAN
 
-MASTER OF SCIENCE DISSERTATION
+                                               Varsa ikinci tez danışmanı                      ÖĞRENCİ SOYADI
 
 
+Jürimiz tarafından //20 tarihinde yapılan tez savunma sınavı sonucunda bu tez oybirliği / oyçokluğu ile
+başarılı bulunarak . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Anabilim Dalı DOKTORA TEZİ olarak kabul etmiştir.
+Jüri Üyelerinin Unvanı Adı Soyadı                                                                       İmza
+1.                                                                                                  ....................
 
+2. Jüri 2 Adı Soyadı                                                                                ....................
 
-        ADI SOYADI
+3. Jüri 3 Adı Soyadı                                                                                ....................
 
+4.                                                                                                  ....................
 
+5.                                                                                                  ....................
 
 
-        MALATYA, 2025
-       İNÖNÜ ÜNİVERSİTESİ
-     FEN BİLİMLERİ ENSTİTÜSÜ
 
 
+                                                          O N A Y
 
+Bu tez, İnönü Üniversitesi Lisansüstü Eğitim‐Öğretim Yönetmeliği’nin ilgili maddeleri uyarınca yukarıdaki
+jüri üyeleri tarafından kabul edilmiş ve Enstitü Yönetim Kurulu’nun / /20 tarih ve 20 / sayılı Kararıyla da
+uygun görülmüştür.
 
-         TEZ BAŞLIĞI
+..............................................................................................
+                                                                                    T.C.
+                                                                     İNÖNÜ ÜNİVERSİTESİ
+                                                 FEN BİLİMLERİ ENSTİTÜSÜ MÜDÜRLÜĞÜNE
 
 
+                                                     ETİK VE YAPAY ZEKÂ KULLANIM BEYANI
 
-YÜKSEK LİSANS TEZİ
- MASTER OF SCIENCE DISSERTATION
 
+. . . . / . . . . /20 . . . . İnönü Üniversitesi Lisansüstü Tez Yazım Kurallarına uygun olarak, “” danışmanlığında
 
+hazırlayıp sunduğum “TEZ BAŞLIĞI 1. SATIR GEREKLİYSE 2. SATIR GEREKLİYSE 3. SATIR” başlıklı doktora
+tezinde; 1. ETİK VE BİLİMSEL SORUMLULUKLARIM:
 
+ • Tezimde yer alan verileri, bilgileri ve belgeleri akademik ve etik kurallar çerçevesinde elde ettiğimi,
+     değerlendirdiğimi ve sonuçları bilimsel etik ve ahlak kurallarına uygun olarak sunduğumu,
 
-        ADI SOYADI
-            000000000
+ • Çalışmada yararlandığım tüm kaynaklara bilimsel kurallara uygun şekilde atıfta bulunduğumu ve
+     kaynak gösteriminde APA 7. baskı kurallarına uyduğumu,
 
+ • Tezimin özgün olduğunu, çalışma ve yazım sürecinde patent ve telif haklarını ihlal edici hiçbir
+     davranışta bulunmadığımı,
 
+ • Aksi bir durumda doğabilecek tüm hukuki ve akademik sonuçları kabul ettiğimi,
 
+2. YAPAY ZEKÂ KULLANIMINA İLİŞKİN BEYANIM: (X) Tez yazım sürecinde yapay zekâ tabanlı araçlardan
+faydalanmadım.
+( ) Tez yazım sürecinde yapay zekâ tabanlı araçlardan faydalandım.
 
-    MATEMATIK ANABILIM DALI
-       Matematik Programı
+ • Yapay zekâ araçlarını yalnızca bilimsel üretim sürecini desteklemek amacıyla kullandığımı,
 
+ • Kullanımın hipotez geliştirme, teorik tartışma ve yorumlama gibi üst düzey akademik becerileri
+     içermediğini,
 
+ • Kullanımın tezin özgünlüğüne, bilimsel etik kurallarına ve ilgili mevzuata aykırı olmadığını,
 
+ • Usulsüz kullanımlara kesinlikle başvurmadığımı,
 
- Tez Danışmanı: Prof. Dr. Adı SOYADI
+ • Kullanılan yapay zekâ araçlarının ve işlevlerinin, danışmanımın bilgisi dâhilinde, ekte verilen tabloda
+     şeffaf biçimde belirtildiğini,
 
+ • Yükseköğretim Kurulu Bilimsel Araştırma ve Yayın Faaliyetlerinde Üretken Yapay Zekâ Kullanımına
+     Dair Etik Rehber’de belirtilen ilkelere riayet ettiğimi
 
+kabul ve taahhüt ederim.
 
 
-        MALATYA, 2025
-                                         KABUL VE ONAY
+Öğrencinin Adı Soyadı: ÖĞRENCİ SOYADI
+İmza: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                                                                          İÇİNDEKİLER
 
+                                                                                                                                                                                                            Sayfa
 
-Adı SOYADI, İnönü Üniversitesi Fen Bilimleri Enstitüsü 000000000 numaralı yüksek lisans öğrencisi olarak,
-“Tez Başlığı ” başlıklı tezini jüri önünde başarı ile sunmuştur.
+ÖZET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . viii
 
+ABSTRACT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         ix
+SİMGELER VE KISALTMALAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                            x
+ŞEKİLLER DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              xi
+TABLOLAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii
 
-
-Tez Danışmanı:               Prof. Dr. Adı SOYADI
-                             İnönü Üniversitesi
-Jüri Üyeleri:                Prof. Dr. Adı SOYADI
-
-                             Jüri 2 Adı Soyadı
-
-                             Jüri 3 Adı Soyadı
-
-
-
-
-Teslim Tarihi: Eylül 2024                                                   Savunma Tarihi: Aralık 2024
-
-
-Bu tez, jüri üyeleri tarafından Oy birliği ile kabul edilmiş ve Enstitü Yönetim Kurulu’nun 22 Eylül 2024
-tarihli, 2024/12 sayılı kararı ile onaylanmıştır.
-                                           ETİK VE ÜRETKEN YAPAY ZEKÂ BEYANI
-
-
-Bu tez çalışmasının hazırlanmasında bilimsel etik ilkelere ve akademik dürüstlük kurallarına uyduğumu;
-yararlandığım tüm kaynakları metin içinde ve kaynaklar bölümünde uygun biçimde gösterdiğimi beyan
-ederim.
-             Bu tez çalışmasında üretken yapay zekâ tabanlı araçlar kullanıldıysa, bu araçların hangi amaçla,
-hangi kapsamda ve tezin hangi bölümlerinde kullanıldığı danışman bilgisi dahilinde açıklanmalıdır. Kul‐
-lanılmadıysa bu cümle, “Bu tez çalışmasında üretken yapay zekâ tabanlı araç kullanılmamıştır.” şeklinde
-düzenlenmelidir. Tarih: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-
-
-
-                                                                                                                                                     Adı SOYADI
-
-
-
-                                                                                                               ................................
-                                                                                           İÇİNDEKİLER
-
-                                                                                                                                                                                                             Sayfa
-
-ÖZET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . viii
-
-ABSTRACT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ix
-
-SİMGELER VE KISALTMALAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                            x
-ŞEKİLLER DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xi
-TABLOLAR DİZİNİ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xii
-
-1. GİRİŞ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      1
-
-2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                      3
-     2.1 Araştırma Alanının Tanıtımı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                  3
-     2.2 Kuramsal Yaklaşımlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           3
-     2.3 İlgili Çalışmalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  3
-
-3. MATERYAL VE METOT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              5
-     3.1 Araştırma Materyali . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                          5
-         3.1.1 Veri Kaynakları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      5
-     3.2 Yöntem. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            5
-         3.2.1 Model Kurulumu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           5
-         3.2.2 Analiz Süreci. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   6
-     3.3 Yatay Tablo ve Şekil Örnekleri. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                    6
-
-4. BULGULAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               9
-     4.1 Bulguların Genel Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                             9
-         4.1.1 Birinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                    9
-         4.1.2 İkinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   9
-
-5. TARTIŞMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-     5.1 Çalışmanın Uygulama Alanı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-     5.2 Bulguların Literatürle Karşılaştırılması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-         5.2.1 Yöntemin Sınırlılıkları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-
-6. SONUÇ VE ÖNERİLER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-     6.1 Sonuçların Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-         6.1.1 Araştırma Bulgularına Dayalı Sonuçlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-     6.2 Öneriler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
-
-KAYNAKLAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
-
-EKLER. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
-     EK‐1 Özgeçmiş . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
-     EK‐2 Haritalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
-     EK‐3 Diğer Haritalar. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-ÖNSÖZ
-
-Önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve kurumlara teşekkür etmek için
-kullanılır. Bu bölümde bilimsel içerik tartışılmaz; destek, katkı ve teşekkür ifadeleri kısa ve açık biçimde
-yazılır.
-          Tezi destekleyen kurum adları ve katkı sağlayan kişiler burada belirtilebilir. Teşekkür edilen
+1. GİRİŞ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      1
+2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                      2
+     2.1 Araştırma Alanının Tanıtımı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                  2
+     2.2 Kuramsal Yaklaşımlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           2
+     2.3 İlgili Çalışmalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  2
+3. MATERYAL VE METOT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              4
+     3.1 Araştırma Materyali . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                          4
+         3.1.1 Veri Kaynakları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      4
+     3.2 Yöntem. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .            4
+         3.2.1 Model Kurulumu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                           4
+         3.2.2 Analiz Süreci. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   5
+     3.3 Yatay Tablo ve Şekil Örnekleri. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                    5
+4. BULGULAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               8
+     4.1 Bulguların Genel Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                             8
+         4.1.1 Birinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                    8
+         4.1.2 İkinci Veri Seti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   8
+5. TARTIŞMA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+     5.1 Çalışmanın Uygulama Alanı . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+     5.2 Bulguların Literatürle Karşılaştırılması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+         5.2.1 Yöntemin Sınırlılıkları . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+6. SONUÇ VE ÖNERİLER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+     6.1 Sonuçların Değerlendirilmesi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+         6.1.1 Araştırma Bulgularına Dayalı Sonuçlar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+     6.2 Öneriler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+KAYNAKLAR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+EKLER. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+     EK‐1 Özgeçmiş . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+     EK‐2 Haritalar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+     EK‐3 Diğer Haritalar. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+TEŞEKKÜR VE ÖNSÖZ
+
+Teşekkür ve önsöz bölümü, tezin hazırlanması sürecinde katkı sağlayan kişi ve kurumlara teşekkür etmek
+ve çalışmanın hazırlanma sürecine dair kısa bir açıklama yapmak için kullanılır. Bu bölümde bilimsel
+içerik tartışılmaz; destek, katkı ve teşekkür ifadeleri kısa ve açık biçimde yazılır.
+         Tezi destekleyen kurum adları ve katkı sağlayan kişiler burada belirtilebilir. Teşekkür edilen
 kişilerin soyadları büyük harflerle yazılmalıdır.
-          Önsöz metninin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve yazar adı birlikte
-verilmelidir.
+         Metnin sonunda, kılavuzdaki yerleşime uygun olarak tarih ve yazar adı birlikte verilmelidir.
 
 
 
-aralık 2024                                                                                     Adı SOYADI
+aralık 2024                                                                          ÖĞRENCİ SOYADI
                                                  ÖZET
-                                               Tez Başlığı
 
-
+                                          TEZ BAŞLIĞI 1. SATIR
+                                          GEREKLİYSE 2. SATIR
+                                          GEREKLİYSE 3. SATIR
 
 Amaç: Bu dosya, 2025 tez yazım kılavuzuna uygun Türkçe özet yazımı için kısa bir örnektir. Özet metni;
 tez konusu, amaç, kullanılan yöntem ve ulaşılan temel sonuçları gereksiz ayrıntıya girmeden sunmalıdır.
@@ -172,101 +226,81 @@ yöntem ve analiz süreci öz biçimde açıklanır. Özet içinde kaynak, şeki
 yalnızca “Simgeler ve Kısaltmalar Dizini”nde tanımlanan biçimleriyle kullanılmalıdır.
         Sonuç: Özet başlık ve anahtar kelimeler hariç en fazla 250 kelime olmalı, tercihen tek sayfaya
 sığmalıdır. Gerektiğinde satır aralığı 1,15’e indirilebilir.
-Anahtar Kelimeler: Anahtar Kelime, LaTeX, Tez
+Anahtar Kelimeler:
 
 
 
 
                                                                                                        viii
                                             ABSTRACT
-                                             Thesis Title
+
 
 
 
 Aim: This file provides a short sample abstract compatible with the 2025 thesis writing guide. The
 abstract should state the thesis topic, aim, method, and main conclusions without unnecessary detail.
-        Material and method: This part briefly describes the research design, data source, experimental
-or theoretical method, and analysis process. References, figures, and tables should not be included in
-the abstract.
+        Material and method: This part briefly describes the research design, data source,
+experimental or theoretical method, and analysis process. References, figures, and tables should not
+be included in the abstract.
         Results: The most important findings of the thesis are presented directly and clearly.
 Abbreviations should be used only in the forms defined in the “Symbols and Abbreviations” section.
         Conclusion: Excluding the title and keywords, the abstract should not exceed 250 words and
 should preferably fit on a single page. If needed, the line spacing may be reduced to 1.15 only for the
 abstract pages.
-Keywords: Keyword, LaTeX, Thesis
+Keywords:
 
 
 
 
                                                                                                      ix
-                    SİMGELER VE KISALTMALAR DİZİNİ
-C              : Dokunun Kapasitansı
-H              : Isı Miktarı
-Mx , My        : Moment Bileşenleri
-Nx , Ny , Nz   : Normal Kuvvet Bileşenleri
-q              : Faz Yükü
-t              : Zaman
-u, v           : Yer Değiştirme Vektörü Bileşenleri
-w              : Açı sal Hı z
-XC             : Kapasitif Reaktans
-XL             : Endüktif Reaktans
-
-
-AIC            : Akaike Information Criteria
-ANN            : Artificial Neural Network
-App            : Appendix
-BP             : Backpropagation
-CGI            : Common Gateway Interface
-ESS            : Error Sum‐of‐Squares
-GARCH          : Generalized Autoregressive Conditional Heteroskedasticity
-GIS            : Geographic Information Systems
-HCA            : Hierarchical Cluster Analysis
-Mbps           : Megabits
-St             : Station
-SWAT           : Soil and Water Assessment Tool
-UMN            : University of Minnesota
+              SİMGELER VE KISALTMALAR DİZİNİ
+α       : Alpha
+β       : Beta
+AIC     : Akaike Information Criteria
+ANN     : Artificial Neural Network
+LaTeX   : Belge hazirlama sistemi
 
 
 
 
-                                                                             x
+                                               x
                                                                            ŞEKİLLER DİZİNİ
 
-                                                                                                                                                                                        Sayfa
+                                                                                                                                                                                       Sayfa
 
-Şekil 2.1.            Kuramsal yapıyı gösteren örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        3
-Şekil 2.2.            Alt şekillerden oluşan ana şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         4
-Şekil 3.1.            Kısa şekil açıklaması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
-Şekil 3.2.            Çok satırlı şekil açıklamalarında hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                     6
-Şekil 4.1.            Çok satırlı bir şekil başlığı için hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              9
-Şekil 5.1.            Tartışma bölümünde kullanılabilecek örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-Şekil 6.1.            Sonuç bölümünde örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-Şekil EK‐3.1. Ekler bölümünde şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-
-
-
-
-                                                                                                                                                                                              xi
-                                                                      TABLOLAR DİZİNİ
-
-                                                                                                                                                                               Sayfa
-
-Tablo 2.1.            Tablo başlıkları nokta ile bitmemelidir . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               4
-Tablo 3.1.            Yatay sayfada tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    7
-Tablo 4.1.            Bulgular bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
-Tablo 5.1.            Tartışma bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
-Tablo 6.1.            Sonuç bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-Tablo EK‐2.1. Ekler bölümünde tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Şekil 2.1.            Kuramsal yapıyı gösteren örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                        2
+Şekil 2.2.            Alt şekillerden oluşan ana şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                         3
+Şekil 3.1.            Kısa şekil açıklaması . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+Şekil 3.2.            Çok satırlı şekil açıklamalarında hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                     5
+Şekil 4.1.            Çok satırlı bir şekil başlığı için hizalama örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                              8
+Şekil 5.1.            Tartışma bölümünde kullanılabilecek örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Şekil 6.1.            Sonuç bölümünde örnek şekil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Şekil EK‐3.1. Ekler bölümünde şekil örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
 
 
 
 
-                                                                                                                                                                                     xii
+                                                                                                                                                                                            xi
+                                                                     TABLOLAR DİZİNİ
+
+                                                                                                                                                                             Sayfa
+
+Tablo 2.1.           Tablo başlıkları nokta ile bitmemelidir. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                3
+Tablo 3.1.           Yatay sayfada tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    6
+Tablo 4.1.           Bulgular bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .              9
+Tablo 5.1.           Tartışma bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Tablo 6.1.           Sonuç bölümünde örnek tablo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Tablo EK‐2.1. Ekler bölümünde tablo örneği . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+
+
+
+                                                                                                                                                                                  xii
                                                 1. GİRİŞ
 
 Giriş bölümü, tez çalışmasının temel çerçevesini okuyucuya sunar. Bu bölümde araştırma konusu,
-problem durumu, tezin amacı ve önemi, sınırlılıklar, varsayımlar ve temel tanımlar akademik bir bütünlük
-içinde açıklanmalıdır.
+problem durumu, tezin amacı ve önemi, sınırlılıklar, varsayımlar ve temel tanımlar akademik bir
+bütünlük içinde açıklanmalıdır.
         Kılavuz gereği GİRİŞ ana başlığı altında ayrıca numaralı alt başlık oluşturulmamalıdır. Bu nedenle
 bu şablonda Giriş bölümü, alt başlık kullanmadan tek bir akış halinde verilmiştir. Gerekli bilgiler,
 paragraflar arasında mantıklı geçişler kurularak sunulmalı; yöntem, literatür ve bulgulara ilişkin ayrıntılar
@@ -278,7 +312,7 @@ aradığı ve tezin genel organizasyonunun nasıl ilerlediği kısa ve açık bi
 
 
                                                      1
-                             2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE
+                             2. GENEL BİLGİLER / KURAMSAL ÇERÇEVE
 
 
            2.1 Araştırma Alanının Tanıtımı
@@ -314,7 +348,7 @@ parçalı bir şekil örneği verilmiştir.
 
 
 
-                                                               3
+                                                               2
                      A                                                             B
                              (a)                                                         (b)
 
@@ -339,8 +373,8 @@ bir değerlendirme yapılabilir.
 
 
 
-                                                            4
-                                      3. MATERYAL VE METOT
+                                                            3
+                                     3. MATERYAL VE METOT
 
 
         3.1 Araştırma Materyali
@@ -379,13 +413,13 @@ uzun denklemler gerekiyorsa satır kırımları okunabilirliği bozmayacak biçi
 
 
 
-                                                       5
+                                                      4
 fazla satırda verilen denklemlerde numara son satır hizasında yer almalıdır; Denklem 3.2 bu kullanıma
 örnektir.
 
 
 
-                                         ybt = β0 + β1 x1t + β2 x2t
+                                        ybt = β0 + β1 x1t + β2 x2t
 
                                               + β3 x3t + εt                                            (3.2)
 
@@ -410,7 +444,7 @@ tercih edilmemeli, kullanıldığında başlık ve sayfa numarası yerleşimi ko
 
 
 
-                                                     6
+                                                     5
     Tablo 3.1. Yatay sayfada tablo örneği
 
                                             Değişken   A    B    C    D     E
@@ -421,13 +455,13 @@ tercih edilmemeli, kullanıldığında başlık ve sayfa numarası yerleşimi ko
 
 
 
-7
+6
 Tablo 3.1, geniş içerikli tabloların yatay sayfada nasıl verilebileceğini gösteren bir örnektir.
 
 
 
 
-                                              8
+                                             7
                                               4. BULGULAR
 
 Bulgular bölümünde, materyal ve metot bölümünde açıklanan yöntemlerle elde edilen sonuçlar nesnel
@@ -440,8 +474,8 @@ hipotezlerle aynı sırayı izleyecek biçimde düzenlenebilir.
 
         4.1.1 Birinci Veri Seti
 
-        Birinci veri setinden elde edilen bulgular, gerekli tablo ve şekillerle desteklenerek sunulur. Metin,
-tabloda zaten verilen sayıları tekrar etmek yerine dikkat edilmesi gereken eğilimleri açıklamalıdır.
+        Birinci veri setinden elde edilen bulgular, gerekli tablo ve şekillerle desteklenerek sunulur.
+Metin, tabloda zaten verilen sayıları tekrar etmek yerine dikkat edilmesi gereken eğilimleri açıklamalıdır.
 
         4.1.2 İkinci Veri Seti
 
@@ -465,7 +499,7 @@ model karşılaştırmasının nasıl verilebileceği gösterilmektedir.
 
 
 
-                                                        9
+                                                        8
 Tablo 4.1. Bulgular bölümünde örnek tablo
 
    Kolon A      Kolon B      Kolon C        Kolon D
@@ -476,7 +510,7 @@ model karşılaştırmasının nasıl verilebileceği gösterilmektedir.
 
 
 
-                                                 10
+                                                 9
                                              5. TARTIŞMA
 
 Tartışma bölümü, bulguların yalnızca tekrar edildiği bir bölüm olmamalıdır. Bu bölümde bulguların
@@ -516,7 +550,7 @@ numarasız ve dizinde yer almayan yardımcı başlık olarak kalmalıdır.
 
 
 
-                                                      11
+                                                     10
 Tablo 5.1. Tartışma bölümünde örnek tablo
 
   Kolon A       Kolon B      Kolon C        Kolon D
@@ -527,7 +561,7 @@ numarasız ve dizinde yer almayan yardımcı başlık olarak kalmalıdır.
 
 
 
-                                                 12
+                                                 11
                                      6. SONUÇ VE ÖNERİLER
 
 Bu bölümde çalışmanın temel sonuçları kısa, açık ve bütünlüklü biçimde sunulur. Bulgular bölümündeki
@@ -567,7 +601,7 @@ Tablo 6.1. Sonuç bölümünde örnek tablo
 
 
 
-                                                    13
+                                                    12
         Tablo 6.1, sonuçların özetlenmesi için kullanılabilecek basit bir tablo düzenidir.
 
         6.2 Öneriler
@@ -577,7 +611,7 @@ yöntem geliştirmeleri veya uygulama alanları için somut öneriler bu kısım
 
 
 
-                                                    14
+                                                    13
                                           KAYNAKLAR
 
 [1] Moore, C. (1991). Encyclopedia of chemical technology, Mass spectrometry, Wiley, New York, 4.
@@ -589,8 +623,8 @@ yöntem geliştirmeleri veya uygulama alanları için somut öneriler bu kısım
 
 
 
-                                                 15
-                       EKLER
+                                                 14
+                       EKLER
 EK‐1 Özgeçmiş
 EK‐2 Haritalar
 EK‐3 Diğer Haritalar
@@ -598,11 +632,11 @@ EK‐3 Diğer Haritalar
 
 
 
-                        17
-EK‐1 Özgeçmiş
+                        15
+EK‐1 Özgeçmiş
 
 
-Adı Soyadı: Adı SOYADI
+Adı Soyadı: ÖĞRENCİ SOYADI
 Doğum Yeri ve Yılı: Malatya / 2000
 E‐posta: ogrenci@inonu.edu.tr
 
@@ -631,8 +665,8 @@ Diğer Yayınlar, Sunumlar ve Patentler
 
 
 
-                                                       19
-EK‐2 Haritalar
+                                                       16
+EK‐2 Haritalar
 Bu ekte, tez ana metninde ayrıntısına yer verilmeyen yardımcı harita, tablo veya veri listeleri sunulabilir.
 Ek başlıkları ‘EK‐2‘, ‘EK‐3‘ biçiminde devam eder; ek içindeki tablo, şekil ve denklem numaraları da ilgili
 ek numarasıyla birlikte verilir.
@@ -647,8 +681,8 @@ Tablo EK‐2.1. Ekler bölümünde tablo örneği
 
 
 
-                                                    21
-EK‐3 Diğer Haritalar
+                                                    17
+EK‐3 Diğer Haritalar
 Bu ekte, ana metinde yalnızca atıf yapılan ek denklem ve şekil örnekleri verilmiştir. Eklerde yer alan her
 unsur, ana metindeki konu ile doğrudan ilişkili olmalı ve metin içinde gerekli yerde anılmalıdır.
 
@@ -662,5 +696,5 @@ unsur, ana metindeki konu ile doğrudan ilişkili olmalı ve metin içinde gerek
 
 
 
-                                                   23
+                                                   18
 

@@ -109,7 +109,7 @@ try {
   $requiredFiles = @(
     "tez.tex", "inonutez.cls", "build.ps1", "sirt-kapak.tex",
     "sirt-kapak-guncelle.ps1", "ozet.tex", "abstract.tex",
-    "onsoz.tex", "etik-beyan.tex", "ozgecmis.tex", "kilavuz-notlari\KONTROL_LISTESI.md",
+    "tesekkur.tex", "etik-beyan.tex", "ozgecmis.tex", "kilavuz-notlari\KONTROL_LISTESI.md",
     "kilavuz-notlari\UYGUNLUK_NOTLARI.md", "temizle.ps1", "teslim-hazirla.ps1",
     "tez-bilgileri.example.json", "tez-bilgileri-uygula.ps1", "eksik-bilgiler.ps1"
   )
@@ -167,7 +167,7 @@ try {
       }
     }
     $pdfSearchText = Convert-ForSearch $pdfText
-    $required = @( "INONU UNIVERSITESI", "FEN BILIMLERI ENSTITUSU", "KABUL VE ONAY", "ICINDEKILER", "ONSOZ", "OZET", "ABSTRACT", "SEKILLER DIZINI", "TABLOLAR DIZINI", "KAYNAKLAR" )
+    $required = @( "INONU UNIVERSITESI", "FEN BILIMLERI ENSTITUSU", "KABUL VE ONAY", "ICINDEKILER", "TESEKKUR VE ONSOZ", "OZET", "ABSTRACT", "SEKILLER DIZINI", "TABLOLAR DIZINI", "KAYNAKLAR" )
     foreach ($item in $required) {
       if ($pdfSearchText -match [regex]::Escape($item)) { Add-Result "OK" "Teslim oncesi: PDF metninde '$item' bulundu." }
       else { Add-Result "UYARI" "Teslim oncesi: PDF metninde '$item' bulunamadi veya farkli yazildi." }

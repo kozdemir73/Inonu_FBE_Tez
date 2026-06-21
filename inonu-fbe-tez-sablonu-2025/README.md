@@ -93,6 +93,9 @@ Notlar:
   disinda, calisma alaninin `kaynakca-havuzlari` klasorunde tutulur.
 - APA surumunde parantezli atif icin `\parencite{anahtar}`, anlatimli atif
   icin `\textcite{anahtar}` kullanilmalidir.
+- Tesekkur ve onsoz sayfasi `tesekkur.tex` dosyasindan gelir. Eski tezlerden
+  gelen `\onsoz{...}` komutu uyumluluk icin desteklenir; yeni sablonda baslik
+  `TESEKKUR VE ONSOZ` olarak uretilir.
 - Etik ve uretken yapay zeka beyan metni `etik-beyan.tex` dosyasindan gelir.
 - Ozet ve abstract metinleri baslik ve anahtar kelimeler haric en fazla 250
   kelime olmalidir. Metinlerde kaynak, sekil ve tablo verilmemelidir.

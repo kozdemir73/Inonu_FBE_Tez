@@ -13,7 +13,7 @@ Ozet: 0 FAIL, 6 UYARI, 4 MANUEL
 - [OK] Teslim oncesi: PDF metninde 'FEN BILIMLERI ENSTITUSU' bulundu.
 - [UYARI] Teslim oncesi: PDF metninde 'KABUL VE ONAY' bulunamadi veya farkli yazildi.
 - [OK] Teslim oncesi: PDF metninde 'ICINDEKILER' bulundu.
-- [OK] Teslim oncesi: PDF metninde 'ONSOZ' bulundu.
+- [OK] Teslim oncesi: PDF metninde 'TESEKKUR VE ONSOZ' bulundu.
 - [OK] Teslim oncesi: PDF metninde 'OZET' bulundu.
 - [OK] Teslim oncesi: PDF metninde 'ABSTRACT' bulundu.
 - [OK] Teslim oncesi: PDF metninde 'SEKILLER DIZINI' bulundu.

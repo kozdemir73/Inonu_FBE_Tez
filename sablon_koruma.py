@@ -16,6 +16,7 @@ SIMPLE_SUPPORT_MACROS = {
     "sayfaduzeni": "tek",
 }
 CONTENT_MACROS = {
+    "tesekkur": "tesekkur",
     "onsoz": "onsoz",
     "ozet": "ozet",
     "summary": "abstract",

@@ -78,7 +78,7 @@ powershell -ExecutionPolicy Bypass -File .\tez-bilgileri-uygula.ps1 -Config .\te
 
 - `ozet.tex`: Turkce ozet.
 - `abstract.tex`: Ingilizce abstract.
-- `onsoz.tex`: Onsoz.
+- `tesekkur.tex`: Teşekkür ve önsöz sayfası. Eski dönüştürülmüş tezlerde `onsoz.tex` bulunursa uyumluluk için okunabilir.
 - `bolum1.tex` ... `bolum6.tex`: Ana bolumler.
 - `kaynaklar.bib`: Kaynaklar.
 - `ozgecmis.tex`: Ozgecmis.

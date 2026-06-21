@@ -60,7 +60,7 @@ TEMPLATES = {
     "Birleşik İnönü FBE 2025": ROOT / "inonu-fbe-tez-sablonu-2025",
 }
 INFO_INPUT_ROLES = [
-    ("onsoz", "Önsöz", "onsoz"),
+    ("tesekkur", "Teşekkür ve Önsöz", "tesekkur"),
     ("simgelervekisaltmalar", "Simgeler ve Kısaltmalar dizini", "simgeler-kisaltmalar"),
     ("ozet", "Özet", "ozet"),
     ("summary", "Abstract", "summary"),
@@ -1101,8 +1101,8 @@ def tex_file_hint(path):
         return "ozet"
     if "kisalt" in text or "kısalt" in text or "sembol" in text or "simge" in text:
         return "simgelervekisaltmalar"
-    if "onsoz" in text or "önsöz" in text:
-        return "onsoz"
+    if "tesekkur" in text or "teşekkür" in text or "onsoz" in text or "önsöz" in text:
+        return "tesekkur"
     if "etik" in text:
         return "etikbeyan"
     match = re.search(r"bolum\s*([1-6])|bölüm\s*([1-6])|chapter\s*([1-6])", text)
@@ -5258,7 +5258,9 @@ class ThesisManager(tk.Tk):
         workdir = Path(self.template_dir)
         report_dir = workdir / "raporlar"
         pdf_path = workdir / "tez.pdf"
-        checker_path = ROOT.parent / "Tez PDF Kılavuz Ön Denetim Raporu" / "pdf_tez_uygunluk_deneticisi_v3.py"
+        checker_path = ROOT / "pdf_kilavuz_denetimi" / "pdf_tez_uygunluk_deneticisi_v3.py"
+        if not checker_path.exists():
+            checker_path = ROOT.parent / "Tez PDF Kılavuz Ön Denetim Raporu" / "pdf_tez_uygunluk_deneticisi_v3.py"
 
         self.notebook.select(self.run_tab)
         self.output.delete("1.0", "end")
@@ -8306,8 +8308,10 @@ class ThesisManager(tk.Tk):
         return findings
 
     def write_latex_diagnostics_reports(self, findings, exit_code, raw_output):
-        json_path = self.template_dir / "akilli-derleme-tanilama.json"
-        md_path = self.template_dir / "akilli-derleme-tanilama.md"
+        report_dir = self.template_dir / "raporlar"
+        report_dir.mkdir(parents=True, exist_ok=True)
+        json_path = report_dir / "akilli-derleme-tanilama.json"
+        md_path = report_dir / "akilli-derleme-tanilama.md"
         payload = {
             "GeneratedAt": datetime.now().isoformat(timespec="seconds"),
             "ExitCode": exit_code,
@@ -8315,7 +8319,7 @@ class ThesisManager(tk.Tk):
             "Findings": findings,
         }
         json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        raw_path = self.template_dir / "akilli-derleme-tanilama-cikti.log"
+        raw_path = report_dir / "akilli-derleme-tanilama-cikti.log"
         raw_path.write_text(raw_output or "", encoding="utf-8", errors="replace")
         lines = [
             "# Akıllı Derleme Tanılama",
@@ -8354,8 +8358,8 @@ class ThesisManager(tk.Tk):
         md_path.write_text("\n".join(lines), encoding="utf-8")
 
     def show_latex_diagnostics_summary(self, exit_code=None):
-        json_path = self.template_dir / "akilli-derleme-tanilama.json"
-        md_path = self.template_dir / "akilli-derleme-tanilama.md"
+        json_path = self.template_dir / "raporlar" / "akilli-derleme-tanilama.json"
+        md_path = self.template_dir / "raporlar" / "akilli-derleme-tanilama.md"
         colors = THEMES[self.theme_var.get()]
         self.output.delete("1.0", "end")
         self.output.tag_configure("diag_title", font=("Segoe UI", 11, "bold"), foreground=colors["fg"])
@@ -8628,7 +8632,7 @@ class ThesisManager(tk.Tk):
         return "break"
 
     def diagnostic_finding_still_exists(self, path, line=None, column=None):
-        report = self.template_dir / "akilli-derleme-tanilama.json"
+        report = self.template_dir / "raporlar" / "akilli-derleme-tanilama.json"
         if not report.exists():
             return False
         try:
